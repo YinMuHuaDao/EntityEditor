@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>914</width>
+    <height>229</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>914</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>4</number>
+   </property>
+   <property name="topMargin">
+    <number>4</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <property name="bottomMargin">
+    <number>4</number>
+   </property>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QLabel" name="label">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Rout</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Travel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Reconnaissance</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="label_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Hasty Attack</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLabel" name="label_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Deliberate Attack</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLabel" name="label_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Hasty Defense</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QLabel" name="label_7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>Deliberate Defense</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="Rout_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Rout Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="Rout_Transition_Time_2">
+       <property name="element_container" stdset="0">
+        <string>Travel,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Rout</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="Rout_Transition_Time_3">
+       <property name="element_container" stdset="0">
+        <string>Reconnaissance,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Rout</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLineEdit" name="Rout_Transition_Time_4">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Rout</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLineEdit" name="Rout_Transition_Time_5">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Rout</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLineEdit" name="Rout_Transition_Time_6">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Rout</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLineEdit" name="Rout_Transition_Time_7">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Rout</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="Travel_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Travel Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="Travel_Transition_Time">
+       <property name="element_container" stdset="0">
+        <string>Rout,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Travel</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="Travel_Transition_Time_3">
+       <property name="element_container" stdset="0">
+        <string>Reconnaissance,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Travel</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLineEdit" name="Travel_Transition_Time_4">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Travel</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLineEdit" name="Travel_Transition_Time_5">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Travel</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLineEdit" name="Travel_Transition_Time_6">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Travel</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QLineEdit" name="Travel_Transition_Time_7">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Travel</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="Reconnaissance_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Reconnaissance Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="Reconnaissance_Transition_Time">
+       <property name="element_container" stdset="0">
+        <string>Rout,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Reconnaissance</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="Reconnaissance_Transition_Time_2">
+       <property name="element_container" stdset="0">
+        <string>Travel,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Reconnaissance</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLineEdit" name="Reconnaissance_Transition_Time_4">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Reconnaissance</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLineEdit" name="Reconnaissance_Transition_Time_5">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Reconnaissance</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLineEdit" name="Reconnaissance_Transition_Time_6">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Reconnaissance</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QLineEdit" name="Reconnaissance_Transition_Time_7">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Reconnaissance</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="Hasty_Attack_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Hasty Attack Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="Hasty_Attack_Transition_Time">
+       <property name="element_container" stdset="0">
+        <string>Rout,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="Hasty_Attack_Transition_Time_2">
+       <property name="element_container" stdset="0">
+        <string>Travel,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLineEdit" name="Hasty_Attack_Transition_Time_3">
+       <property name="element_container" stdset="0">
+        <string>Reconnaissance,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QLineEdit" name="Hasty_Attack_Transition_Time_5">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLineEdit" name="Hasty_Attack_Transition_Time_6">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QLineEdit" name="Hasty_Attack_Transition_Time_7">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="Deliberate_Attack_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Deliberate Attack Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="Deliberate_Attack_Transition_Time">
+       <property name="element_container" stdset="0">
+        <string>Rout,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="Deliberate_Attack_Transition_Time_2">
+       <property name="element_container" stdset="0">
+        <string>Travel,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLineEdit" name="Deliberate_Attack_Transition_Time_3">
+       <property name="element_container" stdset="0">
+        <string>Reconnaissance,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLineEdit" name="Deliberate_Attack_Transition_Time_4">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="6">
+      <widget class="QLineEdit" name="Deliberate_Attack_Transition_Time_6">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="7">
+      <widget class="QLineEdit" name="Deliberate_Attack_Transition_Time_7">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Attack</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="Hasty_Defense_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Hasty Defense Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="Hasty_Defense_Transition_Time">
+       <property name="element_container" stdset="0">
+        <string>Rout,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="Hasty_Defense_Transition_Time_2">
+       <property name="element_container" stdset="0">
+        <string>Travel,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLineEdit" name="Hasty_Defense_Transition_Time_3">
+       <property name="element_container" stdset="0">
+        <string>Reconnaissance,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLineEdit" name="Hasty_Defense_Transition_Time_4">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QLineEdit" name="Hasty_Defense_Transition_Time_5">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="7">
+      <widget class="QLineEdit" name="Hasty_Defense_Transition_Time_7">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Hasty-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="Deliberate_Defense_Transition_Time_label">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="text">
+        <string>To Deliberate Defense Posture Transition Time</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="do_not_disable" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="Deliberate_Defense_Transition_Time">
+       <property name="element_container" stdset="0">
+        <string>Rout,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLineEdit" name="Deliberate_Defense_Transition_Time_2">
+       <property name="element_container" stdset="0">
+        <string>Travel,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLineEdit" name="Deliberate_Defense_Transition_Time_3">
+       <property name="element_container" stdset="0">
+        <string>Reconnaissance,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QLineEdit" name="Deliberate_Defense_Transition_Time_4">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QLineEdit" name="Deliberate_Defense_Transition_Time_5">
+       <property name="element_container" stdset="0">
+        <string>Deliberate-Attack,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="6">
+      <widget class="QLineEdit" name="Deliberate_Defense_Transition_Time_6">
+       <property name="element_container" stdset="0">
+        <string>Hasty-Defense,parameter-data.Posture-Transition-Times.Posture-Transition-Times-Item.Deliberate-Defense</string>
+       </property>
+       <property name="display-units" stdset="0">
+        <string notr="true">minute</string>
+       </property>
+       <property name="source-units" stdset="0">
+        <string notr="true">second</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

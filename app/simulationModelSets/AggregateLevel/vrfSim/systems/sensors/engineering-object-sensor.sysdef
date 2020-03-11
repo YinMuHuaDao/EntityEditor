@@ -1,0 +1,71 @@
+(engineering-object-sensor-system 
+   (systems )
+   (sensors
+      (engineering-object-sensor 
+         (component-descriptor-type "engineering-object-sensor-descriptor")
+         (component-type  "engineering-object-sensor")
+         (min-tick-period  2.000000)
+         (min-tick-period-variance  0.100000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (detect-only-hostile-forces False)
+         (detection-types 
+            (entity-type -1 (16 -1 -1 62 -1 -1 -1))
+            (entity-type -1 (17 -1 -1 62 -1 -1 -1))
+            (entity-type -1 (18 -1 -1 62 -1 -1 -1))
+            (entity-type -1 (20 -1 -1 62 -1 -1 -1))
+		   )
+         (detect-destroyed-objects False)
+         (sensor-geometry 
+            (in-range 
+               (range $max-range)
+            )
+         )
+         (range-engineering-objects $max-range)
+         (probability-to-detect-concealed $prob-detect)
+      )	  
+   )
+   (controllers )
+   (actuators )
+   (connections 
+      (connect system:object-types-to-detect engineering-object-sensor:object-types-to-detect)
+      (connect engineering-object-sensor:detected-objects system:detected-objects)
+   )
+   (resources )
+   (meta-data 
+      (system-name  "Engineering Object Sensor")
+      (system-description  "Allows an entity to detect engineering objects.")
+      (allowed-state-repository-types "all")
+      (system-categories "sensor")
+      (parameter-data-list 
+         (real-parameter-data 
+            (parameter-name  "max-range")
+            (variable-type  "DtRwReal")
+            (display-label  "Maximum Range")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  2500.000000)
+         )
+      )
+      (parameter-data-list 
+         (real-parameter-data 
+            (parameter-name  "prob-detect")
+            (variable-type  "DtRwReal")
+            (display-label  "Probability to Detect Concealed Objects (per tick)")
+            (display-units  "")
+            (source-units  "")
+            (default-value  0.05)
+         )
+      )
+      (meta-data-entry-list 
+         (detect-object-types-input 
+            (detect-object-types-input-port-name  "object-types-to-detect")
+         )
+         (detected-objects-output 
+            (detected-objects-output-port-name  "detected-objects")
+         )
+      )
+   )
+)

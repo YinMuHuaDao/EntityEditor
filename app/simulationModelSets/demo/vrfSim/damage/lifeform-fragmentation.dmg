@@ -1,0 +1,74 @@
+;;
+;; File - lifeform-fragmentation.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Lifeforms vs. fragmentation damage
+;; All power values are represented as chance of kill for an unarmored human.
+;; (for example only!)
+;;
+(damage-table 
+   (front 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 1.0000   0.0000)
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 1.0000   0.0000)
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 1.0000   0.0000)
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 1.0000   0.0000)
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 1.0000   0.0000)
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 1.0000   0.0000)
+            )
+         )
+      )
+   )
+)

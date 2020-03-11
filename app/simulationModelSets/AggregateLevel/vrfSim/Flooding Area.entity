@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:18:1:0:62:4:0:0" matchType="1:18:1:0:62:4:0:0" platform="@(platforms-dir)/Engineering_Area_Object.ope">
+      <DtRwList paramName="Signature-Modifiers"/>
+      <DtRwMap paramName="Attrition-Per-Second">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Mobility-Modifiers">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Vulnerability-Modifiers">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="Concealed">True</bool>
+      <real paramName="Height">-1</real>
+      <real paramName="Length">0</real>
+      <real paramName="Width">0</real>
+      <real paramName="Minimum-Completion-Percentage-To-Detect">30</real>
+      <real paramName="Minimum-Completion-Percentage-For-Effect">30</real>
+      <real paramName="Aircraft-Mobility-Modifier">1</real>
+      <real paramName="Ground-Mobility-Modifier">0.1</real>
+      <real paramName="Infantry-Mobility-Modifier">0.1</real>
+      <real paramName="Mechanized-Mobility-Modifier">0.1</real>
+      <real paramName="Motorized-Mobility-Modifier">0.1</real>
+      <real paramName="Tank-Mobility-Modifier">0.1</real>
+      <real paramName="Anti-Air-Vulnerability-Modifier">1</real>
+      <real paramName="Anti-Tank-Vulnerability-Modifier">1</real>
+      <real paramName="High-Explosive-Vulnerability-Modifier">1</real>
+      <real paramName="Anti-Personnel-Vulnerability-Modifier">1</real>
+      <real paramName="Anti-Ship-Vulnerability-Modifier">1</real>
+      <real paramName="Maximum-Relative-Size-Of-Effected">4</real>
+      <real paramName="Anti-Air-Attrition-Amount">0</real>
+      <real paramName="Anti-Tank-Attrition-Amount">0</real>
+      <real paramName="High-Explosive-Attrition-Amount">0</real>
+      <real paramName="Anti-Personnel-Attrition-Amount">0</real>
+      <real paramName="Anti-Ship-Attrition-Amount">0</real>
+      <real paramName="Resource-Amount">0</real>
+      <real paramName="Ship-Mobility-Modifier">0</real>
+      <string paramName="short-name">Flooding Area</string>
+      <string paramName="character-type"/>
+      <string paramName="character-appearance"/>
+      <string paramName="animation"/>
+      <string paramName="Resource-Required"/>
+      <stringList paramName="appearances-for-random-selection"/>
+      <string paramName="hand-item"/>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <string paramName="gui-unique-id">ModelSet-251149713-Flooding Area</string>
+      <string paramName="gui-keywords">noactivationtime</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-label">Flooding Area</string>
+      <string paramName="gui-categories">"Engineering Objects" "Hazard"</string>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-menu-icon">@(DATA_DIR)/images/overlays/small/flood.png</string>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <string paramName="gui-on-palettes">"TacticalGraphicCreationPalette"</string>
+      <sensorSignatures/>
+
+
+simObject</simObject>
+</simObjects>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtScriptedTaskMetaData class_id="0" tracking_level="0" version="12">
+	<myScriptId>release_from_queue</myScriptId>
+	<myMenuText>Release Next Entity From Queue</myMenuText>
+	<myToolTip></myToolTip>
+	<myMenuIcon></myMenuIcon>
+	<myVersion>1</myVersion>
+	<myScriptEngine>lua</myScriptEngine>
+	<myComments></myComments>
+	<myMenuLocations class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>$(menutext)</item>
+	</myMenuLocations>
+	<myIsSystemScript>1</myIsSystemScript>
+	<myDescription></myDescription>
+	<myScriptLocation>..\data\simulationModelSets\EntityLevel\scripts\\Release_From_Queue.lua</myScriptLocation>
+	<myDirectoryPath>Human/Queuing</myDirectoryPath>
+	<myEntityTypes>
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>17:0:0:2:23:0:0</item>
+	</myEntityTypes>
+	<myVariables>
+		<count>0</count>
+		<item_version>0</item_version>
+	</myVariables>
+	<myScript></myScript>
+	<myActionCategories></myActionCategories>
+	<myShowInMenu>1</myShowInMenu>
+	<myEncrypted>0</myEncrypted>
+	<myScriptType>1</myScriptType>
+	<myDoctrines></myDoctrines>
+	<myFlags>1</myFlags>
+	<myShowInToolbar>0</myShowInToolbar>
+	<myToolbarLocation></myToolbarLocation>
+	<myExtendedMenuText></myExtendedMenuText>
+	<myShortDescription></myShortDescription>
+	<myUiLayout></myUiLayout>
+	<myAliases class_id="2" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>release_from_queue</item>
+	</myAliases>
+</DtScriptedTaskMetaData>
+</boost_serialization>
+

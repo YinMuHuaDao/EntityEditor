@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:2:225:20:1:1:0" matchType="1:1:2:225:20:1:1:0" platform="@(platforms-dir)/Rotary_Wing_Aircraft.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="0.7860659956932" right="-0.9254410266876" down="1.887380003929"/>
+      <bodyPosition paramName="other-support" forward="-9.584589958191" right="-0.002969060093164" down="1.887380003929"/>
+      <bodyPosition paramName="right-support" forward="0.7860659956932" right="0.9195020198822" down="1.887380003929"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="custom">
+         <dimensions length="14.9" width="5.19" height="4.62"/>
+         <offset forward="-2.72" right="-0.00297" down="-0.423"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)/damage/rotary-wing-default.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\rotary-wing-attack.sysdef">
+         <bool paramName="use-fuel">False</bool>
+         <real paramName="fuel-amount">1420</real>
+         <real paramName="fuel-per-kN">3.69e-006</real>
+         <real paramName="fuel-weight">0.81</real>
+         <string paramName="flight-controls">Rotary Wing Controls</string>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\spot-report-generator.sysdef">
+         <bool paramName="broadcast">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-air-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)/other/spot-report-receiver.sysdef"/>
+      <componentSystem systemName="other-4" platform="@(system-dir)\other/counter-measures-launcher.sysdef">
+         <bodyPosition paramName="attach-point" right="1" forward="0" down="-0"/>
+         <int paramName="num-chaff">60</int>
+         <int paramName="num-flares">60</int>
+         <orientation paramName="launcher-orientation" yaw="2.356194" pitch="-0.436332" roll="0.0"/>
+      </componentSystem>
+      <componentSystem systemName="other-5" platform="@(system-dir)\other/iff-transponder.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\infrared-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="4.7" right="-0.12" down="0.4"/>
+         <real paramName="max-range">16000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <real paramName="suppression-factor">0</real>
+      </componentSystem>
+      <componentSystem systemName="weapon" platform="@(system-dir)\weapons\M230-chain-gun.sysdef">
+         <bodyPosition paramName="attach-point" forward="2" right="0" down="0.91"/>
+         <bodyPosition paramName="muzzle-offset" forward="1.4" right="0" down="0"/>
+         <bodyPosition paramName="turret-attach-point" forward="0" right="0" down="0.49"/>
+         <int paramName="gun-art-part-type">4416</int>
+         <int paramName="num-rounds">1200</int>
+         <int paramName="rapid-fire-rate">300</int>
+         <int paramName="sustained-rate">100</int>
+         <int paramName="turret-art-part-type">4096</int>
+         <real paramName="left-angle-limit">-1.74533</real>
+         <real paramName="max-elevation">0.191986</real>
+         <real paramName="min-elevation">-0.785398</real>
+         <real paramName="neutral-elev">0.191986</real>
+         <real paramName="right-angle-limit">1.74533</real>
+         <string paramName="ballistic-gun-group">weapon:M230 Ballistic Gun</string>
+         <string paramName="slew-group">weapon:M230 Ballistic Gun</string>
+      </componentSystem>
+      <componentSystem systemName="weapon-2" platform="@(system-dir)\weapons\laser-guided-hellfire-missile-launcher.sysdef">
+         <bodyPosition paramName="attach-point" forward="1" right="-1.5" down="1.2"/>
+         <bodyPosition paramName="laser-position" forward="4.7" right="-0.1" down="0.58"/>
+         <int paramName="num-missiles">8</int>
+      </componentSystem>
+      <real paramName="disaggregation-range">5100</real>
+      <real paramName="drag-coefficient">0.5</real>
+      <real paramName="drag-reference-area">10.6</real>
+      <real paramName="full-collective-lift-acceleration">30</real>
+      <real paramName="mass">6315</real>
+      <real paramName="max-acceleration">16</real>
+      <real paramName="max-altitude">12000</real>
+      <real paramName="max-climb-rate">14.816667</real>
+      <real paramName="max-deceleration">12</real>
+      <real paramName="max-pitch-acceleration">0.64</real>
+      <real paramName="max-pitch-rate">1.047198</real>
+      <real paramName="max-roll-acceleration">2.28</real>
+      <real paramName="max-roll-rate">1.570797</real>
+      <real paramName="max-speed">160</real>
+      <real paramName="max-yaw-acceleration">0.564</real>
+      <real paramName="max-yaw-rate">6.28</real>
+      <real paramName="ordered-speed">30</real>
+      <real paramName="zero-collective-lift-acceleration">-10</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">25</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">25</real>
+         <real paramName="visual-signature">5</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"3D Model" "Aircraft" "Attack" "Military" "Rotary Wing"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries">"Egypt" "Greece" "Israel" "Japan" "Kuwait" "Netherlands" "Saudi Arabia" "Singapore" "Taiwan" "United Arab Emirates" "United Kingdom" "United States"</string>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">AH-64A Apache</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-199706757-AH-64A Apache</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\RotaryWing\AH-64D_Apache_Longbow_ARMED_GREEN_V7.0.flt\DB_AH-64D_LONGBOW_ARMED_GREEN_V7.0.medf</string>
+      <string paramName="short-name">AH-64A</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

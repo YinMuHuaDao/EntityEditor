@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:1:0:27:0:0:0" matchType="1:1:1:-1:27:-1:-1:-1" platform="@(platforms-dir)/Ground_Vehicle.ope">
+      <bodyPosition paramName="left-support" forward="2.4" right="-1.1" down="0"/>
+      <bodyPosition paramName="other-support" forward="-2.4" right="0" down="0"/>
+      <bodyPosition paramName="right-support" forward="2.4" right="1.1" down="0"/>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">True</bool>
+      <bool paramName="can-pivot">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="enable-navigation">True</bool>
+      <bool paramName="flip-disembark-body-x">True</bool>
+      <bool paramName="flip-disembark-body-y">True</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">False</bool>
+      <bool paramName="gui-on-overlay-palette">False</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">False</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="ground-center">
+         <dimensions length="4.8" width="2.2" height="1.8"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\ground-unarmored.sysdef">
+         <bool paramName="explode-when-destroyed">False</bool>
+      </componentSystem>
+      <componentSystem systemName="movement" platform="@(system-dir)/movement/ground-wheels-road.sysdef">
+         <real paramName="fuel-amount">515</real>
+         <string paramName="automotive-driving">Automotive Driving</string>
+      </componentSystem>
+      <real paramName="disaggregation-range">700</real>
+      <real paramName="mass">3500</real>
+      <real paramName="max-acceleration">1.7</real>
+      <real paramName="max-deceleration">4</real>
+      <real paramName="max-lateral-acceleration">0</real>
+      <real paramName="max-pivot-speed">0</real>
+      <real paramName="max-reverse-speed">15</real>
+      <real paramName="max-slope">0.6</real>
+      <real paramName="max-speed">33.33333333333</real>
+      <real paramName="ordered-speed">10</real>
+      <real paramName="turning-radius">4</real>
+      <sensorSignatures>
+         <real paramName="infrared-signature">4</real>
+         <real paramName="radar-signature">0.5</real>
+         <real paramName="visual-signature">4</real>
+      </sensorSignatures>
+      <soilList paramName="soil-list">
+         <soilFactors paramName="deep-water" soilType="deep-water" acceleration-factor="0" stopping-factor="0" max-speed-factor="0"/>
+         <soilFactors paramName="gravel" soilType="gravel" acceleration-factor="0.3" stopping-factor="0.3" max-speed-factor="0.3"/>
+         <soilFactors paramName="hard-packed" soilType="hard-packed" acceleration-factor="0.5" stopping-factor="0.5" max-speed-factor="0.5"/>
+         <soilFactors paramName="muck" soilType="muck" acceleration-factor="0.1" stopping-factor="0.1" max-speed-factor="0.1"/>
+         <soilFactors paramName="paved-road" soilType="paved-road" acceleration-factor="1" stopping-factor="1" max-speed-factor="1"/>
+         <soilFactors paramName="rocks" soilType="rocks" acceleration-factor="0.2" stopping-factor="0.2" max-speed-factor="0.2"/>
+         <soilFactors paramName="sand" soilType="sand" acceleration-factor="0.2" stopping-factor="0.2" max-speed-factor="0.2"/>
+         <soilFactors paramName="shallow-water" soilType="shallow-water" acceleration-factor="0.1" stopping-factor="0.1" max-speed-factor="0.1"/>
+      </soilList>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label"/>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-unique-id">ModelSet-53-5</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename"/>
+      <string paramName="short-name">CivVeh</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

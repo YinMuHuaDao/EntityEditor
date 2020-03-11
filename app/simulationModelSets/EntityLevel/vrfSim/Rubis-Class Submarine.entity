@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:4:71:3:1:0:0" matchType="1:1:4:71:3:1:0:0" platform="@(platforms-dir)/Subsurface_Vehicle.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="32.2" right="-3.25" down="0"/>
+      <bodyPosition paramName="other-support" forward="-32.2" right="0" down="0"/>
+      <bodyPosition paramName="right-support" forward="32.2" right="3.25" down="0"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">True</bool>
+      <bool paramName="can-embark">False</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="protect-from-collateral-damage">False</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">True</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="center">
+         <dimensions length="73.6" width="7.6" height="10"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\subsurface-default.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\subsurface-dynamics.sysdef">
+         <real paramName="fuel-amount">12000</real>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\periscope.sysdef">
+         <real paramName="extension-rate">2</real>
+         <real paramName="max-extension">0</real>
+         <real paramName="min-extension">-13.2</real>
+      </componentSystem>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-subsurface-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)\other\spot-report-generator.sysdef"/>
+      <componentSystem systemName="other-3" platform="@(system-dir)\other\spot-report-receiver.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\sonar-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="0"/>
+         <bool paramName="active-by-default">False</bool>
+         <bool paramName="sonar-dip-capable">True</bool>
+         <real paramName="max-effective-speed">10</real>
+         <real paramName="max-range">4000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <componentSystem systemName="sensor-2" platform="@(system-dir)\sensors\passive-radar-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="0"/>
+         <real paramName="max-range">10000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <componentSystem systemName="weapon" platform="@(system-dir)\weapons\Homing-torpedo-fwd-launcher.sysdef">
+         <bodyPosition paramName="attach-point" forward="34" right="0" down="7"/>
+         <int paramName="num-missiles">16</int>
+      </componentSystem>
+      <componentSystem systemName="weapon-2" platform="@(system-dir)\weapons\missile-warhead.sysdef"/>
+      <real paramName="disaggregation-range">4100</real>
+      <real paramName="mass">11466815</real>
+      <real paramName="max-acceleration">0.2</real>
+      <real paramName="max-deceleration">0.2</real>
+      <real paramName="max-depth">500</real>
+      <real paramName="max-lateral-acceleration">0.5</real>
+      <real paramName="max-slope">1</real>
+      <real paramName="max-speed">12.77777777778</real>
+      <real paramName="ordered-speed">5.555555555556</real>
+      <real paramName="turning-radius">110</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0.75</real>
+         <real paramName="infrared-signature">2</real>
+         <real paramName="mad-signature">0.3</real>
+         <real paramName="passive-sonar-signature">0.5</real>
+         <real paramName="radar-signature">3</real>
+         <real paramName="visual-signature">1.5</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"Military" "Subsurface" "Watercraft"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries">"France"</string>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Rubis-Class Submarine</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-208179269-Rubis-Class Submarine</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\Subsurface\SSBN-727 Ohio.medf</string>
+      <string paramName="short-name">SSN</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+
+
+
+
+
+
+
+
+
+simObject</simObject>
+</simObjects>

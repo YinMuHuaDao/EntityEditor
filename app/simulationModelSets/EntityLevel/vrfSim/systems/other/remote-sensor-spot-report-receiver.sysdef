@@ -1,0 +1,35 @@
+(remote-sensor-spot-report-receiver-system 
+   (systems )
+   (sensors 
+      (spot-report-receiver 
+         (component-descriptor-type "spot-report-receiver-descriptor")
+         (component-type  "remote-sensor-spot-report-receiver")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (spot-report-age-limit  60.000000)
+         (radio-name  "")
+      )
+   )
+   (controllers )
+   (actuators )
+   (connections 
+      (connect spot-report-receiver:contacts system:detected-objects)
+   )
+   (resources )
+   (meta-data 
+      (system-name  "Remote Sensor Spot Report Receiver")
+      (system-description  "Allows an entity to receive spot reports from specific entities which are setup as remote sensors for this entity.")
+      (allowed-state-repository-types "all")
+      (system-categories "other")
+      (parameter-data-list )
+      (meta-data-entry-list 
+         (detected-objects-output 
+            (detected-objects-output-port-name  "detected-objects")
+         )
+      )
+   )
+)

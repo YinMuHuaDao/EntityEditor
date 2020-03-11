@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:1:222:3:6:0:0" matchType="1:1:1:222:3:6:-1:-1" platform="@(platforms-dir)/Ground_Vehicle.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="-1.961779952049" right="-1.49107003212" down="-1.147599988371e-007"/>
+      <bodyPosition paramName="other-support" forward="1.894700050354" right="-1.192089982283e-007" down="-1.147599988371e-007"/>
+      <bodyPosition paramName="right-support" forward="-1.961779952049" right="1.49107003212" down="-1.147599988371e-007"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="can-pivot">True</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="enable-navigation">True</bool>
+      <bool paramName="flip-disembark-body-x">True</bool>
+      <bool paramName="flip-disembark-body-y">True</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">False</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="ground-center">
+         <dimensions length="6.35" width="3.08" height="2.14"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\ground-light-armor.sysdef">
+         <bool paramName="explode-when-destroyed">False</bool>
+      </componentSystem>
+      <componentSystem systemName="movement" platform="@(system-dir)/movement/ground-tracked.sysdef">
+         <real paramName="fuel-amount">462</real>
+         <string paramName="automotive-driving">Automotive Driving</string>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)/other/spot-report-generator.sysdef"/>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-ground-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)/other/spot-report-receiver.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\visual-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="-2"/>
+         <real paramName="max-range">4000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <real paramName="suppression-factor">0</real>
+      </componentSystem>
+      <componentSystem systemName="weapon" platform="@(system-dir)\weapons\M2-machine-gun.sysdef">
+         <bodyPosition paramName="attach-point" forward="1.299895" right="0.575361" down="-1.699899"/>
+         <bodyPosition paramName="muzzle-offset" forward="0.978959" right="0" down="-0.016888"/>
+         <bodyPosition paramName="turret-attach-point" forward="0" right="0" down="-0.100101"/>
+         <bool paramName="suppressible">False</bool>
+         <int paramName="gun-art-part-type">4416</int>
+         <int paramName="num-rounds">500</int>
+         <int paramName="parent-art-part-type">-1</int>
+         <int paramName="rapid-fire-rate">60</int>
+         <int paramName="sustained-rate">40</int>
+         <int paramName="turret-art-part-type">4096</int>
+         <real paramName="elevation-rate">0.069813</real>
+         <real paramName="left-angle-limit">-3.14</real>
+         <real paramName="max-elevation">0.436332</real>
+         <real paramName="min-elevation">0</real>
+         <real paramName="right-angle-limit">3.14</real>
+         <real paramName="slew-rate">0.785399</real>
+         <string paramName="ballistic-gun-group">weapon:M2 Ballistic Gun</string>
+         <string paramName="display-name">M2HB Machine Gun</string>
+         <string paramName="slew-group">weapon:M2 Ballistic Gun</string>
+      </componentSystem>
+      <real paramName="disaggregation-range">4100</real>
+      <real paramName="mass">14300</real>
+      <real paramName="max-acceleration">1.27</real>
+      <real paramName="max-deceleration">4</real>
+      <real paramName="max-lateral-acceleration">4</real>
+      <real paramName="max-pivot-speed">0.2</real>
+      <real paramName="max-reverse-speed">12</real>
+      <real paramName="max-slope">0.94</real>
+      <real paramName="max-speed">15.222222</real>
+      <real paramName="ordered-speed">10</real>
+      <real paramName="turning-radius">4</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">4</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">0.5</real>
+         <real paramName="visual-signature">3</real>
+      </sensorSignatures>
+      <soilList paramName="soil-list"/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"3D Model" "Armored" "Ground Vehicle" "Military"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">MT-LB APC</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-235103461-MT-LB APC</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\Tracked\MT-LB_Multipurpose_Armoured_Vehicle\MT-LB_Multipurpose_Armoured_Vehicle.medf</string>
+      <string paramName="short-name">AUV</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

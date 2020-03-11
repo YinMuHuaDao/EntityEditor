@@ -1,0 +1,86 @@
+;;
+;; File - missile-explosive.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Missiles vs. explosive detonations
+;; All power values are in kPa of incident pressure.
+;; (for example only!)
+;;
+(damage-table 
+   (front
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+               (firepower-kill 0.022 -0.44)
+               (mobility-kill 0.025 -0.5)
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+               (firepower-kill 0.022 -0.44)
+               (mobility-kill 0.025 -0.5)
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+               (firepower-kill 0.022 -0.44)
+               (mobility-kill 0.025 -0.5)
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+               (firepower-kill 0.022 -0.44)
+               (mobility-kill 0.025 -0.5)
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+               (firepower-kill 0.022 -0.44)
+               (mobility-kill 0.025 -0.5)
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+               (firepower-kill 0.022 -0.44)
+               (mobility-kill 0.025 -0.5)
+            )
+         )
+      )
+   )
+)

@@ -1,0 +1,109 @@
+;;
+;; File - MIM-104.hit
+;;
+;;
+;; Copyright (c) 2017 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;; Hit Probability Table for the SA-21 missile.
+;; (for example only!)
+;;
+
+
+(hit-probability-table
+  (entity-range ;; Exocet cruise missile
+     (entity-type  2 6 71 1 1 -1 -1)
+     (range-determinant 
+        (range-list 
+           (range 2000.000000
+              (probability 0.1000)
+           )
+           (range 3000.000000
+              (probability 0.8000)
+           )
+           (range 250000.0         
+              (probability 0.9000)
+           )
+           (range 400000.000000
+              (probability 0.2000)
+           )
+        )
+     )
+  )
+  (entity-range ;; Tomahawk cruise missile
+     (entity-type  2 9 225 1 19 -1 -1)
+     (range-determinant 
+        (range-list 
+           (range 2000.000000
+              (probability 0.1000)
+           )
+           (range 3000.000000
+              (probability 0.8000)
+           )
+           (range 250000.0         
+              (probability 0.9000)
+           )
+           (range 400000.000000
+              (probability 0.2000)
+           )
+        )
+     )
+  )
+  (entity-range ;; M-39
+     (entity-type  2 9 225 1 17 1 1)
+     (range-determinant 
+        (range-list 
+           (range 2000.000000
+              (probability 0.1000)
+           )
+           (range 3000.000000
+              (probability 0.8000)
+           )
+           (range 250000.0         
+              (probability 0.9000)
+           )
+           (range 400000.000000
+              (probability 0.2000)
+           )
+        )
+     )
+  )
+  (entity-range ;; Strategic missiles
+     (entity-type  2 10 -1 -1 -1 -1 -1)
+     (range-determinant 
+        (range-list 
+           (range 2000.000000
+              (probability 0.1000)
+           )
+           (range 3000.000000
+              (probability 0.8000)
+           )
+           (range 250000.0         
+              (probability 0.9000)
+           )
+           (range 400000.000000
+              (probability 0.2000)
+           )
+        )
+     )
+  )
+  (entity-range ;; Tactical missiles
+     (entity-type  2 11 -1 -1 -1 -1 -1)
+     (range-determinant 
+        (range-list 
+           (range 2000.000000
+              (probability 0.1000)
+           )
+           (range 3000.000000
+              (probability 0.8000)
+           )
+           (range 250000.0         
+              (probability 0.9000)
+           )
+           (range 400000.000000
+              (probability 0.2000)
+           )
+        )
+     )
+  )
+)

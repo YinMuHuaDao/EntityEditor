@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:2:71:21:17:1:1" matchType="1:1:2:71:21:17:1:1" platform="@(platforms-dir)/Rotary_Wing_Aircraft.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="0.7860659956932" right="-0.9254410266876" down="1.887380003929"/>
+      <bodyPosition paramName="other-support" forward="-9.584589958191" right="-0.002969060093164" down="1.887380003929"/>
+      <bodyPosition paramName="right-support" forward="0.7860659956932" right="0.9195020198822" down="1.887380003929"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">True</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">True</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="custom">
+         <dimensions length="19.5" width="13" height="4.6"/>
+         <offset forward="-2.72" right="-0.00297" down="-0.423"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\rotary-wing-default.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\rotary-wing-attack.sysdef">
+         <bool paramName="use-fuel">False</bool>
+         <real paramName="fuel-amount">2539</real>
+         <real paramName="fuel-per-kN">2.46e-006</real>
+         <real paramName="fuel-weight">0.81</real>
+         <string paramName="flight-controls">Rotary Wing Controls</string>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\spot-report-generator.sysdef">
+         <bool paramName="broadcast">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-air-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)\other\spot-report-receiver.sysdef"/>
+      <componentSystem systemName="other-5" platform="@(system-dir)\other\iff-transponder.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\infrared-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="4.7" right="-0.12" down="0.4"/>
+         <real paramName="max-range">16000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <real paramName="suppression-factor">0</real>
+      </componentSystem>
+      <real paramName="disaggregation-range">5100</real>
+      <real paramName="drag-coefficient">0</real>
+      <real paramName="drag-reference-area">0</real>
+      <real paramName="full-collective-lift-acceleration">30</real>
+      <real paramName="mass">7387</real>
+      <real paramName="max-acceleration">16</real>
+      <real paramName="max-altitude">12000</real>
+      <real paramName="max-climb-rate">14.816667</real>
+      <real paramName="max-deceleration">12</real>
+      <real paramName="max-pitch-acceleration">0.64</real>
+      <real paramName="max-pitch-rate">1.047198</real>
+      <real paramName="max-roll-acceleration">2.28</real>
+      <real paramName="max-roll-rate">1.570797</real>
+      <real paramName="max-speed">90</real>
+      <real paramName="max-yaw-acceleration">0.564</real>
+      <real paramName="max-yaw-rate">2.5</real>
+      <real paramName="ordered-speed">30</real>
+      <real paramName="zero-collective-lift-acceleration">-10</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">25</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">25</real>
+         <real paramName="visual-signature">5</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"Aircraft" "Military" "Rotary Wing" "Utility"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries">"Brazil" "France" "Indonesia" "Kazakhstan" "Malaysia" "Mexico" "Thailand"</string>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">EC725 Caracal</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-83666505-EC725 Caracal</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\RotaryWing\RotaryWingAttack.medf</string>
+      <string paramName="short-name">EC-725</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+
+
+
+
+
+
+
+
+simObject</simObject>
+</simObjects>

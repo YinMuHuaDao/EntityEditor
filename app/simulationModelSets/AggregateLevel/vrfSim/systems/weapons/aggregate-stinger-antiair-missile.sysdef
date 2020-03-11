@@ -1,0 +1,62 @@
+(weapon-stinger-antiair-missile  
+   (systems )
+   (sensors )
+   (controllers 
+      (aggregate-antiair-missile-controller 
+         (component-descriptor-type "aggregate-anti-air-controller-descriptor")
+         (component-type  "aggregate-anti-air-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (is-enabled True)
+		   (script-ids "Limited_Munition_Attack" "Attack_with_AntiAir_Missile" "Automatic_Air_Defense" "React_To_Air_Threats") 
+         (weapon-name  "Missile, Stinger C") ; Must have "missile" in the name. Must match ammo name.
+         (range  4500)
+         (max-altitude 3000)
+         (bombs-per-attack 1)
+         (radius  0.0)
+         (hit-factor  75)
+         (strength-per-bomb  2000)
+         (seconds-per-attack  0.0)
+         (damage-category "Anti-Air")
+         (can-be-radar-jammed False)
+         (jamming-defense-factor 0)
+         (available-postures $postures)
+      )
+   )
+   (actuators )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "Stinger Anti-Air Missile")
+      (system-description  "An anti-air missile with limited altitude. Uses IR guidance.")
+      (allowed-state-repository-types "aggregate-object-param" "assemblies")
+      (system-categories "weapon")
+      (parameter-data-list 
+		; When multiple copies of this system are rolled up in a unit, it is expected that
+		; only one will be use at a time in an attack; thus the strength and #rounds parameters
+		; are NOT listed here as variables, and will not be summed into the unit.
+		
+         (int-parameter-data  
+            (parameter-name  "dummy")
+            (variable-type  "DtRwInt")
+            (display-label  "Dummy parameter")
+            (display-units  "")
+            (source-units  "")
+            (default-value  0)
+			(display-value False) ; TMP: Need a number parameter to make this system show up in the assemblies editor
+         )
+         (string-parameter-data 
+            (parameter-name  "postures")
+            (variable-type  "DtRwString")
+            (display-label  "Postures in Which Available")
+            (display-units  "")
+            (source-units  "")
+            (default-value  "Reconnaissance,Hasty-Attack,Deliberate-Attack,Hasty-Defense,Deliberate-Defense")
+            (list-items "Rout=Rout;Travel=Travel;Reconnaissance=Reconnaissance;Hasty-Attack=Hasty Attack;Deliberate-Attack=Deliberate Attack;Hasty-Defense=Hasty Defense;Deliberate-Defense=Deliberate Defense")
+            (list-display 1)
+         )
+      )
+      (meta-data-entry-list )
+   )
+   (part-of-roll-up $part-of-roll-up)
+)

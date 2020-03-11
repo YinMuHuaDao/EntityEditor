@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>859</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QWidget" name="myGeneralCanvas" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="element_type" stdset="0">
+      <string notr="true">general_canvas</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="short_name_label">
+          <property name="text">
+           <string>Short Name:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="short_name"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="Height_label">
+          <property name="toolTip">
+           <string>Height of the object.  Negative height means depth</string>
+          </property>
+          <property name="text">
+           <string>Height (m):</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="Height">
+          <property name="toolTip">
+           <string>Height of the object.  Negative height means depth.</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="Attrition_Per_Second_label">
+          <property name="text">
+           <string>Attrition (damage/sec):</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QWidget" name="Attrition_Per_Second" native="true">
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+          <property name="disable_if_multiple_selection" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="Mobility_Modifiers_label">
+          <property name="text">
+           <string>Mobility Modifiers:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QWidget" name="Mobility_Modifiers" native="true">
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+          <property name="disable_if_multiple_selection" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="Vulnerability_Modifiers_label">
+          <property name="text">
+           <string>Vulnerability Modifiers:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="1">
+         <widget class="QWidget" name="Vulnerability_Modifiers" native="true">
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+          <property name="disable_if_multiple_selection" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLabel" name="Signature_Modifiers_label">
+          <property name="text">
+           <string>Signature Modifiers:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0">
+         <widget class="QLabel" name="Resource_Required_label">
+          <property name="text">
+           <string>Resource Required:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="1">
+         <widget class="QLineEdit" name="Resource_Required">
+          <property name="toolTip">
+           <string>The name of the resource (or ammunition) required to construct this object</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="Maximum_Length_label">
+          <property name="toolTip">
+           <string>Height of the object.  Negative height means depth</string>
+          </property>
+          <property name="text">
+           <string>Maximum Length (m):</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="Width_label">
+          <property name="toolTip">
+           <string>Width of the line object in meters</string>
+          </property>
+          <property name="text">
+           <string>Width (m):</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="Maximum_Length">
+          <property name="toolTip">
+           <string>Maximum length that a single constructed object can be. If longer, it will be broken into multiple pieces.</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="Width">
+          <property name="toolTip">
+           <string>Width of the object</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="Resource_Amount_label">
+          <property name="text">
+           <string>Resource Amount:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QLineEdit" name="Resource_Amount">
+          <property name="toolTip">
+           <string>The amount of the resource required to construct this object</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="1">
+         <widget class="QWidget" name="Signature_Modifiers" native="true">
+          <property name="element_container" stdset="0">
+           <string>parameter-data.Signature-Modifiers</string>
+          </property>
+          <property name="disable_if_multiple_selection" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="element_type" stdset="0">
+           <string notr="true">environmental_signature_modifier</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="Minimum_Completion_Percentage_For_Effect_label">
+          <property name="text">
+           <string>Minimum Completion Percentage for Effect:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="Minimum_Completion_Percentage_For_Effect">
+          <property name="toolTip">
+           <string>Completion percentage required for this object to affect units</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="Minimum_Completion_Percentage_To_Detect_label">
+          <property name="text">
+           <string>Minimum Completion Percentage to Detect:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="Minimum_Completion_Percentage_To_Detect">
+          <property name="toolTip">
+           <string>Completion percentage required for this object to be detected</string>
+          </property>
+          <property name="element_container" stdset="0">
+           <string>parameter-data</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0">
+         <widget class="QCheckBox" name="Concealed">
+          <property name="text">
+           <string>Is Concealed</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="myDisplayCanvas" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="element_type" stdset="0">
+      <string notr="true">display_widget_canvas</string>
+     </property>
+     <property name="stacked_layout" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>short_name</tabstop>
+  <tabstop>Height</tabstop>
+  <tabstop>Maximum_Length</tabstop>
+  <tabstop>Width</tabstop>
+  <tabstop>Minimum_Completion_Percentage_For_Effect</tabstop>
+  <tabstop>Minimum_Completion_Percentage_To_Detect</tabstop>
+  <tabstop>Resource_Required</tabstop>
+  <tabstop>Resource_Amount</tabstop>
+  <tabstop>Concealed</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

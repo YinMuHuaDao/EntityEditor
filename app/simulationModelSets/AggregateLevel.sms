@@ -1,0 +1,72 @@
+(simulation-model-set 
+   (variable-bindings 
+      (DtRwString
+         (model-set-directory  "AggregateLevel")
+      )
+      (DtRwString
+         (opd-dir  "$(model-set-directory)")
+      )
+      (DtRwString
+         (gui-dir  "$(model-set-directory)/gui")
+      )
+      (DtRwString
+         (ui-dir  "$(gui-dir)/ui")
+      )
+      (DtRwString
+         (data-root  "$(opd-dir)/vrfSim")
+      )
+      (DtRwString
+         (system-dir  "$(opd-dir)/vrfSim/systems")
+      )
+      (DtRwString
+         (ammoselect-dir  "$(opd-dir)/vrfSim/ammoselect")
+      )
+      (DtRwString
+         (damage-dir  "$(opd-dir)/vrfSim/damage")
+      )
+      (DtRwString
+         (detection-dir  "$(opd-dir)/vrfSim/detection")
+      )
+      (DtRwString
+         (hit-dir  "$(opd-dir)/vrfSim/hit")
+      )
+      (DtRwString
+         (platforms-dir  "$(opd-dir)/vrfSim/platforms")
+      )
+      (DtRwString
+         (recycle-bin  "$(opd-dir)/vrfSim/recycledData")
+      )
+      (DtRwString
+         (formation-dir  "$(opd-dir)/vrfSim/formation")
+      )
+      (DtRwString
+         (objectModel-dir  "$(opd-dir)/vrfSim/objectModel")
+      )
+      (DtRwString
+         (signatureRules-dir  "$(opd-dir)/vrfSim/signatureRules")
+      )
+      (DtRwString
+         (taskRules-dir  "$(opd-dir)/vrfSim/taskRules")
+      )
+      (DtRwString
+         (remote-config-dir  "$(opd-dir)/vrfSim/remoteConfigurations")
+      )
+      (DtRwString
+         (scriptedmovement-dir  "$(opd-dir)/scriptedObjectMovement")
+      )
+   )
+   (opd-file  "$(model-set-directory)\vrfSim.opd")
+   (physical-world  "$(model-set-directory)\physicalWorldParams.mtl")
+   (indirect-artillery-types  "$(model-set-directory)\indirectArtilleryTypes.mtl")
+   (comm-model-parameters  "$(model-set-directory)\commModelParams.mtl")
+   (force-hostilty-file  "$(model-set-directory)\forceHostilty.mtl")
+   (scenario-data-file  "")
+   (include  "..\data\simulationModelSets\base.sms")
+   (validator-string  "protocol=hla1516e;hasStateData")
+   (simulation-object-group-connection  "HLA 1516 Evolved RPR 2.0 Extended Aggregates")
+   (component-attachment-lists 
+      (file  "$(model-set-directory)/extra/componentAttachmentTable.mtl")
+   )
+   (visual-data-in-app-data True)
+   (read-only True)
+)

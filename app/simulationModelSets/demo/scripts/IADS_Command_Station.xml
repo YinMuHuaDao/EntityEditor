@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtScriptedTaskMetaData class_id="0" tracking_level="0" version="10">
+	<myScriptId>IADS_Command_Station</myScriptId>
+	<myMenuText>IADS Command Station</myMenuText>
+	<myToolTip></myToolTip>
+	<myMenuIcon></myMenuIcon>
+	<myVersion>1</myVersion>
+	<myScriptEngine>lua</myScriptEngine>
+	<myComments></myComments>
+	<myMenuLocations class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>$(menutext)</item>
+	</myMenuLocations>
+	<myIsSystemScript>1</myIsSystemScript>
+	<myDescription>Automates the command station of Integrated Air Defense System, communicating with radar and launchers.</myDescription>
+	<myScriptLocation>..\data\simulationModelSets\EntityLevel\scripts\IADS_Command_Station.lua</myScriptLocation>
+	<myDirectoryPath>Integrated Air Defense</myDirectoryPath>
+	<myEntityTypes>
+		<count>2</count>
+		<item_version>0</item_version>
+		<item>1:1:225:28:2:2:1</item>
+		<item>1:1:222:28:24:3:-1</item>
+	</myEntityTypes>
+	<myVariables>
+		<count>4</count>
+		<item_version>0</item_version>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;TargetTypes&lt;/myVariableName&gt;
+	&lt;myType&gt;entitytypes&lt;/myType&gt;
+	&lt;myLabel&gt;Target Types&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Entity type of desired targets&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;DefenseArea&lt;/myVariableName&gt;
+	&lt;myType&gt;simulationobject&lt;/myType&gt;
+	&lt;myLabel&gt;Defense Area&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Area within which the launchers will fire on targets&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;Areas&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;DtAreasFilter&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;AvailableLaunchers&lt;/myVariableName&gt;
+	&lt;myType&gt;simulationobjects&lt;/myType&gt;
+	&lt;myLabel&gt;Available Launchers&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Launchers that can be given targets to shoot down&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;All Entities&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;DtAllEntitiesFilter&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;Powerunit&lt;/myVariableName&gt;
+	&lt;myType&gt;simulationobject&lt;/myType&gt;
+	&lt;myLabel&gt;Power unit&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Unit that supplies power to the battery&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;All Land&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;DtAllLandFilter&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+	</myVariables>
+	<myScript></myScript>
+	<myActionCategories></myActionCategories>
+	<myShowInMenu>1</myShowInMenu>
+	<myEncrypted>0</myEncrypted>
+	<myScriptType>1</myScriptType>
+	<myDoctrines></myDoctrines>
+	<myFlags>1</myFlags>
+	<myShowInToolbar>0</myShowInToolbar>
+	<myToolbarLocation></myToolbarLocation>
+	<myExtendedMenuText></myExtendedMenuText>
+	<myShortDescription></myShortDescription>
+	<myUiLayout></myUiLayout>
+</DtScriptedTaskMetaData>
+</boost_serialization>
+

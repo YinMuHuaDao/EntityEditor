@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:16:1:0:62:6:0:0" matchType="1:16:1:0:62:6:0:0" platform="@(platforms-dir)/Engineering_Point_Object.ope">
+      <DtRwMap paramName="Immediate-Attrition">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Mobility-Modifiers">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <bool paramName="Concealed">True</bool>
+      <bool paramName="Destroy-On-Contact">False</bool>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">True</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <real paramName="Aircraft-Mobility-Modifier">1</real>
+      <real paramName="Anti-Air-Attrition-Amount">0</real>
+      <real paramName="Anti-Personnel-Attrition-Amount">0</real>
+      <real paramName="Anti-Ship-Attrition-Amount">0</real>
+      <real paramName="Anti-Tank-Attrition-Amount">0</real>
+      <real paramName="Ground-Mobility-Modifier">0</real>
+      <real paramName="Height">1</real>
+      <real paramName="High-Explosive-Attrition-Amount">0</real>
+      <real paramName="Infantry-Mobility-Modifier">0.1</real>
+      <real paramName="Length">12</real>
+      <real paramName="Mechanized-Mobility-Modifier">0</real>
+      <real paramName="Minimum-Completion-Percentage-For-Effect">50</real>
+      <real paramName="Minimum-Completion-Percentage-To-Detect">50</real>
+      <real paramName="Motorized-Mobility-Modifier">0</real>
+      <real paramName="Resource-Amount">0</real>
+      <real paramName="Ship-Mobility-Modifier">1</real>
+      <real paramName="Tank-Mobility-Modifier">0</real>
+      <real paramName="Width">12</real>
+      <sensorSignatures/>
+      <string paramName="Resource-Required"/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"Engineering Objects" "Hazard" "Simulation Effect Object"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords">noactivationtime</string>
+      <string paramName="gui-label">Falling Blocks</string>
+      <string paramName="gui-menu-icon">@(DATA_DIR)/images/overlays/small/beampost.png</string>
+      <string paramName="gui-on-palettes">"TacticalGraphicCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-83182627-Falling Blocks</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="short-name">Falling Blocks</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+
+
+
+
+simObject</simObject>
+</simObjects>

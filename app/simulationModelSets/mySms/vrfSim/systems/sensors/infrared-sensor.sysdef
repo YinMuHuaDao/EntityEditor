@@ -1,0 +1,93 @@
+(infrared-sensor-system 
+   (systems )
+   (sensors 
+      (ir-sensor 
+         (component-descriptor-type "signature-sensor-descriptor")
+         (component-type  "signature-sensor")
+         (min-tick-period  2.000000)
+         (min-tick-period-variance  0.100000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (detect-only-hostile-forces False)
+         (detect-own-force False)
+         (detection-types )
+         (detect-destroyed-objects False)
+         (sensor-geometry 
+            (in-range 
+               (range $max-range)
+            )
+         )
+         (sensor-domain  "infrared")
+         (sensor-offset $sensor-position)
+         (sensor-sensitivity $sensor-sensitivity-start)
+         (sensor-positional-error  0.000000)
+         (detection-level-determinator 
+            (determinator-type  "signature-detection-level-determinator")
+            (detection-level-to-set-hostility  3)
+            (combat-identification-level-table-file 
+               (filename  "$(detection-dir)\std-infrared-detection-table.csv")
+            )
+         )
+         (suppression-degrades-sensor-performance-by $suppression-factor)
+      )
+   )
+   (controllers )
+   (actuators )
+   (connections 
+      (connect system:object-types-to-detect ir-sensor:object-types-to-detect)
+      (connect ir-sensor:detected-objects system:detected-objects)
+      (connect system:sensor-offset ir-sensor:sensor-offset)
+   )
+   (resources )
+   (meta-data 
+      (system-name  "IR Sensor")
+      (system-description  "Allows an entity to detect other objects through Infrared.")
+      (allowed-state-repository-types "all")
+      (system-categories "sensor" "object-sensor")
+      (parameter-data-list 
+         (vector-parameter-data 
+            (parameter-name  "sensor-position")
+            (variable-type  "DtRwOffsetVector")
+            (display-label  "Sensor Location")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  0.000000 0.000000 0.000000)
+            (relative-to  "")
+         )
+         (real-parameter-data 
+            (parameter-name  "max-range")
+            (variable-type  "DtRwReal")
+            (display-label  "Maximum Range")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  16000.000000)
+         )
+         (sensitivity-parameter-data 
+            (parameter-name  "sensor-sensitivity-start")
+            (variable-type  "DtRwReal")
+            (display-label  "Sensor Sensitivity Modifier")
+            (display-units  "")
+            (source-units  "")
+            (default-value  1.000000)
+         )
+         (real-parameter-data 
+            (parameter-name  "suppression-factor")
+            (variable-type  "DtRwReal")
+            (display-label  "Factor By Which Suppression Degrades Sensitivity")
+            (display-units  "")
+            (source-units  "")
+            (default-value  0)
+         )
+      )
+      (meta-data-entry-list 
+         (detect-object-types-input 
+            (detect-object-types-input-port-name  "object-types-to-detect")
+         )
+         (detected-objects-output 
+            (detected-objects-output-port-name  "detected-objects")
+         )
+      )
+   )
+)

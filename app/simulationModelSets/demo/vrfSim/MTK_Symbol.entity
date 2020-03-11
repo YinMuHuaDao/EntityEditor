@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:101:1:222:2:11:0:0" matchType="1:101:1:222:2:11:0:0" platform="@(platforms-dir)/Symbol_Object.ope">
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <sensorSignatures/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"Military" "Overlay" "Symbol"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">MTK Symbol</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"TacticalGraphicCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-21131-MTK</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="short-name">MTK</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

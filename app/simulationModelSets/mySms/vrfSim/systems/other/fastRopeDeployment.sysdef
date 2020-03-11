@@ -1,0 +1,46 @@
+(deploy-fast-ropes
+   (systems )
+   (sensors )
+   (controllers 
+      (script-enable-controller
+         (component-descriptor-type "script-enable-controller-descriptor")
+         (component-type  "script-enable-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (script-ids "Deploy_Ropes" "FastRopeInsertion")
+         (script-variables  
+		    (deploy-ropes-variables
+               (script-id "Deploy_Ropes")
+               (variables
+                  (DtRwOffsetVector Rope-Location $rope-location)
+               )
+            )
+         )
+      )
+   )
+   (actuators )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "Fast Roping")
+      (system-description  "Allows troops to fast rope from this vehicle.")
+      (allowed-state-repository-types "all")
+      (system-categories "other")
+      (parameter-data-list 
+         (vector-parameter-data 
+            (parameter-name  "rope-location")
+            (variable-type  "DtRwOffsetVector")
+            (display-label  "Rope Location")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  1.200000 0.000000 -0.600000)
+            (relative-to  "")
+         )
+      )
+      (meta-data-entry-list )
+   )
+)

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:4:225:8:1:0:0" matchType="1:1:4:225:8:1:0:0" platform="@(platforms-dir)/Subsurface_Vehicle.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="3" right="-0.25" down="0"/>
+      <bodyPosition paramName="other-support" forward="-3" right="0" down="0"/>
+      <bodyPosition paramName="right-support" forward="3" right="0.25" down="0"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="center">
+         <dimensions length="6" width="0.5" height="0.52"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)/damage/subsurface-default.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)/movement/subsurface-dynamics.sysdef">
+         <real paramName="fuel-amount">537</real>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)/other/spot-report-generator.sysdef"/>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-subsurface-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)/other/spot-report-receiver.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\sonar-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="-2"/>
+         <bool paramName="active-by-default">False</bool>
+         <bool paramName="sonar-dip-capable">True</bool>
+         <real paramName="max-effective-speed">10</real>
+         <real paramName="max-range">4000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <real paramName="disaggregation-range">4100</real>
+      <real paramName="mass">1244.87</real>
+      <real paramName="max-acceleration">0.1</real>
+      <real paramName="max-deceleration">0.1</real>
+      <real paramName="max-depth">1000</real>
+      <real paramName="max-lateral-acceleration">0.2</real>
+      <real paramName="max-slope">1</real>
+      <real paramName="max-speed">7.305555</real>
+      <real paramName="ordered-speed">7.222222</real>
+      <real paramName="turning-radius">6</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">1</real>
+         <real paramName="infrared-signature">0</real>
+         <real paramName="mad-signature">0.3</real>
+         <real paramName="passive-sonar-signature">2</real>
+         <real paramName="radar-signature">0</real>
+         <real paramName="visual-signature">0</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"Military" "Subsurface" "Unmanned" "Watercraft"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries">"United States"</string>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">AN/BLQ-11 UUV</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-57789537-AN/BLQ-11</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\Subsurface\ANBLQ-11 UUV.medf</string>
+      <string paramName="short-name">UUV</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

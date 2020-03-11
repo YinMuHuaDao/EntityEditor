@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:3:225:84:1:1:1" matchType="1:1:3:225:84:1:1:1" platform="@(platforms-dir)/Surface_Ship.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="4.05" right="-1.4" down="0"/>
+      <bodyPosition paramName="other-support" forward="-4.05" right="0" down="0"/>
+      <bodyPosition paramName="right-support" forward="4.05" right="1.4" down="0"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">True</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="protect-from-collateral-damage">True</bool>
+      <bool paramName="use-object-geometry">True</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="custom">
+         <dimensions length="12.6" width="4.51" height="8.29"/>
+         <offset forward="-0.0003" right="0.264" down="-3.51"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\surface-small-craft.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\small-boat.sysdef">
+         <real paramName="fuel-amount">50</real>
+      </componentSystem>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\visual-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="0"/>
+         <real paramName="max-range">4000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <real paramName="suppression-factor">0</real>
+      </componentSystem>
+      <real paramName="disaggregation-range">4100</real>
+      <real paramName="mass">2000</real>
+      <real paramName="max-acceleration">5</real>
+      <real paramName="max-deceleration">5</real>
+      <real paramName="max-lateral-acceleration">6</real>
+      <real paramName="max-reverse-speed">7.5</real>
+      <real paramName="max-speed">15</real>
+      <real paramName="ordered-speed">8</real>
+      <real paramName="turning-radius">2</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">2</real>
+         <real paramName="infrared-signature">25</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">2</real>
+         <real paramName="radar-signature">25</real>
+         <real paramName="visual-signature">10</real>
+      </sensorSignatures>
+      <slotExclusions paramName="slot-exclusions">
+         <slotExclusion/>
+      </slotExclusions>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"3D Model" "Civilian" "Surface" "Watercraft"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Tiara 3900 Yacht</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-36642740-Tiara 3900 Yacht</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="nav-data-path"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)/Vehicles/Surface/Tiara3900/Tiara3900.medf</string>
+      <string paramName="short-name">CIV</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

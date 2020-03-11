@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:2:225:50:0:0:0" matchType="1:1:2:225:50:-1:-1:-1" platform="@(platforms-dir)/Rotary_Wing_Aircraft.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="-0.05954410135746" right="-1.005570054054" down="1.756199985437e-008"/>
+      <bodyPosition paramName="other-support" forward="0.9652640223503" right="-1.192090053337e-006" down="4.141849885286e-008"/>
+      <bodyPosition paramName="right-support" forward="-0.05954610183835" right="1.005570054054" down="6.527500318043e-008"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="custom">
+         <dimensions length="1.96" width="2.07" height="1.69"/>
+         <offset forward="0.0164" right="-1.19e-006" down="-0.844"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)/damage/rotary-wing-default.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\rotary-wing-vtuav.sysdef">
+         <bool paramName="use-fuel">False</bool>
+         <real paramName="fuel-amount">11</real>
+         <real paramName="fuel-per-kN">5.8e-007</real>
+         <real paramName="fuel-weight">0.81</real>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\spot-report-generator.sysdef">
+         <bool paramName="broadcast">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-air-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)\other/iff-transponder.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\airborne-targeting-radar.sysdef">
+         <bodyPosition paramName="sensor-position" forward="3" right="0" down="0"/>
+         <real paramName="max-range">10000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <real paramName="disaggregation-range">11000</real>
+      <real paramName="drag-coefficient">0.8</real>
+      <real paramName="drag-reference-area">0.25</real>
+      <real paramName="full-collective-lift-acceleration">30</real>
+      <real paramName="mass">129</real>
+      <real paramName="max-acceleration">16</real>
+      <real paramName="max-altitude">12000</real>
+      <real paramName="max-climb-rate">50</real>
+      <real paramName="max-deceleration">12</real>
+      <real paramName="max-pitch-acceleration">1.2</real>
+      <real paramName="max-pitch-rate">2.5</real>
+      <real paramName="max-roll-acceleration">2.28</real>
+      <real paramName="max-roll-rate">5</real>
+      <real paramName="max-speed">140</real>
+      <real paramName="max-yaw-acceleration">1</real>
+      <real paramName="max-yaw-rate">5</real>
+      <real paramName="ordered-speed">30</real>
+      <real paramName="zero-collective-lift-acceleration">-10</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">2</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">2</real>
+         <real paramName="visual-signature">2</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"3D Model" "Aircraft" "Military" "Rotary Wing" "Surveillance" "Unmanned"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Cypher VTUAV</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-264455106-Cypher VTUAV</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\RotaryWing\VTUAV_Cypher\VTUAV_Cypher.medf</string>
+      <string paramName="short-name">UAV</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

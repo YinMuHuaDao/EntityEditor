@@ -1,0 +1,2009 @@
+(detonation-params
+    (detonation-power-table
+        ;; Represents the power of munitions in different damage categories as a function of range. The meaning of the power value is specific
+        ;; to the damage category. Power values cannot be compared between different damage categories.
+        ;; Supported damage categories:
+        ;;   explosive      - expressed in kPa of incident pressure
+        ;;   kinetic        - expressed in kJ of energy
+        ;;   armor-piercing - expressed in mm of armor penetration 
+        ;;                    (note: armor-piercing is a sub-category of kinetic damage. kinetic damage should also be defined for these munitions.)
+        ;;   fragmentation  - expressed as chance of kill
+        ;; Power determinants are based on range. The range-from value indicates how range is measured.
+        ;; Supported range-from settings:
+        ;;   impact-point      - distance from the point of detonation
+        ;;   shooter-to-impact - distance from the shooter to the point of detonation
+        ;; Supported power determinants:
+        ;;   range-list          - step function defining the power at specific ranges.
+        ;;   range-coefficients  - coefficients (a,b,c) of a polynomial (ar^2 + br + c) that convert range (r) to power
+        ;;   equivalent-tnt-mass - specify equivalent TNT mass (in kg) for input into Kingery-Bulmash incident pressure equation 
+        ;;   direct              - power at point of detonation regardless of range
+        (detonation-power-entry
+           (munition
+               ;; Generic Anti-Air
+              (munition-type  2 1 -1 -1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 8.5
+                       (power 70.0)
+                    )
+                    (range 11.0
+                       (power 45.0)
+                    )
+                    (range 12.0
+                       (power 35.0)
+                    )
+                    (range 14.0
+                       (power 30.0)
+                    )
+                    (range 17.5
+                       (power 20.0)
+                    )
+                    (range 24.0
+                       (power 12.5)
+                    )
+                    (range 36.0
+                       (power 7.5)
+                    )
+                    (range 66.0
+                       (power 3.5)
+                    )
+                    (range 86.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; AIM-9L/M/S
+              (munition-type  2 1 -1 1 1 3 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 8.5
+                       (power 70.0)
+                    )
+                    (range 11.0
+                       (power 45.0)
+                    )
+                    (range 12.0
+                       (power 35.0)
+                    )
+                    (range 14.0
+                       (power 30.0)
+                    )
+                    (range 17.5
+                       (power 20.0)
+                    )
+                    (range 24.0
+                       (power 12.5)
+                    )
+                    (range 36.0
+                       (power 7.5)
+                    )
+                    (range 66.0
+                       (power 3.5)
+                    )
+                    (range 86.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic Anti-Armor
+              (munition-type  2 2 -1 -1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 7.0
+                       (power 70.0)
+                    )
+                    (range 9.2
+                       (power 45.0)
+                    )
+                    (range 10.3
+                       (power 35.0)
+                    )
+                    (range 12.0
+                       (power 30.0)
+                    )
+                    (range 14.7
+                       (power 20.0)
+                    )
+                    (range 20.0
+                       (power 12.5)
+                    )
+                    (range 30.5
+                       (power 7.5)
+                    )
+                    (range 56.0
+                       (power 3.5)
+                    )
+                    (range 72.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; BGM-71 TOW
+              (munition-type  2 2 225 1 1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 7.0
+                       (power 70.0)
+                    )
+                    (range 9.2
+                       (power 45.0)
+                    )
+                    (range 10.3
+                       (power 35.0)
+                    )
+                    (range 12.0
+                       (power 30.0)
+                    )
+                    (range 14.7
+                       (power 20.0)
+                    )
+                    (range 20.0
+                       (power 12.5)
+                    )
+                    (range 30.5
+                       (power 7.5)
+                    )
+                    (range 56.0
+                       (power 3.5)
+                    )
+                    (range 72.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; AGM-114 Hellfire
+              (munition-type  2 2 225 1 3 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 8.0
+                       (power 70.0)
+                    )
+                    (range 9.5
+                       (power 45.0)
+                    )
+                    (range 11.8
+                       (power 35.0)
+                    )
+                    (range 13.5
+                       (power 30.0)
+                    )
+                    (range 16.7
+                       (power 20.0)
+                    )
+                    (range 23.0
+                       (power 12.5)
+                    )
+                    (range 35.0
+                       (power 7.5)
+                    )
+                    (range 64.0
+                       (power 3.5)
+                    )
+                    (range 83.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; AGM-65 Maverick
+              (munition-type  2 2 225 1 4 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 15.0
+                       (power 70.0)
+                    )
+                    (range 19.0
+                       (power 45.0)
+                    )
+                    (range 22.0
+                       (power 35.0)
+                    )
+                    (range 25.0
+                       (power 30.0)
+                    )
+                    (range 31.0
+                       (power 20.0)
+                    )
+                    (range 45.0
+                       (power 12.5)
+                    )
+                    (range 65.0
+                       (power 7.5)
+                    )
+                    (range 120.0
+                       (power 3.5)
+                    )
+                    (range 156.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; AT-6 Spiral
+              (munition-type  2 2 222 1 8 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 8.0
+                       (power 70.0)
+                    )
+                    (range 9.5
+                       (power 45.0)
+                    )
+                    (range 11.8
+                       (power 35.0)
+                    )
+                    (range 13.5
+                       (power 30.0)
+                    )
+                    (range 16.7
+                       (power 20.0)
+                    )
+                    (range 23.0
+                       (power 12.5)
+                    )
+                    (range 35.0
+                       (power 7.5)
+                    )
+                    (range 64.0
+                       (power 3.5)
+                    )
+                    (range 83.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; M136, HEAT
+              (munition-type  2 2 225 2 8 1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.0
+                       (power 70.0)
+                    )
+                    (range 4.0
+                       (power 40.0)
+                    )
+                    (range 5.0
+                       (power 27.5)
+                    )
+                    (range 6.0
+                       (power 20.0)
+                    )
+                    (range 8.5
+                       (power 12.5)
+                    )
+                    (range 12.8
+                       (power 7.5)
+                    )
+                    (range 23.0
+                       (power 3.5)
+                    )
+                    (range 30.0
+                       (power 2.4)
+                    )
+                 )
+              )
+              (kinetic
+                 (direct 272.873) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic guided antiship
+              (munition-type  2 6 -1 1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 25.5
+                       (power 70.0)
+                    )
+                    (range 35.0
+                       (power 45.0)
+                    )
+                    (range 38.0
+                       (power 35.0)
+                    )
+                    (range 42.0
+                       (power 30.0)
+                    )
+                    (range 53.0
+                       (power 20.0)
+                    )
+                    (range 75.0
+                       (power 12.5)
+                    )
+                    (range 110.0
+                       (power 7.5)
+                    )
+                    (range 200.0
+                       (power 3.5)
+                    )
+                    (range 264.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Mk 48
+              (munition-type  2 6 225 1 14 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 25.5
+                       (power 70.0)
+                    )
+                    (range 35.0
+                       (power 45.0)
+                    )
+                    (range 38.0
+                       (power 35.0)
+                    )
+                    (range 42.0
+                       (power 30.0)
+                    )
+                    (range 53.0
+                       (power 20.0)
+                    )
+                    (range 75.0
+                       (power 12.5)
+                    )
+                    (range 110.0
+                       (power 7.5)
+                    )
+                    (range 200.0
+                       (power 3.5)
+                    )
+                    (range 264.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic guided antisubmarine
+              (munition-type  2 7 -1 1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 10.0
+                       (power 200.0)
+                    )
+                    (range 16.5
+                       (power 70.0)
+                    )
+                    (range 21.0
+                       (power 45.0)
+                    )
+                    (range 24.5
+                       (power 35.0)
+                    )
+                    (range 28.0
+                       (power 30.0)
+                    )
+                    (range 35.0
+                       (power 20.0)
+                    )
+                    (range 49.0
+                       (power 12.5)
+                    )
+                    (range 72.0
+                       (power 7.5)
+                    )
+                    (range 135.0
+                       (power 3.5)
+                    )
+                    (range 172.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Fixed Antiship
+              (munition-type  2 6 -1 3 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 10.0
+                       (power 200.0)
+                    )
+                    (range 16.5
+                       (power 70.0)
+                    )
+                    (range 21.0
+                       (power 45.0)
+                    )
+                    (range 24.5
+                       (power 35.0)
+                    )
+                    (range 28.0
+                       (power 30.0)
+                    )
+                    (range 35.0
+                       (power 20.0)
+                    )
+                    (range 49.0
+                       (power 12.5)
+                    )
+                    (range 72.0
+                       (power 7.5)
+                    )
+                    (range 135.0
+                       (power 3.5)
+                    )
+                    (range 172.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Quickstrike Mines
+              (munition-type  2 6 225 3 8 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 16.5
+                       (power 70.0)
+                    )
+                    (range 21.0
+                       (power 45.0)
+                    )
+                    (range 24.5
+                       (power 35.0)
+                    )
+                    (range 28.0
+                       (power 30.0)
+                    )
+                    (range 35.0
+                       (power 20.0)
+                    )
+                    (range 49.0
+                       (power 12.5)
+                    )
+                    (range 72.0
+                       (power 7.5)
+                    )
+                    (range 135.0
+                       (power 3.5)
+                    )
+                    (range 172.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic fixed antipersonnel
+              (munition-type  2 8 -1 3 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.4
+                       (power 70.0)
+                    )
+                    (range 4.5
+                       (power 40.0)
+                    )
+                    (range 5.6
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 10.0
+                       (power 12.5)
+                    )
+                    (range 15.0
+                       (power 7.5)
+                    )
+                    (range 28.0
+                       (power 3.5)
+                    )
+                    (range 35.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Claymore mine
+              (munition-type  2 8 225 3 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.4
+                       (power 70.0)
+                    )
+                    (range 4.5
+                       (power 40.0)
+                    )
+                    (range 5.6
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 10.0
+                       (power 12.5)
+                    )
+                    (range 15.0
+                       (power 7.5)
+                    )
+                    (range 28.0
+                       (power 3.5)
+                    )
+                    (range 35.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic battlefield support
+              (munition-type  2 9 -1 -1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 28.0
+                       (power 70.0)
+                    )
+                    (range 36.0
+                       (power 45.0)
+                    )
+                    (range 41.5
+                       (power 35.0)
+                    )
+                    (range 47.0
+                       (power 30.0)
+                    )
+                    (range 59.0
+                       (power 20.0)
+                    )
+                    (range 82.0
+                       (power 12.5)
+                    )
+                    (range 121.0
+                       (power 7.5)
+                    )
+                    (range 222.0
+                       (power 3.5)
+                    )
+                    (range 289.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Mk 84
+              (munition-type  2 9 -1 1 15 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 35.0
+                       (power 70.0)
+                    )
+                    (range 45.0
+                       (power 45.0)
+                    )
+                    (range 51.0
+                       (power 35.0)
+                    )
+                    (range 58.0
+                       (power 30.0)
+                    )
+                    (range 73.0
+                       (power 20.0)
+                    )
+                    (range 102.0
+                       (power 12.5)
+                    )
+                    (range 151.0
+                       (power 7.5)
+                    )
+                    (range 275.0
+                       (power 3.5)
+                    )
+                    (range 360.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; KAB-500N laser-guided HE
+              (munition-type  2 9 222 1 15 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 28.0
+                       (power 70.0)
+                    )
+                    (range 36.0
+                       (power 45.0)
+                    )
+                    (range 41.5
+                       (power 35.0)
+                    )
+                    (range 47.0
+                       (power 30.0)
+                    )
+                    (range 59.0
+                       (power 20.0)
+                    )
+                    (range 82.0
+                       (power 12.5)
+                    )
+                    (range 121.0
+                       (power 7.5)
+                    )
+                    (range 222.0
+                       (power 3.5)
+                    )
+                    (range 289.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Army TACMS
+              (munition-type  2 9 225 1 17 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 23.0
+                       (power 70.0)
+                    )
+                    (range 31.0
+                       (power 45.0)
+                    )
+                    (range 35.0
+                       (power 35.0)
+                    )
+                    (range 39.0
+                       (power 30.0)
+                    )
+                    (range 49.5
+                       (power 20.0)
+                    )
+                    (range 70.0
+                       (power 12.5)
+                    )
+                    (range 103.0
+                       (power 7.5)
+                    )
+                    (range 188.0
+                       (power 3.5)
+                    )
+                    (range 245.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Wind-Corrected Munitions Dispenser (WCMD) - cluster bomb
+              (munition-type  2 9 225 1 22 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 365.76
+                       (power 50.0)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Hydra-70 Rocket System; Advanced Precision Kill Weapon System (APKWS)
+              (munition-type  2 9 225 1 27 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 4.5
+                       (power 70.0)
+                    )
+                    (range 6.0
+                       (power 40.0)
+                    )
+                    (range 7.8
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 13.5
+                       (power 12.5)
+                    )
+                    (range 20.0
+                       (power 7.5)
+                    )
+                    (range 37.0
+                       (power 3.5)
+                    )
+                    (range 47.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; M789 HEDP
+              (munition-type  2 9 225 2 3 1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 1.0
+                       (power 70.0)
+                    )
+                    (range 1.5
+                       (power 40.0)
+                    )
+                    (range 2.0
+                       (power 27.5)
+                    )
+                    (range 2.3
+                       (power 20.0)
+                    )
+                    (range 3.4
+                       (power 12.5)
+                    )
+                    (range 5.1
+                       (power 7.5)
+                    )
+                    (range 9.0
+                       (power 3.5)
+                    )
+                    (range 11.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 66 mm rocket
+              (munition-type  2 9 225 2 6 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.1
+                       (power 70.0)
+                    )
+                    (range 4.1
+                       (power 40.0)
+                    )
+                    (range 5.3
+                       (power 27.5)
+                    )
+                    (range 6.4
+                       (power 20.0)
+                    )
+                    (range 8.9
+                       (power 12.5)
+                    )
+                    (range 13.3
+                       (power 7.5)
+                    )
+                    (range 24.5
+                       (power 3.5)
+                    )
+                    (range 33.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 76 mm rocket
+              (munition-type  2 9 225 2 7 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.5
+                       (power 70.0)
+                    )
+                    (range 4.6
+                       (power 40.0)
+                    )
+                    (range 5.7
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 10.0
+                       (power 12.5)
+                    )
+                    (range 16.8
+                       (power 7.5)
+                    )
+                    (range 27.0
+                       (power 3.5)
+                    )
+                    (range 35.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 81 mm rocket
+              (munition-type  2 9 225 2 8 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.9
+                       (power 70.0)
+                    )
+                    (range 5.0
+                       (power 40.0)
+                    )
+                    (range 6.1
+                       (power 27.5)
+                    )
+                    (range 7.5
+                       (power 20.0)
+                    )
+                    (range 11.1
+                       (power 12.5)
+                    )
+                    (range 16.5
+                       (power 7.5)
+                    )
+                    (range 29.0
+                       (power 3.5)
+                    )
+                    (range 37.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 127 mm (5.0 in)
+              (munition-type  2 9 225 2 12 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 10.4
+                       (power 70.0)
+                    )
+                    (range 13.0
+                       (power 45.0)
+                    )
+                    (range 15.5
+                       (power 35.0)
+                    )
+                    (range 17.0
+                       (power 30.0)
+                    )
+                    (range 22.0
+                       (power 20.0)
+                    )
+                    (range 31.5
+                       (power 12.5)
+                    )
+                    (range 45.0
+                       (power 7.5)
+                    )
+                    (range 83.0
+                       (power 3.5)
+                    )
+                    (range 108.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; M107 HE (155 mm)    
+              (munition-type  2 9 225 2 14 2 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (equivalent-tnt-mass 5.74) ;; kg
+              )
+           )
+        )
+		(detonation-power-entry
+           (munition
+               ;; 40mm M203 grenade
+              (munition-type  2 9 225 2 4 2 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+			   (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 5.0
+                       (power 70.0)
+                    )
+                    (range 7.2
+                       (power 45.0)
+                    )
+                    (range 9.3
+                       (power 35.0)
+                    )
+                    (range 10.0
+                       (power 30.0)
+                    )
+                    (range 12.7
+                       (power 20.0)
+                    )
+                    (range 18.0
+                       (power 12.5)
+                    )
+                    (range 28.5
+                       (power 7.5)
+                    )
+                    (range 54.0
+                       (power 3.5)
+                    )
+                    (range 70.0
+                       (power 2.4)
+                    )
+                 )
+              )
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -8.9000E-006   0.0000   178.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.000E-006   0.0000   50.0)
+              )
+           )
+        )
+		(detonation-power-entry
+           (munition
+               ;; M67 hand grenade   
+              (munition-type  2 9 225 2 85 1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (fragmentation
+                 (range-from "impact-point")
+                 (range-list
+                    (range 1.0
+                       (power 1.0)
+                    )
+                    (range 2.0
+                       (power 0.8)
+                    )
+                    (range 3.0
+                       (power 0.6)
+                    )
+                    (range 4.0
+                       (power 0.4)
+                    )
+                    (range 5.0
+                       (power 0.2)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; SCUD-B
+              (munition-type  2 11 222 2 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 38.0
+                       (power 70.0)
+                    )
+                    (range 50.0
+                       (power 45.0)
+                    )
+                    (range 56.6
+                       (power 35.0)
+                    )
+                    (range 65.0
+                       (power 30.0)
+                    )
+                    (range 80.0
+                       (power 20.0)
+                    )
+                    (range 113.0
+                       (power 12.5)
+                    )
+                    (range 167.0
+                       (power 7.5)
+                    )
+                    (range 305.0
+                       (power 3.5)
+                    )
+                    (range 397.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic strategic
+              (munition-type  2 10 -1 -1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 6000.0
+                       (power 70.0)
+                    )
+                    (range 7800.0
+                       (power 45.0)
+                    )
+                    (range 9000.0
+                       (power 35.0)
+                    )
+                    (range 10000.0
+                       (power 30.0)
+                    )
+                    (range 13000.0
+                       (power 20.0)
+                    )
+                    (range 18000.0
+                       (power 12.5)
+                    )
+                    (range 26500.0
+                       (power 7.5)
+                    )
+                    (range 48000.0
+                       (power 3.5)
+                    )
+                    (range 63500.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; SS-24 Scapel
+              (munition-type  2 10 222 1 21 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                 ;; Comment out nuclear impact values.
+                 ;;   (range 6000.0
+                 ;;      (power 70.0)
+                 ;;   )
+                 ;;   (range 7800.0
+                 ;;      (power 45.0)
+                 ;;   )
+                 ;;   (range 9000.0
+                 ;;      (power 35.0)
+                 ;;   )
+                 ;;   (range 10000.0
+                 ;;      (power 30.0)
+                 ;;   )
+                 ;;   (range 13000.0
+                 ;;      (power 20.0)
+                 ;;   )
+                 ;;   (range 18000.0
+                 ;;      (power 12.5)
+                 ;;   )
+                 ;;   (range 26500.0
+                 ;;      (power 7.5)
+                 ;;   )
+                 ;;   (range 48000.0
+                 ;;      (power 3.5)
+                 ;;   )
+                 ;;   (range 63500.0
+                 ;;      (power 2.4)
+                 ;;   )
+                    (range 38.0
+                       (power 70.0)
+                    )
+                    (range 50.0
+                       (power 45.0)
+                    )
+                    (range 56.6
+                       (power 35.0)
+                    )
+                    (range 65.0
+                       (power 30.0)
+                    )
+                    (range 80.0
+                       (power 20.0)
+                    )
+                    (range 113.0
+                       (power 12.5)
+                    )
+                    (range 167.0
+                       (power 7.5)
+                    )
+                    (range 305.0
+                       (power 3.5)
+                    )
+                    (range 397.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic ballistic anti-armor
+              (munition-type  2 2 -1 2 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -9.0250E-007   0.0000   18.05)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -9.5000E-007   0.0000   19.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 12.7-mm (.50 Cal) 
+              (munition-type  2 2 225 2 1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -9.0250E-007   0.0000   18.05)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -9.5000E-007   0.0000   19.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 30 mm
+              (munition-type  2 2 222 2 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -8.9000E-006   0.0000   178.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.000E-006   0.0000   20.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 30 mm AP-T
+              (munition-type  2 2 222 2 2 1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.0000E-005   0.0000   200.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.000E-006   0.0000   20.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 20 mm
+              (munition-type  2 2 225 2 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -2.3500E-006   0.0000   47.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.5000E-007   0.0000   7.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 25 mm
+              (munition-type  2 2 225 2 3 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -5.6100E-006   0.0000   112.26)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.2500E-006   0.0000   25.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; M791.APDS-T
+              (munition-type  2 2 225 2 3 2 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -6.0800E-006   0.0000   121.57)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.2500E-006   0.0000   25.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 30 mm
+              (munition-type  2 2 225 2 4 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.0000E-005   0.0000   200.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.2500E-006   0.0000   65.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; PGU-14/B API; PGU-13/B HEI 4:1 ratio
+              (munition-type  2 2 225 2 4 2 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.0000E-005   0.0000   200.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.2500E-006   0.0000   65.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 85 mm HEAT
+              (munition-type  2 2 222 2 8 1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.5
+                       (power 70.0)
+                    )
+                    (range 4.6
+                       (power 40.0)
+                    )
+                    (range 5.7
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 10.0
+                       (power 12.5)
+                    )
+                    (range 16.8
+                       (power 7.5)
+                    )
+                    (range 27.0
+                       (power 3.5)
+                    )
+                    (range 35.0
+                       (power 2.4)
+                    )
+                 )
+              )
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -2.6600E-004   0.0000   5319.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -9.0000E-006   0.0000   180.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 125 mm
+              (munition-type  2 2 222 2 11 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.5000E-004   0.0000   7000.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -8.5000E-006   0.0000   170.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; APFSDS-T BM-9
+              (munition-type  2 2 222 2 11 1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.5000E-004   0.0000   7000.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -8.5000E-006   0.0000   170.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; HEAT-FS BM-14m
+              (munition-type  2 2 222 2 11 3 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 4.5
+                       (power 70.0)
+                    )
+                    (range 6.0
+                       (power 40.0)
+                    )
+                    (range 7.8
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 13.5
+                       (power 12.5)
+                    )
+                    (range 20.0
+                       (power 7.5)
+                    )
+                    (range 37.0
+                       (power 3.5)
+                    )
+                    (range 47.0
+                       (power 2.4)
+                    )
+                 )
+              )
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.5000E-004   0.0000   7000.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -2.0000E-005   0.0000   400.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 120 mm
+              (munition-type  2 2 225 2 13 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -5.2300E-004   0.0000   10454.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -2.5000E-005   0.0000   500.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; M829A1 APFSDS-T
+              (munition-type  2 2 225 2 13 2 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.3000E-003   0.0000   26005.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -3.0000E-005   0.0000   600.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+              ;; M830 HEAT-MP-T
+              (munition-type  2 2 225 2 13 3 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 4.3
+                       (power 70.0)
+                    )
+                    (range 5.5
+                       (power 45.0)
+                    )
+                    (range 6.3
+                       (power 35.0)
+                    )
+                    (range 7.0
+                       (power 30.0)
+                    )
+                    (range 9.0
+                       (power 20.0)
+                    )
+                    (range 12.7
+                       (power 12.5)
+                    )
+                    (range 18.9
+                       (power 7.5)
+                    )
+                    (range 34.0
+                       (power 3.5)
+                    )
+                    (range 44.0
+                       (power 2.4)
+                    )
+                 )
+              )
+              (kinetic
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -1.1000E-003   0.0000   21916.0)
+              )
+              (armor-piercing
+                 (range-from "shooter-to-impact")
+                 (range-coefficients -2.5000E-005   0.0000   500.0)
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Fixed Anti-Armor
+              (munition-type  2 2 -1 3 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 1.25
+                       (power 70.0)
+                    )
+                    (range 2.25
+                       (power 27.5)
+                    )
+                    (range 2.6
+                       (power 20.0)
+                    )
+                    (range 3.7
+                       (power 12.5)
+                    )
+                    (range 5.5
+                       (power 7.5)
+                    )
+                    (range 10.0
+                       (power 3.5)
+                    )
+                    (range 13.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic guided antiradar
+              (munition-type  2 4 -1 1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 8.0
+                       (power 70.0)
+                    )
+                    (range 9.5
+                       (power 45.0)
+                    )
+                    (range 11.8
+                       (power 35.0)
+                    )
+                    (range 13.5
+                       (power 30.0)
+                    )
+                    (range 16.7
+                       (power 20.0)
+                    )
+                    (range 23.0
+                       (power 12.5)
+                    )
+                    (range 35.0
+                       (power 7.5)
+                    )
+                    (range 64.0
+                       (power 3.5)
+                    )
+                    (range 83.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 5.45 mm
+              (munition-type  2 8 222 2 1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 1.33) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Ballistic Antipersonnel
+              (munition-type  2 8 -1 2 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 1.5) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 7.62 mm
+              (munition-type  2 8 -1 2 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 2.24) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 9 mm
+              (munition-type  2 8 222 2 3 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 0.678) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic ballistic battlefield support
+              (munition-type  2 9 -1 2 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 47.0) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 20 mm
+              (munition-type  2 9 -1 2 1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 47.0) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 20 mm
+              (munition-type  2 9 222 2 1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 18.0) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 25 mm
+              (munition-type  2 9 -1 2 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 112.0) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 14.5 mm Soviet machine gun (aka 14.5 x 114mm)
+              (munition-type  2 9 222 2 2 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 29.85) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; 30 mm
+              (munition-type  2 9 -1 2 3 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 200.0) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Generic Munition - we'll just treat it like a small bullet
+              (munition-type  2 -1 -1 -1 -1 -1 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (kinetic
+                 (direct 1.5) ;; Kilojoules
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Medium enviornmental explosion
+              (munition-type  2 0 0 4 1 2 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 3.0
+                       (power 70.0)
+                    )
+                    (range 4.0
+                       (power 40.0)
+                    )
+                    (range 5.0
+                       (power 27.5)
+                    )
+                    (range 6.0
+                       (power 20.0)
+                    )
+                    (range 8.5
+                       (power 12.5)
+                    )
+                    (range 12.8
+                       (power 7.5)
+                    )
+                    (range 23.0
+                       (power 3.5)
+                    )
+                    (range 30.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Large enviornmental explosion
+              (munition-type  2 0 0 4 1 3 -1)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list
+              (explosive
+                 (range-from "impact-point")
+                 (range-list
+                    (range 4.5
+                       (power 70.0)
+                    )
+                    (range 6.0
+                       (power 40.0)
+                    )
+                    (range 7.8
+                       (power 27.5)
+                    )
+                    (range 7.0
+                       (power 20.0)
+                    )
+                    (range 13.5
+                       (power 12.5)
+                    )
+                    (range 20.0
+                       (power 7.5)
+                    )
+                    (range 37.0
+                       (power 3.5)
+                    )
+                    (range 47.0
+                       (power 2.4)
+                    )
+                 )
+              )
+           )
+        )
+        (detonation-power-entry
+           (munition
+               ;; Building collapse - does no addtional damage
+              (munition-type  2 0 0 4 2 0 0)
+              (warhead  -1)
+              (guidance-mode  0)
+           )
+           (power-list )
+        )
+    )
+)
+

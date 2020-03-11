@@ -1,0 +1,18 @@
+category,rank,topLevelTag,iconFilename,visible
+Aggregate,100,0,,1
+Aircraft,2,1,$(DATA_DIR)/Icons/EntityAir.svg,1
+Artillery,100,0,,1
+Contamination Area,100,0,,1
+Control Objects,100,0,,1
+Echelon,100,0,,1
+Emergency Point,100,0,,1
+Engineering Objects,100,0,,1
+Hazard,100,0,,1
+Infantry,20,0,,1
+Land,1,1,$(DATA_DIR)/Icons/EntityLand.svg,1
+Land Point,100,0,,1
+Light Armor,100,0,,1
+Naval,3,1,$(DATA_DIR)/Icons/EntityMarine.svg,1
+Reference Point,100,0,,1
+Supply,100,0,,1
+Tank,20,0,,1

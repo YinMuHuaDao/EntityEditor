@@ -1,0 +1,158 @@
+;;
+;; File - fixed-wing-kinetic.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Fixed Wings vs. kinetic damage
+;; All power values are in kJ of energy.
+;; (for example only!)
+;;
+(damage-table 
+   (front 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant
+            (step-function (round-down 1)
+               (power 17.1
+                  (catastrophic-kill  0.01)
+               )
+               (power 17.5
+                  (catastrophic-kill  0.45)
+               )
+               (power 17.8
+                  (catastrophic-kill  0.6)
+               )
+               (power 17.9
+                  (catastrophic-kill  0.75)
+               )
+               (power 18.0
+                  (catastrophic-kill  0.9)
+               )
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (step-function (round-down 1)
+               (power 17.1
+                  (catastrophic-kill  0.01)
+               )
+               (power 17.5
+                  (catastrophic-kill  0.45)
+               )
+               (power 17.8
+                  (catastrophic-kill  0.6)
+               )
+               (power 17.9
+                  (catastrophic-kill  0.75)
+               )
+               (power 18.0
+                  (catastrophic-kill  0.9)
+               )
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (step-function (round-down 1)
+               (power 17.1
+                  (catastrophic-kill  0.01)
+               )
+               (power 17.5
+                  (catastrophic-kill  0.45)
+               )
+               (power 17.8
+                  (catastrophic-kill  0.6)
+               )
+               (power 17.9
+                  (catastrophic-kill  0.75)
+               )
+               (power 18.0
+                  (catastrophic-kill  0.9)
+               )
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (step-function (round-down 1)
+               (power 17.1
+                  (catastrophic-kill  0.01)
+               )
+               (power 17.5
+                  (catastrophic-kill  0.45)
+               )
+               (power 17.8
+                  (catastrophic-kill  0.6)
+               )
+               (power 17.9
+                  (catastrophic-kill  0.75)
+               )
+               (power 18.0
+                  (catastrophic-kill  0.9)
+               )
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (step-function (round-down 1)
+               (power 17.1
+                  (catastrophic-kill  0.01)
+               )
+               (power 17.5
+                  (catastrophic-kill  0.45)
+               )
+               (power 17.8
+                  (catastrophic-kill  0.6)
+               )
+               (power 17.9
+                  (catastrophic-kill  0.75)
+               )
+               (power 18.0
+                  (catastrophic-kill  0.9)
+               )
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708) ;; 90 degrees
+         (determinant 
+            (step-function (round-down 1)
+               (power 17.1
+                  (catastrophic-kill  0.01)
+               )
+               (power 17.5
+                  (catastrophic-kill  0.45)
+               )
+               (power 17.8
+                  (catastrophic-kill  0.6)
+               )
+               (power 17.9
+                  (catastrophic-kill  0.75)
+               )
+               (power 18.0
+                  (catastrophic-kill  0.9)
+               )
+            )
+         )
+      )
+   )
+)

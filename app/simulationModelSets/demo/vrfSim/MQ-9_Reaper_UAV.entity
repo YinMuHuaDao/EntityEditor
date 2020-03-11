@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:2:225:50:4:4:0" matchType="1:1:2:225:50:4:4:0" platform="@(platforms-dir)/Fixed_Wing_Aircraft.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="0.285118997097" right="-1.752949953079" down="1.949560046196"/>
+      <bodyPosition paramName="other-support" forward="3" right="-0" down="1.8"/>
+      <bodyPosition paramName="right-support" forward="0.285118997097" right="1.752099990845" down="1.949560046196"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="custom">
+         <dimensions length="11.1" width="24.8" height="3.6"/>
+         <offset forward="0.47" right="0" down="0.15"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)/damage/fixed-wing-default.sysdef"/>
+      <componentSystem systemName="movement" platform="@(system-dir)/movement/fixed-wing-high-maneuverability-fighter.sysdef">
+         <real paramName="fuel-amount">3700</real>
+         <string paramName="flight-controls">Flight Controls</string>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\spot-report-generator.sysdef">
+         <bool paramName="broadcast">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-air-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)/other/spot-report-receiver.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\airborne-targeting-radar.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="0"/>
+         <real paramName="max-range">27000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <componentSystem systemName="sensor-2" platform="@(system-dir)\sensors\infrared-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="3" right="0" down="0.5"/>
+         <real paramName="max-range">16000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <real paramName="suppression-factor">0</real>
+      </componentSystem>
+      <componentSystem systemName="sensor-3" platform="@(system-dir)\sensors\gimbaled-visual-sensor.sysdef">
+         <bodyPosition paramName="gimbal-elevation-position" forward="0" right="0" down="0"/>
+         <bodyPosition paramName="sensor-position" forward="4.65" right="0" down="0.7"/>
+         <bool paramName="fixed-az">False</bool>
+         <int paramName="gimbaled-sensor-art-part-type">15424</int>
+         <int paramName="gimbaled-sensor-azimuth-art-part-type">15424</int>
+         <int paramName="gimbaled-sensor-elevation-art-part-type">15744</int>
+         <real paramName="max-azimuth-angle">3.12413936107</real>
+         <real paramName="max-elevation-angle">0</real>
+         <real paramName="max-range">4000</real>
+         <real paramName="max-zoom-level">100</real>
+         <real paramName="min-azimuth-angle">-3.12413936107</real>
+         <real paramName="min-elevation-angle">-1.57079633</real>
+         <real paramName="scan-elevation-angle">-1.3962634</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <string paramName="sensor-id">Gimbaled Sensor</string>
+         <vector paramName="gimbal-elevation-position" x="0" y="0" z="0"/>
+      </componentSystem>
+      <componentSystem systemName="weapon-2" platform="@(system-dir)\weapons\laser-guided-hellfire-missile-launcher.sysdef">
+         <bodyPosition paramName="attach-point" forward="0" right="-1" down="0.3"/>
+         <bodyPosition paramName="laser-position" forward="3" right="0" down="0.55"/>
+         <int paramName="num-missiles">6</int>
+      </componentSystem>
+      <real paramName="disaggregation-range">28000</real>
+      <real paramName="flaps-deceleration">0</real>
+      <real paramName="ground-turning-radius">5</real>
+      <real paramName="mass">4500</real>
+      <real paramName="max-acceleration">16</real>
+      <real paramName="max-altitude">29000</real>
+      <real paramName="max-climb-rate">150</real>
+      <real paramName="max-deceleration">12</real>
+      <real paramName="max-ground-slope">1</real>
+      <real paramName="max-ground-speed">38</real>
+      <real paramName="max-ground-stopping-deceleration">30</real>
+      <real paramName="max-lateral-acceleration">30</real>
+      <real paramName="max-pitch-rate">1.57</real>
+      <real paramName="max-roll-rate">1.57</real>
+      <real paramName="max-speed">133.888889</real>
+      <real paramName="max-yaw-rate">1.57</real>
+      <real paramName="min-speed">20</real>
+      <real paramName="on-ground-tolerance">5</real>
+      <real paramName="ordered-ground-speed">10</real>
+      <real paramName="ordered-speed">83.555556</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">1.5</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">25</real>
+         <real paramName="visual-signature">2</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"3D Model" "Aircraft" "Fixed Wing" "Military" "Surveillance" "Unmanned"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries">"Germany" "Italy" "Netherlands" "Spain" "United Kingdom" "United States"</string>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">MQ-9 Reaper UAV</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-56519561-MQ-9 Reaper</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\FixedWing\MQ-9 Reaper\MQ-9Reaper.medf</string>
+      <string paramName="short-name">UAV</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

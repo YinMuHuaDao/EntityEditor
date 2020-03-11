@@ -1,0 +1,64 @@
+(aircraft-folding-wings
+   (systems )
+   (sensors )
+   (controllers 
+      (script-enable-controller
+	     (component-descriptor-type "script-enable-controller-descriptor")
+         (component-type  "script-enable-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+		 (script-ids "Fold_Wings" "Unfold_Wings")
+	  )
+   )
+   (actuators 
+      (foldingwings 
+         (component-descriptor-type "swinging-part-actuator-descriptor")
+         (component-type  "swinging-part-actuator")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (art-part-list 
+            (landing-gear 
+               (art-part-type  7584)
+               (parent-part-type  -1)
+               (attach-point  0.000000 0.000000 0.000000)
+               (art-part-param-list 
+                  (param-type  11)
+                  (param-type  12)
+                  (param-type  13)
+                  (param-type  14)
+               )
+            )
+         )
+         (z-axis-info
+            (closed-angle  0.0)
+            (open-angle  1.5708)
+            (swing-rate  0.200000)
+         )
+         (y-axis-info
+            (closed-angle  0.0)
+            (open-angle  1.5708)
+            (swing-rate  0.200000)
+         )
+      )
+      
+   )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "Folding Wing")
+      (system-description  "Articulates the folding and unfolding of aircraft wings.")
+      (allowed-state-repository-types "rotary-wing-entity-param" "fixed-wing-entity-param")
+      (system-categories "other")
+      (parameter-data-list          
+      )
+      (meta-data-entry-list )
+   )
+)

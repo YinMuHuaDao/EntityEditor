@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <simulation-object-group-entry name="simulation-object-group">
+    <string paramName="gui-unique-id">ModelSet-77782404-USCGC Bertholf with Fire Scout</string>
+    <string paramName="gui-keywords">simulationObjectGroup</string>
+    <string paramName="gui-default-overlay-layer"/>
+    <string paramName="gui-label">USCGC Bertholf with Fire Scout</string>
+    <string paramName="gui-categories">"3D Model" "Military" "Object Group" "Police" "Surface" "Unit" "Watercraft"</string>
+    <string paramName="gui-deployable-countries"/>
+    <string paramName="gui-menu-icon">1:1:3:225:62:8:1:0</string>
+    <bool paramName="gui-can-create">True</bool>
+    <bool paramName="gui-can-aggregate">False</bool>
+    <bool paramName="IncludeInBVSPCalcs">True</bool>
+    <bool paramName="IsRandomized">False</bool>
+    <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+    <string paramName="object-type">1:256:0:0:0:0:0:3</string>
+    <string paramName="group-description">USCGC Bertholf with Fire Scout and Crew</string>
+    <int paramName="group-creation-flags">36</int>
+    <bool paramName="in-zip-file">False</bool>
+    <DtRwStringAttributeList paramName="additional-information"/>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:dd21a2f8-5bb5-451b-a2b9-505b4bde7e62</DtRwUUID>
+        <string paramName="marking-text">Crew 4</string>
+        <entityType paramName="entity-type">3:1:225:3:0:1:2</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">39911424</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance">sk_n_abm</string>
+        <string paramName="diguy-character-type">fdc_chock_and_chains</string>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="-3.141592327803" pitch="0" roll="0"/>
+        <vector paramName="location" x="-15" y="4" z="-6.8"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:b8f26a1e-1918-489b-9ffd-0ff6a3b5f198</DtRwUUID>
+        <string paramName="marking-text">Crew 1</string>
+        <entityType paramName="entity-type">3:1:225:3:0:1:2</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">39911424</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance">sk_abm</string>
+        <string paramName="diguy-character-type">fdc_chock_and_chains</string>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="-3.141592327803" pitch="0" roll="0"/>
+        <vector paramName="location" x="-15" y="-4" z="-6.8"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <string paramName="marking-text">WMSL 1</string>
+        <entityType paramName="entity-type">1:3:225:62:8:1:0</entityType>
+        <DtRwUUID paramName="attached-to"/>
+        <int paramName="force">1</int>
+        <int paramName="appearance">6291456</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance"/>
+        <string paramName="diguy-character-type"/>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="-3.14159265359" pitch="-1.57079350949" roll="-3.14159265359"/>
+        <vector paramName="location" x="0" y="0" z="0"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:348082e9-c06d-4ec0-8a6d-5a2d537edfdb</DtRwUUID>
+        <string paramName="marking-text">MQ-8B 1</string>
+        <entityType paramName="entity-type">1:2:225:50:35:1:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">2097152</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance"/>
+        <string paramName="diguy-character-type"/>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="0" pitch="0" roll="0"/>
+        <vector paramName="location" x="-26.99945927036" y="-1.472143661037e-008" z="-7.709998275167"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:7532e7d0-612e-4a83-8123-923c0f364eae</DtRwUUID>
+        <string paramName="marking-text">Crew 2</string>
+        <entityType paramName="entity-type">3:1:225:3:0:1:2</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">39911424</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance">sk_abm</string>
+        <string paramName="diguy-character-type">fdc_chock_and_chains</string>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="-3.141592327803" pitch="0" roll="0"/>
+        <vector paramName="location" x="-15" y="-2" z="-6.8"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:da325c8e-9541-4b55-a9d1-1f80997a5cb9</DtRwUUID>
+        <string paramName="marking-text">Chief</string>
+        <entityType paramName="entity-type">3:1:225:3:0:1:1</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">39911424</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance">sk_ordnanceman</string>
+        <string paramName="diguy-character-type">fdc</string>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="-3.141592327803" pitch="0" roll="0"/>
+        <vector paramName="location" x="-15" y="0" z="-6.8"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <entity-simulation-object>
+      <DtSimulationObjectEntityState>
+        <DtRwUUID paramName="uuid">VRF_UUID:627b7d9b-b3e2-423f-ae99-61f019f7deff</DtRwUUID>
+        <string paramName="marking-text">Crew 3</string>
+        <entityType paramName="entity-type">3:1:225:3:0:1:2</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">39911424</int>
+        <bool paramName="hide-on-create">False</bool>
+        <string paramName="diguy-appearance">sk_abm</string>
+        <string paramName="diguy-character-type">fdc_chock_and_chains</string>
+        <string paramName="diguy-head-appearance"/>
+        <string paramName="diguy-item-appearance"/>
+        <orientation paramName="orientation" yaw="-3.141592327803" pitch="0" roll="0"/>
+        <vector paramName="location" x="-15" y="2" z="-6.8"/>
+      </DtSimulationObjectEntityState>
+    </entity-simulation-object>
+    <aggregate-simulation-object>
+      <DtSimulationObjectAggregateState>
+        <DtRwUUID paramName="uuid">VRF_UUID:14f981aa-e6b1-4e7e-a538-16d7c50a1f9f</DtRwUUID>
+        <string paramName="marking-text">USCGC Bertholf</string>
+        <entityType paramName="entity-type">11:3:225:127:127:0:0</entityType>
+        <DtRwUUID paramName="attached-to"/>
+        <int paramName="force">1</int>
+        <int paramName="appearance">0</int>
+        <bool paramName="hide-on-create">False</bool>
+        <stringList paramName="subaggregates">"VRF_UUID:874a843b-cafa-49e2-8dcc-5cb333b0e454"</stringList>
+        <stringList paramName="subentities">"VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22" "VRF_UUID:348082e9-c06d-4ec0-8a6d-5a2d537edfdb"</stringList>
+        <orientation paramName="orientation" yaw="2.759083837352" pitch="-1.570793271076" roll="-2.759083837352"/>
+        <vector paramName="location" x="0" y="0" z="0"/>
+      </DtSimulationObjectAggregateState>
+    </aggregate-simulation-object>
+    <aggregate-simulation-object>
+      <DtSimulationObjectAggregateState>
+        <DtRwUUID paramName="uuid">VRF_UUID:874a843b-cafa-49e2-8dcc-5cb333b0e454</DtRwUUID>
+        <string paramName="marking-text">Crew</string>
+        <entityType paramName="entity-type">11:1:0:13:3:127:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">0</int>
+        <bool paramName="hide-on-create">False</bool>
+        <stringList paramName="subaggregates"/>
+        <stringList paramName="subentities">"VRF_UUID:da325c8e-9541-4b55-a9d1-1f80997a5cb9" "VRF_UUID:b8f26a1e-1918-489b-9ffd-0ff6a3b5f198" "VRF_UUID:7532e7d0-612e-4a83-8123-923c0f364eae" "VRF_UUID:627b7d9b-b3e2-423f-ae99-61f019f7deff" "VRF_UUID:dd21a2f8-5bb5-451b-a2b9-505b4bde7e62"</stringList>
+        <orientation paramName="orientation" yaw="-3.141592567989" pitch="-3.470323008514e-006" roll="3.449868232843e-007"/>
+        <vector paramName="location" x="-15" y="-3.328765349231e-016" z="-6.800000001041"/>
+      </DtSimulationObjectAggregateState>
+    </aggregate-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:e1768e9e-d487-4e04-a9d5-ce2f80aa8051</DtRwUUID>
+        <string paramName="marking-text">C3A</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-14.404294" y="1.951135" z="-6.713312"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:e1768e9e-d487-4e04-a9d5-ce2f80aa8051"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-14.404294,1.951135,-6.713312"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:d7739f0c-2722-4fc2-865c-9b4eec2756e0</DtRwUUID>
+        <string paramName="marking-text">C4A</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-14.381989" y="4.142231" z="-6.713237"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:d7739f0c-2722-4fc2-865c-9b4eec2756e0"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-14.381989,4.142231,-6.713237"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:155682c9-359b-426f-9078-2a7edddd8230</DtRwUUID>
+        <string paramName="marking-text">C3B</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-26.292376" y="2.055501" z="-6.712971"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:155682c9-359b-426f-9078-2a7edddd8230"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-26.292376,2.055501,-6.712971"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:3deaf3bf-18b0-423d-9f7e-f7a73faa8d58</DtRwUUID>
+        <string paramName="marking-text">C4B</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-28.022518" y="2.016069" z="-6.713093"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:3deaf3bf-18b0-423d-9f7e-f7a73faa8d58"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-28.022518,2.016069,-6.713093"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:b57b36b5-68ee-4951-8202-1a82f7613dfa</DtRwUUID>
+        <string paramName="marking-text">C1A</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-14.445504" y="-4.097502" z="-6.697423"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:b57b36b5-68ee-4951-8202-1a82f7613dfa"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-14.445504,-4.097502,-6.697423"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:73b9b3d9-518d-48be-b4c9-65e7dd6c13f7</DtRwUUID>
+        <string paramName="marking-text">C2A</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-14.400188" y="-2.043873" z="-6.713154"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:73b9b3d9-518d-48be-b4c9-65e7dd6c13f7"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-14.400188,-2.043873,-6.713154"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:fcc1752d-d2be-4613-a71c-5069a54eec44</DtRwUUID>
+        <string paramName="marking-text">C2B</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-27.900101" y="-2.129569" z="-6.712904"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:fcc1752d-d2be-4613-a71c-5069a54eec44"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-27.900101,-2.129569,-6.712904"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:002b3634-865e-4345-bab9-db70e1b740a5</DtRwUUID>
+        <string paramName="marking-text">Area 1</string>
+        <entityType paramName="entity-type">18:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">3</int>
+        <int paramName="appearance">1077936647</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-27.531802" y="-0.124961" z="-6.71105"/>
+          <vector paramName="vec" x="1.822352" y="-2.471711" z="-8e-006"/>
+          <vector paramName="vec" x="1.763375" y="2.471711" z="-7e-006"/>
+          <vector paramName="vec" x="-1.822352" y="2.024067" z="8e-006"/>
+          <vector paramName="vec" x="-1.764693" y="-1.998877" z="7e-006"/>
+        </vectors>
+        <int paramName="pen-style">2</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">4</int>
+        <int paramName="color">-939458816</int>
+        <bool paramName="closed-figure">True</bool>
+        <bool paramName="projected">True</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:002b3634-865e-4345-bab9-db70e1b740a5"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-27.531802,-0.124961,-6.71105"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+    <environmental-simulation-object>
+      <DtSimulationObjectEnvironmentalState>
+        <DtRwUUID paramName="uuid">VRF_UUID:53c7011c-a081-4e5c-8c15-a557b2465c84</DtRwUUID>
+        <string paramName="marking-text">C1B</string>
+        <entityType paramName="entity-type">16:0:0:1:0:0:0</entityType>
+        <DtRwUUID paramName="attached-to">VRF_UUID:5fa61df3-e3a3-4327-a11e-77be6e44ee22</DtRwUUID>
+        <int paramName="force">1</int>
+        <int paramName="appearance">4194304</int>
+        <bool paramName="hide-on-create">False</bool>
+        <vectors paramName="points">
+          <vector paramName="vec" x="-26.242855" y="-2.119285" z="-6.713212"/>
+          <vector paramName="vec" x="0" y="0" z="0"/>
+        </vectors>
+        <int paramName="pen-style">0</int>
+        <int paramName="fill-style">0</int>
+        <int paramName="line-width">0</int>
+        <int paramName="color">0</int>
+        <bool paramName="closed-figure">False</bool>
+        <bool paramName="projected">False</bool>
+        <DtRwStringAttributeList paramName="extended-data">
+          <DtRwStringAttribute paramName="Environmental_Formatting_Data" key="Environmental_Formatting_Data" data=""/>
+          <DtRwStringAttribute paramName="UUID" key="UUID" data="VRF_UUID:53c7011c-a081-4e5c-8c15-a557b2465c84"/>
+          <DtRwStringAttribute paramName="relative-location" key="relative-location" data="-26.242855,-2.119285,-6.713212"/>
+        </DtRwStringAttributeList>
+      </DtSimulationObjectEnvironmentalState>
+    </environmental-simulation-object>
+  </simulation-object-group-entry>
+</root>

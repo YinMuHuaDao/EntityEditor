@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtMenuPathConfiguration class_id="0" tracking_level="0" version="0">
+	<count>27</count>
+	<item_version>0</item_version>
+   <item>:DtCreateMenu/Aircraft</item>
+   <item>:DtCreateMenu/Land</item>
+   <item>:DtCreateMenu/Naval</item>
+   <item>:DtCreateMenu/---Separator_Block1</item>
+   <item>:DtCreateMenu/Aggregate/</item>
+   <item>:DtCreateMenu/Aggregate Artillery/</item>
+   <item>:DtCreateMenu/Aggregate Aircraft/</item>
+   <item>:DtCreateMenu/Aggregate Infantry/</item>
+   <item>:DtCreateMenu/Aggregate Light Armor/</item>
+   <item>:DtCreateMenu/Aggregate Naval/</item>
+   <item>:DtCreateMenu/Aggregate Tank/</item>
+   <item>:DtCreateMenu/---Separator_Block2</item>
+   <item>:DtCreateMenu/Contamination Area/</item>
+   <item>:DtCreateMenu/Control Objects/</item>
+   <item>:DtCreateMenu/Emergency Point/</item>
+   <item>:DtCreateMenu/Engineering/</item>
+   <item>:DtCreateMenu/Engineering Objects/</item>
+   <item>:DtCreateMenu/Fire Support/</item>
+   <item>:DtCreateMenu/Intel/</item>
+   <item>:DtCreateMenu/Land Point/</item>
+   <item>:DtCreateMenu/Logistics/</item>
+   <item>:DtCreateMenu/Maneuver/</item>
+   <item>:DtCreateMenu/Reference Point/</item>
+   <item>:DtCreateMenu/Shapes/</item>
+   <item>:DtCreateMenu/Symbols/</item>
+   <item>:DtCreateMenu/Weather/</item>
+   <item>:DtCreateMenu/===DefaultControlObjects===/</item>
+</DtMenuPathConfiguration>
+</boost_serialization>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:4:2:-1:1:-1:-1:-1" matchType="1:4:2:-1:1:-1:-1:-1" platform="@(platforms-dir)/Tactical_Smoke.ope">
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <real paramName="dissipation-time">4</real>
+      <real paramName="growth-rate">0.333</real>
+      <real paramName="max-radius">10</real>
+      <sensorSignatures/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"3D Model" "Military"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Tactical Smoke</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"TacticalGraphicCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-151476212-Tactical Smoke</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="short-name">Smoke</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

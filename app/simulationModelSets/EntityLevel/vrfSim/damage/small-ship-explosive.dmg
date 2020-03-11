@@ -1,0 +1,176 @@
+;;
+;; File - small-ship-explosive.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Small Ships vs. explosive detonations
+;; All power values are in kPa of incident pressure.
+;; (for example only!)
+;;
+(damage-table 
+   (front
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.5)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.8)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.95)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.95)
+                  (mobility-kill 0.98)
+               )
+               (power 70.0
+                  (catastrophic-kill  1.0)
+               )
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.5)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.8)
+                  (firepower-kill 0.1)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.8)
+                  (firepower-kill 0.3)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.95)
+                  (mobility-kill 0.9)
+                  (firepower-kill 0.5)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.7)
+                  (firepower-kill 0.2)
+               )
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.5)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.8)
+                  (firepower-kill 0.1)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.8)
+                  (firepower-kill 0.3)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.95)
+                  (mobility-kill 0.9)
+                  (firepower-kill 0.5)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.7)
+                  (firepower-kill 0.2)
+               )
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.75)
+                  (firepower-kill 0.7)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.8)
+                  (firepower-kill 0.8)
+               )
+               (power 30.0
+                  (catastrophic-kill  1.0)
+               )
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.7)
+                  (mobility-kill 0.7)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.9)
+                  (mobility-kill 0.9)
+               )
+               (power 30.0
+                  (catastrophic-kill  1.0)
+               )
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.5)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.8)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.95)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.95)
+                  (mobility-kill 0.98)
+               )
+               (power 70.0
+                  (catastrophic-kill  1.0)
+               )
+            )
+         )
+      )
+   )
+)

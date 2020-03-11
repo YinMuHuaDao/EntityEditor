@@ -1,0 +1,42 @@
+(fixed-wing-default-armor 
+   (actuators 
+      (damage-component 
+         (component-descriptor-type "damage-adjudication-actuator-descriptor")
+         (component-type  "damage-adjudication-actuator")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (art-part-list )
+         (smoke-time  1200.000000)
+         (flame-time  600.000000)
+         (terminate-on-destroy False)
+         (damage-by-munition-power
+            (damage-by-power-entry
+               (power-type "explosive")
+               (damage-file 
+                  (filename  "$(damage-dir)\fixed-wing-explosive.dmg")
+               )
+            )
+            (damage-by-power-entry
+               (power-type "kinetic")
+               (damage-file 
+                  (filename  "$(damage-dir)\fixed-wing-kinetic.dmg")
+               )
+            )     
+         )
+         (damage-model )
+      )
+   )
+   (resources )
+   (meta-data 
+      (system-name  "Fixed Wing Default Armor")
+      (system-description  "Basic armor for a fixed-wing aircraft.")
+      (allowed-state-repository-types "fixed-wing-entity-param")
+      (system-categories "damage")
+      (parameter-data-list )
+      (meta-data-entry-list )
+   )
+)

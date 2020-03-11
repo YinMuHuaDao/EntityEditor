@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtScriptedTaskMetaData class_id="0" tracking_level="0" version="9">
+	<myScriptId>rw-unload-cargo</myScriptId>
+	<myMenuText>Rotary Wing Unload Cargo</myMenuText>
+	<myToolTip>Unload cargo at current position.</myToolTip>
+	<myMenuIcon></myMenuIcon>
+	<myVersion>1</myVersion>
+	<myScriptEngine>lua</myScriptEngine>
+	<myComments></myComments>
+	<myMenuLocations class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>Movement/$(menutext)&gt;Movement/rw-retrieve-cargo</item>
+	</myMenuLocations>
+	<myIsSystemScript>1</myIsSystemScript>
+	<myDescription>Rotary Wing Unload Cargo</myDescription>
+	<myScriptLocation></myScriptLocation>
+	<myDirectoryPath>Logistics/Airlift</myDirectoryPath>
+	<myEntityTypes>
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>1:2:-1:50:-1:-1:-1</item>
+	</myEntityTypes>
+	<myVariables>
+		<count>0</count>
+		<item_version>0</item_version>
+	</myVariables>
+	<myScript></myScript>
+	<myActionCategories>Movement</myActionCategories>
+	<myShowInMenu>1</myShowInMenu>
+	<myEncrypted>0</myEncrypted>
+	<myScriptType>1</myScriptType>
+	<myDoctrines></myDoctrines>
+	<myFlags>1</myFlags>
+	<myShowInToolbar>0</myShowInToolbar>
+	<myToolbarLocation></myToolbarLocation>
+	<myExtendedMenuText>Rotary Wing Unload Cargo</myExtendedMenuText>
+	<myShortDescription>Rotary Wing Unload Cargo</myShortDescription>
+</DtScriptedTaskMetaData>
+</boost_serialization>
+

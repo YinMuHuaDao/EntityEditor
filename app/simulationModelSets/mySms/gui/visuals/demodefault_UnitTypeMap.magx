@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<UnitTypeMap class_id="0" tracking_level="0" version="0">
+	<myMappings class_id="1" tracking_level="0" version="0">
+		<count>75</count>
+		<item_version>0</item_version>
+		<item class_id="2" tracking_level="0" version="0">
+			<first>11:1:-1:-1:-1:-1:-1</first>
+			<second>SAM BTY RU</second>
+		</item>
+		<item>
+			<first>11:1:-1:13:-1:-1:-1</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:0:0:0:0:1</first>
+			<second>Convoy</second>
+		</item>
+		<item>
+			<first>11:1:0:0:34:0:1</first>
+			<second>Civilian Crowd (Small)</second>
+		</item>
+		<item>
+			<first>11:1:0:0:34:0:2</first>
+			<second>Civilian Crowd (Medium)</second>
+		</item>
+		<item>
+			<first>11:1:0:0:34:0:3</first>
+			<second>Civilian Crowd (Large)</second>
+		</item>
+		<item>
+			<first>11:1:0:0:34:0:4</first>
+			<second>Civilian Crowd</second>
+		</item>
+		<item>
+			<first>11:1:222:12:27:-1:-1</first>
+			<second>Unit_71</second>
+		</item>
+		<item>
+			<first>11:1:222:12:27:0:0</first>
+			<second>Unit_71</second>
+		</item>
+		<item>
+			<first>11:1:222:13:3:-1:-1</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:13:3:0:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:14:3:0:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:3:0:0:1</first>
+			<second>Unit_57</second>
+		</item>
+		<item>
+			<first>11:1:222:3:20:1:0</first>
+			<second>Unit_63</second>
+		</item>
+		<item>
+			<first>11:1:222:3:28:-1:-1</first>
+			<second>Unit_64</second>
+		</item>
+		<item>
+			<first>11:1:222:3:28:0:0</first>
+			<second>Unit_64</second>
+		</item>
+		<item>
+			<first>11:1:222:3:2:-1:-1</first>
+			<second>Unit_58</second>
+		</item>
+		<item>
+			<first>11:1:222:3:2:0:0</first>
+			<second>Unit_58</second>
+		</item>
+		<item>
+			<first>11:1:222:3:31:-1:-1</first>
+			<second>Unit_65</second>
+		</item>
+		<item>
+			<first>11:1:222:3:31:0:0</first>
+			<second>Unit_65</second>
+		</item>
+		<item>
+			<first>11:1:222:3:3:-1:-1</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:3:3:0:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:3:3:1:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:3:4:-1:-1</first>
+			<second>Land Mechanized Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:3:4:0:0</first>
+			<second>Land Mechanized Infantry</second>
+		</item>
+		<item>
+			<first>11:1:222:5:0:0:1</first>
+			<second>Unit_66</second>
+		</item>
+		<item>
+			<first>11:1:222:5:20:-1:-1</first>
+			<second>Unit_70</second>
+		</item>
+		<item>
+			<first>11:1:222:5:20:0:0</first>
+			<second>Unit_70</second>
+		</item>
+		<item>
+			<first>11:1:222:5:20:1:0</first>
+			<second>Unit_69</second>
+		</item>
+		<item>
+			<first>11:1:222:5:2:-1:-1</first>
+			<second>Unit_67</second>
+		</item>
+		<item>
+			<first>11:1:222:5:2:0:0</first>
+			<second>Unit_67</second>
+		</item>
+		<item>
+			<first>11:1:222:5:3:1:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:12:27:-1:-1</first>
+			<second>Unit_89</second>
+		</item>
+		<item>
+			<first>11:1:225:12:27:0:0</first>
+			<second>Unit_89</second>
+		</item>
+		<item>
+			<first>11:1:225:12:3:0:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:12:3:0:1</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:12:3:0:2</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:12:3:0:3</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:13:3:-1:-1</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:13:3:0:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:13:3:0:2</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:13:3:0:3</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:13:3:0:4</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:14:3:0:0</first>
+			<second>Land Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:3:0:0:1</first>
+			<second>Unit_74</second>
+		</item>
+		<item>
+			<first>11:1:225:3:20:1:0</first>
+			<second>Unit_80</second>
+		</item>
+		<item>
+			<first>11:1:225:3:28:-1:-1</first>
+			<second>ADA_1</second>
+		</item>
+		<item>
+			<first>11:1:225:3:28:0:0</first>
+			<second>ADA_1</second>
+		</item>
+		<item>
+			<first>11:1:225:3:2:-1:-1</first>
+			<second>Unit_52</second>
+		</item>
+		<item>
+			<first>11:1:225:3:2:0:0</first>
+			<second>Unit_52</second>
+		</item>
+		<item>
+			<first>11:1:225:3:2:0:1</first>
+			<second>Unit_52</second>
+		</item>
+		<item>
+			<first>11:1:225:3:31:-1:-1</first>
+			<second>Unit_53</second>
+		</item>
+		<item>
+			<first>11:1:225:3:31:0:0</first>
+			<second>Unit_53</second>
+		</item>
+		<item>
+			<first>11:1:225:3:4:0:0</first>
+			<second>Land Mechanized Infantry</second>
+		</item>
+		<item>
+			<first>11:1:225:4:7:-1:-1</first>
+			<second>Land Artillery</second>
+		</item>
+		<item>
+			<first>11:1:225:4:7:0:0</first>
+			<second>Land Artillery</second>
+		</item>
+		<item>
+			<first>11:1:225:5:0:0:1</first>
+			<second>Unit_84</second>
+		</item>
+		<item>
+			<first>11:1:225:5:20:-1:-1</first>
+			<second>Unit_88</second>
+		</item>
+		<item>
+			<first>11:1:225:5:20:0:0</first>
+			<second>Unit_88</second>
+		</item>
+		<item>
+			<first>11:1:225:5:20:1:0</first>
+			<second>Unit_87</second>
+		</item>
+		<item>
+			<first>11:1:225:5:2:-1:-1</first>
+			<second>Unit_85</second>
+		</item>
+		<item>
+			<first>11:1:225:5:2:0:0</first>
+			<second>Unit_85</second>
+		</item>
+		<item>
+			<first>11:1:225:5:2:0:1</first>
+			<second>Unit_85</second>
+		</item>
+		<item>
+			<first>11:1:225:5:3:1:0</first>
+			<second>Unit_86</second>
+		</item>
+		<item>
+			<first>11:2:-1:-1:13:-1:-1</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:13:20:2</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:13:21:1</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:13:31:0</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:13:4:0</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:14:15:0</first>
+			<second>Unit_92</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:14:31:0</first>
+			<second>Unit_92</second>
+		</item>
+		<item>
+			<first>11:2:-1:13:14:50:0</first>
+			<second>Unit_92</second>
+		</item>
+		<item>
+			<first>11:2:-1:5:13:4:0</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:2:225:-1:13:3:-1</first>
+			<second>Unit_91</second>
+		</item>
+		<item>
+			<first>11:3:-1:-1:-1:-1:-1</first>
+			<second>Unit_95</second>
+		</item>
+	</myMappings>
+</UnitTypeMap>
+</boost_serialization>
+

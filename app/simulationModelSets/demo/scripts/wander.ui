@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DoNotChangeThisFormName</class>
+ <widget class="QWidget" name="DoNotChangeThisFormName">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>264</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="descriptionLabel">
+     <property name="text">
+      <string>Causes the entity to move to a series of randomly chosen locations for the specified amount of time. Wandering can be constrained to a specified area.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="descriptionBreak">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtSimpleRadioButtonVariableWidget" name="isIndefinite">
+     <property name="toolTip">
+      <string>Choose whether the entity will wander indefinitely or for a fixed amount of time.</string>
+     </property>
+     <property name="label">
+      <string>Duration</string>
+     </property>
+     <property name="variableData">
+      <string>Indefinitely;Timed</string>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <number>100000</number>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <number>-100000</number>
+     </property>
+     <property name="defaultValue" stdset="0">
+      <string>Indefinitely</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtTimeEntryWidget" name="wanderTime">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="label">
+      <string>Wander Time</string>
+     </property>
+     <property name="variableData">
+      <string/>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <time>
+       <hour>23</hour>
+       <minute>59</minute>
+       <second>59</second>
+      </time>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <time>
+       <hour>0</hour>
+       <minute>0</minute>
+       <second>0</second>
+      </time>
+     </property>
+     <property name="defaultValue">
+      <string>0:00:00:00</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtSimpleRadioButtonVariableWidget" name="movementMode">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="label">
+      <string>Movement</string>
+     </property>
+     <property name="variableData">
+      <string>Free;Restricted to Area</string>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <number>100000</number>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <number>-100000</number>
+     </property>
+     <property name="defaultValue" stdset="0">
+      <string>Free</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtVrfFilteredListView" name="area">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="label">
+      <string>Wander Area (Optional)</string>
+     </property>
+     <property name="variableData">
+      <string>DtAreasFilter</string>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <number>100000</number>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <number>-100000</number>
+     </property>
+     <property name="defaultValue" stdset="0">
+      <string>Areas</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtSimpleComboVariableWidget" name="destinationRestriction">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="toolTip">
+      <string>Wander will choose destinations fitting this restriction</string>
+     </property>
+     <property name="label">
+      <string>Destination Restriction</string>
+     </property>
+     <property name="variableData">
+      <string>Anywhere;On Roads;Off Roads;On Pedestrian Paths</string>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <number>100000</number>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <number>-100000</number>
+     </property>
+     <property name="defaultValue" stdset="0">
+      <string>Anywhere</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>makVrf::DtSimpleComboVariableWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleVariableWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtSimpleRadioButtonVariableWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleVariableWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtTaskSetVariableWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleLabelWidgets.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtVrfFilteredListView</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/vrfFilteredListView.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtTimeEntryWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/timeEntryWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>movementMode</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>area</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>131</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>131</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>isIndefinite</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>wanderTime</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>131</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>131</x>
+     <y>110</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

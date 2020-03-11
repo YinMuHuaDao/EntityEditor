@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:1:101:6:0:0:51" matchType="1:1:1:101:6:0:0:51" platform="@(platforms-dir)/Ground_Vehicle.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="-0.9891939759254" right="-0.8910049796104" down="0"/>
+      <bodyPosition paramName="other-support" forward="1.303869962692" right="-0.09081540256739" down="0"/>
+      <bodyPosition paramName="right-support" forward="-1.014799952507" right="0.7093740105629" down="0"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="can-pivot">False</bool>
+      <bool paramName="di-guy-enabled">True</bool>
+      <bool paramName="enable-navigation">True</bool>
+      <bool paramName="flip-disembark-body-x">True</bool>
+      <bool paramName="flip-disembark-body-y">True</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">False</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="ground-center">
+         <dimensions length="3.82" width="2.15" height="1.74"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\ground-unarmored.sysdef">
+         <bool paramName="explode-when-destroyed">False</bool>
+      </componentSystem>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\ground-wheels-road.sysdef">
+         <real paramName="fuel-amount">515</real>
+         <string paramName="automotive-driving">Automotive Driving</string>
+      </componentSystem>
+      <real paramName="disaggregation-range">700</real>
+      <real paramName="mass">3500</real>
+      <real paramName="max-acceleration">1.7</real>
+      <real paramName="max-deceleration">4</real>
+      <real paramName="max-lateral-acceleration">4</real>
+      <real paramName="max-pivot-speed">0</real>
+      <real paramName="max-reverse-speed">15</real>
+      <real paramName="max-slope">0.6</real>
+      <real paramName="max-speed">33.33333333333</real>
+      <real paramName="ordered-speed">10</real>
+      <real paramName="turning-radius">4</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">4</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">0.5</real>
+         <real paramName="visual-signature">4</real>
+      </sensorSignatures>
+      <soilList paramName="soil-list"/>
+      <string paramName="animation">still</string>
+      <string paramName="character-appearance">safir_jeep</string>
+      <string paramName="character-type">vehicle</string>
+      <string paramName="gui-categories">"3D Model" "Ground Vehicle" "Military"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Safir Military Vehicle</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-215450309-Safir Military Vehicle</string>
+      <string paramName="hand-item">none</string>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename"/>
+      <string paramName="short-name">SmWhel</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtMenuPathConfiguration class_id="0" tracking_level="0" version="0">
+	<count>21</count>
+	<item_version>0</item_version>
+   <item>:DtCreateMenu/Unit/</item>
+   <item>:DtCreateMenu/Object Group/</item>
+   <item>:DtCreateMenu/Ground Vehicle/</item>
+   <item>:DtCreateMenu/Aircraft/</item>
+   <item>:DtCreateMenu/Fixed Wing/</item>
+	<item>:DtCreateMenu/Human/</item>
+	<item>:DtCreateMenu/Animal/</item>
+	<item>:DtCreateMenu/Rotary Wing/</item>
+	<item>:DtCreateMenu/Space/</item>
+	<item>:DtCreateMenu/Subsurface/</item>
+   <item>:DtCreateMenu/Surface/</item>
+   <item>:DtCreateMenu/Watercraft/</item>
+   <item>:DtCreateMenu/Munition/</item>
+   <item>:DtCreateMenu/Materially Classified/</item>
+   <item>:DtCreateMenu/Cultural Feature/</item>
+   <item>:DtCreateMenu/Empty Unit/</item>
+   <item>:DtCreateMenu/---Separator_Block1</item>
+	<item>:DtCreateMenu/Building/</item>
+	<item>:DtCreateMenu/---Separator_Block2</item>
+   <item>:DtCreateMenu/Control Objects/</item>
+   <item>:DtCreateMenu/===DefaultControlObjects===/</item>
+</DtMenuPathConfiguration>
+</boost_serialization>
+

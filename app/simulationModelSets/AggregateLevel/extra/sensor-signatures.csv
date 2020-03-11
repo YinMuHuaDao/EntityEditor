@@ -1,0 +1,8 @@
+,,Standard Infantry CO,Standard Ground Vehicle CO,Standard Fixed Wing,Standard Rotary Wing CO,Standard Ship,Standard Submarine,Standard Building
+radar-signature,Radar,2,40,35,40,40,3,40
+visual-signature,Visual,2,10,2.5,8,15,1,5
+infrared-signature,Infrared,2,10,12.5,30,30,2,5
+passive-sonar-signature,Passive Sonar,,,,,7,0.5,
+active-sonar-signature,Active Sonar,,,,,9,0.75,
+mad-signature,MAD Sensor,,,,,,0.3,
+emissions-signature,Emissions,10,10,45,45,45,,

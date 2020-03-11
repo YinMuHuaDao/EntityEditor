@@ -1,0 +1,30 @@
+(radar-warning-receiver-system 
+   (systems )
+   (sensors 
+      (radar-warning-receiver 
+         (component-descriptor-type "component-descriptor")
+         (component-type  "radar-warning-receiver")
+         (min-tick-period  1.000000)
+         (min-tick-period-variance  0.10000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)		 
+      )
+   )
+   (controllers )
+   (actuators )
+   (connections 
+   )
+   (resources )
+   (meta-data 
+      (system-name  "Radar Warning Receiver")
+      (system-description  "Allows an entity to detect active emitter systems on other entities.")
+      (allowed-state-repository-types "all")
+      (system-categories "sensor")
+      (parameter-data-list          
+      )
+      (meta-data-entry-list          
+      )
+   )
+)

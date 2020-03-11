@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<roll-up-rules>
+  <average>
+    <Base-Vulnerability-Anti-Air-Modifier weight="Base-Health"/>
+    <Base-Vulnerability-Anti-Personnel-Modifier weight="Base-Health"/>
+    <Base-Vulnerability-Anti-Ship-Modifier weight="Base-Health"/>
+    <Base-Vulnerability-Anti-Tank-Modifier weight="Base-Health"/>
+    <Base-Vulnerability-High-Explosive-Modifier weight="Base-Health"/>
+  </average>
+  <collect>
+    <Base-Ammunition value="ammunition"/>
+    <Base-Equipment value="equipment"/>
+    <Base-Weapons value="weapon"/>
+    <System value="system"/>
+  </collect>
+  <maximum>
+     <Base-Combat-Power-Anti-Air-Range/>
+     <Base-Combat-Power-Anti-Personnel-Range/>
+    <Base-Combat-Power-Anti-Ship-Range/>
+    <Base-Combat-Power-Anti-Tank-Range/>
+    <Base-Combat-Power-High-Explosive-Range/>
+    <Base-Vulnerability-Anti-Air-Defense-Factor/>
+    <Base-Vulnerability-Anti-Personnel-Defense-Factor/>
+    <Base-Vulnerability-Anti-Ship-Defense-Factor/>
+    <Base-Vulnerability-Anti-Tank-Defense-Factor/>
+    <Base-Vulnerability-High-Explosive-Defense-Factor/>
+    <System.aggregate-indirect-fire.duration/>
+    <System.aggregate-indirect-fire.weapon-range/>
+    <System.aggregate-indirect-fire.factor/>
+    <System.aggregate-release-bomb.duration/>
+    <System.aggregate-release-bomb.strength/>
+    <System.aggregate-release-bomb.weapon-radius/>
+    <System.aggregate-release-bomb.weapon-range/>
+    <System.aggregate-release-bomb.factor/>
+  </maximum>
+  <minimum/>
+  <sum>
+    <Ammunition-Usage-Anti-Air/>
+    <Ammunition-Usage-Anti-Personnel/>
+    <Ammunition-Usage-Anti-Ship/>
+    <Ammunition-Usage-Anti-Tank/>
+    <Ammunition-Usage-High-Explosive/>
+    <Aviation-Fuel-Usage-Per-Meter/>
+    <Aviation-Fuel-Usage-Per-Second/>
+    <Base-Aviation-Fuel/>
+    <Base-Combat-Power-Anti-Air-Strength/>
+    <Base-Combat-Power-Anti-Personnel-Strength/>
+    <Base-Combat-Power-Anti-Ship-Strength/>
+    <Base-Combat-Power-Anti-Tank-Strength/>
+    <Base-Combat-Power-High-Explosive-Strength/>
+    <Base-Diesel-Fuel/>
+    <Base-Food/>
+    <Base-Health/>
+    <Base-Lubricant/>
+    <Base-Motor-Gas/>
+    <Base-Oil/>
+    <Base-Personnel-Enlisted/>
+    <Base-Personnel-NCOs/>
+    <Base-Personnel-Officers/>
+    <Base-Personnel-WOs/>
+    <Base-Water/>
+    <Diesel-Fuel-Usage-Per-Meter/>
+    <Diesel-Fuel-Usage-Per-Second/>
+    <Food-Usage-Per-Second/>
+    <Lubricant-Usage-Per-Second/>
+    <Motor-Gas-Usage-Per-Meter/>
+    <Motor-Gas-Usage-Per-Second/>
+    <Oil-Usage-Per-Second/>
+    <System.aggregate-indirect-fire.ammunition-used/>
+    <System.aggregate-indirect-fire.strength/>
+    <System.120mm-mortar-tube.rounds/>
+    <System.120mm-mortar-tube.strength/>
+    <Water-Usage-Per-Second/>
+  </sum>
+</roll-up-rules>

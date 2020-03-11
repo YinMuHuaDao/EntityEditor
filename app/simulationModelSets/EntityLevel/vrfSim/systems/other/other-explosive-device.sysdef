@@ -1,0 +1,31 @@
+(other-explosive-device 
+; This system allows an explosive device to be added to other types of objects that do not normally
+; support weapon systems. It simply adds the standard explosive-device system to the object.
+   (systems
+      (explosive-device
+         (variable-bindings
+            (DtRwInt (num-bombs $num-bombs))
+         )
+         (system-definition
+            (filename  "$(system-dir)\weapons\explosive-device.sysdef")
+         )
+      )
+   )
+   (meta-data 
+      (system-name  "Other Explosive Device")
+      (system-description  "Explosive device system for objects which do not normally have weapon systems. Allows 3 types of detonations -- instant, time-delayed, and proximity.")
+      (allowed-state-repository-types "all")
+      (system-categories "other")
+      (parameter-data-list 
+         (int-parameter-data 
+            (parameter-name  "num-bombs")
+            (variable-type  "DtRwInt")
+            (display-label  "Number Bombs")
+            (display-units  "")
+            (source-units  "")
+            (default-value  1)
+         )
+      )
+      (meta-data-entry-list )
+   )
+)

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtScriptedTaskMetaData class_id="0" tracking_level="0" version="11">
+	<myScriptId>Crowd_Around_Location</myScriptId>
+	<myMenuText>Crowd Around Location</myMenuText>
+	<myToolTip></myToolTip>
+	<myMenuIcon></myMenuIcon>
+	<myVersion>1</myVersion>
+	<myScriptEngine>lua</myScriptEngine>
+	<myComments></myComments>
+	<myMenuLocations class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>Movement/$(menutext)&lt;Movement/Crowd_Around</item>
+	</myMenuLocations>
+	<myIsSystemScript>1</myIsSystemScript>
+	<myDescription>Crowd moves to gather around and face a location of interest.</myDescription>
+	<myScriptLocation>..\data\simulationModelSets\EntityLevel\scripts\\Crowd_Around_Location.lua</myScriptLocation>
+	<myDirectoryPath>Human/Crowd Behavior</myDirectoryPath>
+	<myEntityTypes>
+		<count>0</count>
+		<item_version>0</item_version>
+	</myEntityTypes>
+	<myVariables>
+		<count>11</count>
+		<item_version>0</item_version>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;locationOfInterest&lt;/myVariableName&gt;
+	&lt;myType&gt;location&lt;/myType&gt;
+	&lt;myLabel&gt;Location Of Interest&lt;/myLabel&gt;
+	&lt;myToolTip&gt;The location to crowd around&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;minDistance&lt;/myVariableName&gt;
+	&lt;myType&gt;range&lt;/myType&gt;
+	&lt;myLabel&gt;Minimum Distance&lt;/myLabel&gt;
+	&lt;myToolTip&gt;The minimum distance from the location of interest&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;1.5&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;0&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;1000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;idleTask&lt;/myVariableName&gt;
+	&lt;myType&gt;string&lt;/myType&gt;
+	&lt;myLabel&gt;Idle Task&lt;/myLabel&gt;
+	&lt;myToolTip&gt;The task which will be given to each pedestrian when they arrive&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;speedMultiplier&lt;/myVariableName&gt;
+	&lt;myType&gt;double&lt;/myType&gt;
+	&lt;myLabel&gt;Speed Multiplier&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Chosen speed for each entity is multiplied by this value. Used to slow down or speed up entities.&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;1&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;0&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;keepLeftOfLine&lt;/myVariableName&gt;
+	&lt;myType&gt;checkbox&lt;/myType&gt;
+	&lt;myLabel&gt;Keep Left Of Line&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Whether entities should crowd only to the left of specified line&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;0&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;leftOfLineStart&lt;/myVariableName&gt;
+	&lt;myType&gt;locationwithoutaltitude&lt;/myType&gt;
+	&lt;myLabel&gt;Left Of Line Start&lt;/myLabel&gt;
+	&lt;myToolTip&gt;&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;1&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;leftOfLineEnd&lt;/myVariableName&gt;
+	&lt;myType&gt;locationwithoutaltitude&lt;/myType&gt;
+	&lt;myLabel&gt;Left Of Line End&lt;/myLabel&gt;
+	&lt;myToolTip&gt;End of the line from which entities will stay to the left&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;1&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;leftOfLine&lt;/myVariableName&gt;
+	&lt;myType&gt;simulationobject&lt;/myType&gt;
+	&lt;myLabel&gt;Left Of Line&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Object which defines the line from which entities will stay to the left. If set, leftOfLineStart and leftOfLineEnd are ignored.&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;DtLinesFilter&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;1&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;reverseLeftOfLine&lt;/myVariableName&gt;
+	&lt;myType&gt;checkbox&lt;/myType&gt;
+	&lt;myLabel&gt;Reverse Left Of Line&lt;/myLabel&gt;
+	&lt;myToolTip&gt;The Left Of Line object&amp;apos;s vertices will be considered in reverse order when determining if a point is to the left of the line&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;0&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;2&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;faceLeftOfLine&lt;/myVariableName&gt;
+	&lt;myType&gt;checkbox&lt;/myType&gt;
+	&lt;myLabel&gt;Face Left Of Line&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Whether entities should face the &amp;quot;Left Of Line&amp;quot; instead of the locationOfInterest&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;0&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;subordinatesToIgnore&lt;/myVariableName&gt;
+	&lt;myType&gt;simulationobjects&lt;/myType&gt;
+	&lt;myLabel&gt;Subordinates To Ignore&lt;/myLabel&gt;
+	&lt;myToolTip&gt;These subordinates will be ignored and will not be tasked to crowd around.&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;DtLifeformsFilter&lt;/myVariableData&gt;
+	&lt;myVisible&gt;0&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+	</myVariables>
+	<myScript></myScript>
+	<myActionCategories>Movement</myActionCategories>
+	<myShowInMenu>1</myShowInMenu>
+	<myEncrypted>0</myEncrypted>
+	<myScriptType>1</myScriptType>
+	<myDoctrines></myDoctrines>
+	<myFlags>1</myFlags>
+	<myShowInToolbar>0</myShowInToolbar>
+	<myToolbarLocation></myToolbarLocation>
+	<myExtendedMenuText></myExtendedMenuText>
+	<myShortDescription></myShortDescription>
+	<myUiLayout></myUiLayout>
+	<myAliases class_id="2" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</myAliases>
+</DtScriptedTaskMetaData>
+</boost_serialization>
+

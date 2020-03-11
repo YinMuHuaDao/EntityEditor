@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtScriptedTaskMetaData class_id="0" tracking_level="0" version="12">
+	<myScriptId>wander</myScriptId>
+	<myMenuText>Wander</myMenuText>
+	<myToolTip></myToolTip>
+	<myMenuIcon></myMenuIcon>
+	<myVersion>1</myVersion>
+	<myScriptEngine>lua</myScriptEngine>
+	<myComments></myComments>
+	<myMenuLocations class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>Movement/$(menutext)&lt;Movement/Move_To_Cover</item>
+	</myMenuLocations>
+	<myIsSystemScript>1</myIsSystemScript>
+	<myDescription>Causes the entity to move to a series of randomly chosen locations for the specified amount of time. Wandering can be constrained to a specified area.</myDescription>
+	<myScriptLocation>..\data\simulationModelSets\EntityLevel\scripts\\wander.lua</myScriptLocation>
+	<myDirectoryPath>Human</myDirectoryPath>
+	<myEntityTypes>
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>3:-1:-1:-1:-1:-1:-1</item>
+	</myEntityTypes>
+	<myVariables>
+		<count>5</count>
+		<item_version>0</item_version>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;isIndefinite&lt;/myVariableName&gt;
+	&lt;myType&gt;radio-combo&lt;/myType&gt;
+	&lt;myLabel&gt;Duration&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Choose whether the entity will wander indefinitely or for a fixed amount of time.&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;Indefinitely&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;Indefinitely;Timed&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;wanderTime&lt;/myVariableName&gt;
+	&lt;myType&gt;time&lt;/myType&gt;
+	&lt;myLabel&gt;Wander Time&lt;/myLabel&gt;
+	&lt;myToolTip&gt;&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;0:00:00:00&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;0&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;0&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;movementMode&lt;/myVariableName&gt;
+	&lt;myType&gt;radio-combo&lt;/myType&gt;
+	&lt;myLabel&gt;Movement&lt;/myLabel&gt;
+	&lt;myToolTip&gt;&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;Free&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;Free;Restricted to Area&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;area&lt;/myVariableName&gt;
+	&lt;myType&gt;simulationobject&lt;/myType&gt;
+	&lt;myLabel&gt;Wander Area (Optional)&lt;/myLabel&gt;
+	&lt;myToolTip&gt;&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;Areas&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;DtAreasFilter&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+		<item>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;!DOCTYPE boost_serialization&gt;
+&lt;boost_serialization signature=&quot;serialization::archive&quot; version=&quot;9&quot;&gt;
+&lt;DtScriptedTaskVariable class_id=&quot;0&quot; tracking_level=&quot;0&quot; version=&quot;4&quot;&gt;
+	&lt;myVariableName&gt;destinationRestriction&lt;/myVariableName&gt;
+	&lt;myType&gt;combo&lt;/myType&gt;
+	&lt;myLabel&gt;Destination Restriction&lt;/myLabel&gt;
+	&lt;myToolTip&gt;Wander will choose destinations fitting this restriction&lt;/myToolTip&gt;
+	&lt;myDefaultValue&gt;Anywhere&lt;/myDefaultValue&gt;
+	&lt;myRangeBottom&gt;-100000&lt;/myRangeBottom&gt;
+	&lt;myRangeTop&gt;100000&lt;/myRangeTop&gt;
+	&lt;myVariableData&gt;Anywhere;On Roads;Off Roads;On Pedestrian Paths&lt;/myVariableData&gt;
+	&lt;myVisible&gt;1&lt;/myVisible&gt;
+	&lt;myIndent&gt;0&lt;/myIndent&gt;
+	&lt;myInternal&gt;0&lt;/myInternal&gt;
+	&lt;myScriptedTaskVariableName&gt;&lt;/myScriptedTaskVariableName&gt;
+&lt;/DtScriptedTaskVariable&gt;
+</item>
+	</myVariables>
+	<myScript></myScript>
+	<myActionCategories>Movement</myActionCategories>
+	<myShowInMenu>1</myShowInMenu>
+	<myEncrypted>0</myEncrypted>
+	<myScriptType>1</myScriptType>
+	<myDoctrines></myDoctrines>
+	<myFlags>5</myFlags>
+	<myShowInToolbar>0</myShowInToolbar>
+	<myToolbarLocation></myToolbarLocation>
+	<myExtendedMenuText>Wander</myExtendedMenuText>
+	<myShortDescription></myShortDescription>
+	<myUiLayout>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;ui version=&quot;4.0&quot;&gt;
+ &lt;class&gt;DoNotChangeThisFormName&lt;/class&gt;
+ &lt;widget class=&quot;QWidget&quot; name=&quot;DoNotChangeThisFormName&quot;&gt;
+  &lt;property name=&quot;geometry&quot;&gt;
+   &lt;rect&gt;
+    &lt;x&gt;0&lt;/x&gt;
+    &lt;y&gt;0&lt;/y&gt;
+    &lt;width&gt;264&lt;/width&gt;
+    &lt;height&gt;523&lt;/height&gt;
+   &lt;/rect&gt;
+  &lt;/property&gt;
+  &lt;property name=&quot;windowTitle&quot;&gt;
+   &lt;string&gt;Form&lt;/string&gt;
+  &lt;/property&gt;
+  &lt;layout class=&quot;QVBoxLayout&quot; name=&quot;mainLayout&quot;&gt;
+   &lt;property name=&quot;spacing&quot;&gt;
+    &lt;number&gt;0&lt;/number&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;leftMargin&quot;&gt;
+    &lt;number&gt;2&lt;/number&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;topMargin&quot;&gt;
+    &lt;number&gt;2&lt;/number&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;rightMargin&quot;&gt;
+    &lt;number&gt;2&lt;/number&gt;
+   &lt;/property&gt;
+   &lt;property name=&quot;bottomMargin&quot;&gt;
+    &lt;number&gt;2&lt;/number&gt;
+   &lt;/property&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;QLabel&quot; name=&quot;descriptionLabel&quot;&gt;
+     &lt;property name=&quot;text&quot;&gt;
+      &lt;string&gt;Causes the entity to move to a series of randomly chosen locations for the specified amount of time. Wandering can be constrained to a specified area.&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;wordWrap&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;Line&quot; name=&quot;descriptionBreak&quot;&gt;
+     &lt;property name=&quot;orientation&quot;&gt;
+      &lt;enum&gt;Qt::Horizontal&lt;/enum&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;makVrf::DtSimpleRadioButtonVariableWidget&quot; name=&quot;isIndefinite&quot;&gt;
+     &lt;property name=&quot;toolTip&quot;&gt;
+      &lt;string&gt;Choose whether the entity will wander indefinitely or for a fixed amount of time.&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;label&quot;&gt;
+      &lt;string&gt;Duration&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;variableData&quot;&gt;
+      &lt;string&gt;Indefinitely;Timed&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeTop&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeBottom&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;-100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;defaultValue&quot; stdset=&quot;0&quot;&gt;
+      &lt;string&gt;Indefinitely&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;isVisible&quot; stdset=&quot;0&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;makVrf::DtTimeEntryWidget&quot; name=&quot;wanderTime&quot;&gt;
+     &lt;property name=&quot;enabled&quot;&gt;
+      &lt;bool&gt;false&lt;/bool&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;toolTip&quot;&gt;
+      &lt;string/&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;label&quot;&gt;
+      &lt;string&gt;Wander Time&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;variableData&quot;&gt;
+      &lt;string/&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeTop&quot; stdset=&quot;0&quot;&gt;
+      &lt;time&gt;
+       &lt;hour&gt;23&lt;/hour&gt;
+       &lt;minute&gt;59&lt;/minute&gt;
+       &lt;second&gt;59&lt;/second&gt;
+      &lt;/time&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeBottom&quot; stdset=&quot;0&quot;&gt;
+      &lt;time&gt;
+       &lt;hour&gt;0&lt;/hour&gt;
+       &lt;minute&gt;0&lt;/minute&gt;
+       &lt;second&gt;0&lt;/second&gt;
+      &lt;/time&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;defaultValue&quot;&gt;
+      &lt;string&gt;0:00:00:00&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;isVisible&quot; stdset=&quot;0&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;makVrf::DtSimpleRadioButtonVariableWidget&quot; name=&quot;movementMode&quot;&gt;
+     &lt;property name=&quot;toolTip&quot;&gt;
+      &lt;string/&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;label&quot;&gt;
+      &lt;string&gt;Movement&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;variableData&quot;&gt;
+      &lt;string&gt;Free;Restricted to Area&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeTop&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeBottom&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;-100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;defaultValue&quot; stdset=&quot;0&quot;&gt;
+      &lt;string&gt;Free&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;isVisible&quot; stdset=&quot;0&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;makVrf::DtVrfFilteredListView&quot; name=&quot;area&quot;&gt;
+     &lt;property name=&quot;enabled&quot;&gt;
+      &lt;bool&gt;false&lt;/bool&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;toolTip&quot;&gt;
+      &lt;string/&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;label&quot;&gt;
+      &lt;string&gt;Wander Area (Optional)&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;variableData&quot;&gt;
+      &lt;string&gt;DtAreasFilter&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeTop&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeBottom&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;-100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;defaultValue&quot; stdset=&quot;0&quot;&gt;
+      &lt;string&gt;Areas&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;isVisible&quot; stdset=&quot;0&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+   &lt;item&gt;
+    &lt;widget class=&quot;makVrf::DtSimpleComboVariableWidget&quot; name=&quot;destinationRestriction&quot;&gt;
+     &lt;property name=&quot;enabled&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;toolTip&quot;&gt;
+      &lt;string&gt;Wander will choose destinations fitting this restriction&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;label&quot;&gt;
+      &lt;string&gt;Destination Restriction&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;variableData&quot;&gt;
+      &lt;string&gt;Anywhere;On Roads;Off Roads;On Pedestrian Paths&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeTop&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;rangeBottom&quot; stdset=&quot;0&quot;&gt;
+      &lt;number&gt;-100000&lt;/number&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;defaultValue&quot; stdset=&quot;0&quot;&gt;
+      &lt;string&gt;Anywhere&lt;/string&gt;
+     &lt;/property&gt;
+     &lt;property name=&quot;isVisible&quot; stdset=&quot;0&quot;&gt;
+      &lt;bool&gt;true&lt;/bool&gt;
+     &lt;/property&gt;
+    &lt;/widget&gt;
+   &lt;/item&gt;
+  &lt;/layout&gt;
+ &lt;/widget&gt;
+ &lt;customwidgets&gt;
+  &lt;customwidget&gt;
+   &lt;class&gt;makVrf::DtSimpleComboVariableWidget&lt;/class&gt;
+   &lt;extends&gt;makVrf::DtTaskSetVariableWidget&lt;/extends&gt;
+   &lt;header location=&quot;global&quot;&gt;vrfGuiCoreQt/simpleVariableWidget.h&lt;/header&gt;
+  &lt;/customwidget&gt;
+  &lt;customwidget&gt;
+   &lt;class&gt;makVrf::DtSimpleRadioButtonVariableWidget&lt;/class&gt;
+   &lt;extends&gt;makVrf::DtTaskSetVariableWidget&lt;/extends&gt;
+   &lt;header location=&quot;global&quot;&gt;vrfGuiCoreQt/simpleVariableWidget.h&lt;/header&gt;
+  &lt;/customwidget&gt;
+  &lt;customwidget&gt;
+   &lt;class&gt;makVrf::DtTaskSetVariableWidget&lt;/class&gt;
+   &lt;extends&gt;QWidget&lt;/extends&gt;
+   &lt;header location=&quot;global&quot;&gt;vrfGuiCoreQt/simpleLabelWidgets.h&lt;/header&gt;
+  &lt;/customwidget&gt;
+  &lt;customwidget&gt;
+   &lt;class&gt;makVrf::DtVrfFilteredListView&lt;/class&gt;
+   &lt;extends&gt;makVrf::DtTaskSetVariableWidget&lt;/extends&gt;
+   &lt;header location=&quot;global&quot;&gt;vrfGuiCoreQt/vrfFilteredListView.h&lt;/header&gt;
+  &lt;/customwidget&gt;
+  &lt;customwidget&gt;
+   &lt;class&gt;makVrf::DtTimeEntryWidget&lt;/class&gt;
+   &lt;extends&gt;makVrf::DtTaskSetVariableWidget&lt;/extends&gt;
+   &lt;header location=&quot;global&quot;&gt;vrfGuiCoreQt/timeEntryWidget.h&lt;/header&gt;
+  &lt;/customwidget&gt;
+ &lt;/customwidgets&gt;
+ &lt;resources/&gt;
+ &lt;connections&gt;
+  &lt;connection&gt;
+   &lt;sender&gt;movementMode&lt;/sender&gt;
+   &lt;signal&gt;toggled(bool)&lt;/signal&gt;
+   &lt;receiver&gt;area&lt;/receiver&gt;
+   &lt;slot&gt;setEnabled(bool)&lt;/slot&gt;
+   &lt;hints&gt;
+    &lt;hint type=&quot;sourcelabel&quot;&gt;
+     &lt;x&gt;131&lt;/x&gt;
+     &lt;y&gt;150&lt;/y&gt;
+    &lt;/hint&gt;
+    &lt;hint type=&quot;destinationlabel&quot;&gt;
+     &lt;x&gt;131&lt;/x&gt;
+     &lt;y&gt;337&lt;/y&gt;
+    &lt;/hint&gt;
+   &lt;/hints&gt;
+  &lt;/connection&gt;
+  &lt;connection&gt;
+   &lt;sender&gt;isIndefinite&lt;/sender&gt;
+   &lt;signal&gt;toggled(bool)&lt;/signal&gt;
+   &lt;receiver&gt;wanderTime&lt;/receiver&gt;
+   &lt;slot&gt;setEnabled(bool)&lt;/slot&gt;
+   &lt;hints&gt;
+    &lt;hint type=&quot;sourcelabel&quot;&gt;
+     &lt;x&gt;131&lt;/x&gt;
+     &lt;y&gt;71&lt;/y&gt;
+    &lt;/hint&gt;
+    &lt;hint type=&quot;destinationlabel&quot;&gt;
+     &lt;x&gt;131&lt;/x&gt;
+     &lt;y&gt;110&lt;/y&gt;
+    &lt;/hint&gt;
+   &lt;/hints&gt;
+  &lt;/connection&gt;
+ &lt;/connections&gt;
+&lt;/ui&gt;
+</myUiLayout>
+	<myAliases class_id="2" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</myAliases>
+</DtScriptedTaskMetaData>
+</boost_serialization>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject name="simObjects" entityVersion="1.0" platform="@(platforms-dir)\Aggregate.ope" objectType="3:11:2:-1:13:13:4:0" matchType="3:11:2:-1:13:13:4:0">
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="allow-aggregation">True</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="display-combat-range">True</bool>
+      <bool paramName="gui-can-aggregate">True</bool>
+      <bool paramName="gui-can-create">False</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <formations paramName="formation-list" autoLayout="0"/>
+      <real paramName="combat-range">5000</real>
+      <real paramName="disaggregation-range">1000</real>
+      <real paramName="infrared-signature">0</real>
+      <real paramName="radar-signature">0</real>
+      <real paramName="visual-signature">0</real>
+      <sensorSignatures/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="echelon-level">Sqn</string>
+      <string paramName="gui-categories">"3D Model" "Empty Unit" "Military"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Strike Fighter Sqn</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-15320446-Strike Fighter Squadron</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename"/>
+      <string paramName="short-name">VAF </string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+      <subordinates paramName="subordinates"/>
+   </simObject>
+</simObjects>

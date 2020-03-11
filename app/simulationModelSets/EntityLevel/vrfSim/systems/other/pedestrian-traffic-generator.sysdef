@@ -1,0 +1,78 @@
+(pedestrian-traffic-generator
+   (systems )
+   (sensors )
+   (controllers 
+      (script-enable-controller
+         (component-descriptor-type "script-enable-controller-descriptor")
+         (component-type  "script-enable-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (script-ids "Create_Initial_Pedestrians" "Create_Pedestrians" "Delete_Created_Pedestrians")
+         (script-variables   
+            (create-initial-pedestrians-variables
+               (script-id "Create_Initial_Pedestrians")
+               (variables
+                  (DtRwReal Creation-Radius $creation-radius)
+                  (DtRwReal Density-Factor $density-factor)
+                  (DtRwBoolean Perform-Initial-Creation $perform-initial-creation)
+               )
+            )
+           (create-pedestrians-variables
+              (script-id "Create_Pedestrians" )
+              (variables
+                 (DtRwReal Creation-Radius $creation-radius)
+                 (DtRwString Entity-Type-Category $entity-type-category)
+              )
+           )
+        )
+      )
+   )
+   (actuators )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "Pedestrian Traffic Generator")
+      (system-description  "Makes tasks available for pedestrian traffic generation within the area defined by the object or the radius defined below.")
+      (allowed-state-repository-types "all")
+      (system-categories "other")
+      (parameter-data-list 
+         (real-parameter-data 
+            (parameter-name  "creation-radius")
+            (variable-type  "DtRwReal")
+            (display-label  "Pedestrian Creation Radius (if not an area)")
+            (display-units  "")
+            (source-units  "")
+            (default-value  50.0000)
+         )
+         (real-parameter-data 
+            (parameter-name  "density-factor")
+            (variable-type  "DtRwReal")
+            (display-label  "Density Factor")
+            (display-units  "")
+            (source-units  "")
+            (default-value  1.00000)
+         )
+         (bool-parameter-data 
+            (parameter-name  "perform-initial-creation")
+            (variable-type  "DtRwBoolean")
+            (display-label  "Perform Initial Creation")
+            (display-units  "")
+            (source-units  "")
+            (default-value  True)
+         )
+         (string-parameter-data 
+            (parameter-name  "entity-type-category")
+            (variable-type  "DtRwString")
+            (display-label  "Entity Type Category")
+            (display-units  "")
+            (source-units  "")
+            (default-value  "western")
+         )
+      )
+      (meta-data-entry-list )
+   )
+)

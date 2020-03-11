@@ -1,0 +1,216 @@
+;;
+;; File - ship-explosive.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Ships vs. explosive detonations
+;; All power values are in kPa of incident pressure.
+;; (for example only!)
+;;
+(damage-table 
+   (front
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.05)
+                  (mobility-kill 0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.1)
+                  (mobility-kill 0.2)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.5)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.6)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.75)
+                  (mobility-kill 0.7)
+               )
+               (power 200.0
+                  (catastrophic-kill  0.9)
+                  (mobility-kill 0.85)
+               )
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.05)
+                  (mobility-kill 0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.25)
+                  (mobility-kill 0.2)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.5)
+                  (firepower-kill 0.1)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.7)
+                  (mobility-kill 0.6)
+                  (firepower-kill 0.2)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.7)
+                  (firepower-kill 0.2)
+               )
+               (power 200.0
+                  (catastrophic-kill  0.95)
+                  (mobility-kill 0.85)
+                  (firepower-kill 0.2)
+               )
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.05)
+                  (mobility-kill 0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.25)
+                  (mobility-kill 0.2)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.5)
+                  (firepower-kill 0.1)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.7)
+                  (mobility-kill 0.6)
+                  (firepower-kill 0.2)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.85)
+                  (mobility-kill 0.7)
+                  (firepower-kill 0.2)
+               )
+               (power 200.0
+                  (catastrophic-kill  0.95)
+                  (mobility-kill 0.85)
+                  (firepower-kill 0.2)
+               )
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.05)
+                  (firepower-kill 0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.25)
+                  (firepower-kill 0.2)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.5)
+                  (firepower-kill 0.5)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.7)
+                  (firepower-kill 0.6)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.85)
+                  (firepower-kill 0.7)
+               )
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.05)
+                  (mobility-kill 0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.1)
+                  (mobility-kill 0.5)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.8)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.75)
+                  (mobility-kill 0.95)
+               )
+               (power 200.0
+                  (catastrophic-kill  0.9)
+                  (mobility-kill 1.0)
+               )
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.05)
+                  (mobility-kill 0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.1)
+                  (mobility-kill 0.5)
+               )
+               (power 30.0
+                  (catastrophic-kill  0.3)
+                  (mobility-kill 0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.5)
+                  (mobility-kill 0.8)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.75)
+                  (mobility-kill 0.95)
+               )
+               (power 200.0
+                  (catastrophic-kill  0.9)
+                  (mobility-kill 1.0)
+               )
+            )
+         )
+      )
+   )
+)

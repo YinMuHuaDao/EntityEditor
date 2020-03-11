@@ -1,0 +1,7 @@
+"CID Table-square law, classify only",Version 1.0,,Detection,Interval,(seconds),->,
+ ,,0,1,4,16,64,256
+Apparent ,1,0,0,0,0,1,2
+Signature  ,2,0,0,0,1,2,2
+       |,4,0,0,1,2,2,2
+,8,0,1,2,2,2,2
+,16,1,1,2,2,2,2

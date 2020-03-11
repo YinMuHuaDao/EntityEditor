@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject name="simObjects" entityVersion="1.0" platform="@(platforms-dir)\Aggregate.ope" objectType="3:11:1:225:3:21:0:1" matchType="3:11:1:225:3:21:0:1">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <DtRwMap paramName="Assemblies">
+         <int paramName="assembly_Truck">4</int>
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Base-Ammunition">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Base-Equipment">
+         <DtRwStructure paramName="HMMWV">
+            <int paramName="Count">4</int>
+            <string paramName="Pacing-Tracking">Tracking</string>
+            <string paramName="Category">Vehicle Category</string>
+         </DtRwStructure>
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Base-Resources">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <DtRwMap paramName="Base-Weapons">
+         <KeyPrototype XMLType="string" paramName="key"/>
+      </DtRwMap>
+      <bool paramName="Can-Receive-Supplies-Attacking">False</bool>
+      <bool paramName="Can-Receive-Supplies-Defending">True</bool>
+      <bool paramName="Can-Receive-Supplies-Moving">False</bool>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">True</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <componentSystem systemName="aggregated-movement" platform="@(system-dir)\movement\motorized-aggregated-movement.sysdef">
+         <real paramName="rain-modifier-by-intensity">0.2</real>
+         <real paramName="retrograde-movement-penalty">0.5</real>
+         <real paramName="snow-modifier-by-intensity">0.1</real>
+         <real paramName="visibility-can-degrade-speed-up-to">0.1</real>
+         <real paramName="visibility-degrades-when-below">200</real>
+      </componentSystem>
+      <componentSystem systemName="electronicwarfare" platform="@(system-dir)\other\aggregate-comms-jammer.sysdef">
+         <real paramName="jam-range">5000</real>
+         <real paramName="jam-strength">1000</real>
+         <string paramName="postures">Hasty-Attack, Deliberate-Attack, Hasty-Defense, Deliberate-Defense, Reconnaissance</string>
+      </componentSystem>
+      <componentSystem systemName="obstacle-destruction" platform="@(system-dir)\other\simple-obstacle-destroyer.sysdef">
+         <real paramName="time-to-breach-abatis">22500</real>
+         <real paramName="time-to-breach-barbed-wire">180000</real>
+         <real paramName="time-to-breach-barricade">180000</real>
+         <real paramName="time-to-breach-berm">54000</real>
+         <real paramName="time-to-destroy-abatis">18000</real>
+         <real paramName="time-to-destroy-barbed-wire">3600</real>
+         <real paramName="time-to-destroy-barricade">18000</real>
+         <real paramName="time-to-destroy-berm">5400</real>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\spot-report-generator.sysdef">
+         <bool paramName="broadcast">False</bool>
+      </componentSystem>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-ground-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)\other\spot-report-receiver.sysdef"/>
+      <componentSystem systemName="other-4" platform="@(system-dir)\other\mopp-gear.sysdef"/>
+      <componentSystem systemName="other-5" platform="@(system-dir)\other\engagement-report-generator.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\visual-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="-2"/>
+         <real paramName="max-range">4000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+         <real paramName="wind-degrades-sensor-performance-by">0</real>
+         <real paramName="wind-degrades-sensor-performance-until">0</real>
+         <real paramName="wind-degrades-when-above">0</real>
+      </componentSystem>
+      <componentSystem systemName="sensor-2" platform="@(system-dir)\sensors\emissions-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="-2"/>
+         <real paramName="max-range">50000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <componentSystem systemName="sensor-3" platform="@(system-dir)\sensors\engineering-object-sensor.sysdef">
+         <real paramName="max-range">2500</real>
+         <real paramName="prob-detect">0.05</real>
+      </componentSystem>
+      <componentSystem systemName="sensor-4" platform="@(system-dir)\sensors\nbc-sensor.sysdef">
+         <bool paramName="detect-biological">True</bool>
+         <bool paramName="detect-chemical">True</bool>
+         <bool paramName="detect-nuclear">True</bool>
+         <real paramName="max-range">500</real>
+         <real paramName="range-biological">0</real>
+         <real paramName="range-chemical">0</real>
+         <real paramName="range-nuclear">0</real>
+      </componentSystem>
+      <embarkationSlots paramName="embarkation-slots">
+         <embarkationSlot embarkableObject="-1:11:1:-1:5:3:-1:-1" capacity="-1" jumpToLocation="True" turnToHeading="True" invisibleWhenEmbarked="False" embarkedAppearance="       0">
+            <embarkedOrientation yaw="0" pitch="0" roll="0"/>
+            <embarkedPosition x="0" y="0" z="0"/>
+            <string paramName="slotName"/>
+            <string paramName="slotType"/>
+         </embarkationSlot>
+      </embarkationSlots>
+      <formations paramName="formation-list" autoLayout="0"/>
+      <int paramName="Base-Combat-Power-Anti-Air-Strength">0</int>
+      <int paramName="Base-Combat-Power-Anti-Personnel-Strength">0</int>
+      <int paramName="Base-Combat-Power-Anti-Ship-Strength">0</int>
+      <int paramName="Base-Combat-Power-Anti-Tank-Strength">0</int>
+      <int paramName="Base-Combat-Power-High-Explosive-Strength">0</int>
+      <int paramName="Base-Health">800</int>
+      <int paramName="Base-Personnel-Enlisted">19</int>
+      <int paramName="Base-Personnel-NCOs">0</int>
+      <int paramName="Base-Personnel-Officers">1</int>
+      <int paramName="Base-Personnel-WOs">0</int>
+      <loadPoints paramName="egress-points">
+         <loadPoint supportedSlots="1">
+            <vector paramName="embarkation-load-point" x="0" y="0" z="0"/>
+         </loadPoint>
+      </loadPoints>
+      <loadPoints paramName="ingress-points">
+         <loadPoint supportedSlots="1">
+            <vector paramName="embarkation-load-point" x="0" y="0" z="0"/>
+         </loadPoint>
+      </loadPoints>
+      <real paramName="Ammunition-Auto-Resupply-Anti-Air">0</real>
+      <real paramName="Ammunition-Auto-Resupply-Anti-Personnel">0</real>
+      <real paramName="Ammunition-Auto-Resupply-Anti-Ship">0</real>
+      <real paramName="Ammunition-Auto-Resupply-Anti-Tank">0</real>
+      <real paramName="Ammunition-Auto-Resupply-High-Explosive">0</real>
+      <real paramName="Ammunition-Usage-Anti-Air">0</real>
+      <real paramName="Ammunition-Usage-Anti-Personnel">0</real>
+      <real paramName="Ammunition-Usage-Anti-Ship">0</real>
+      <real paramName="Ammunition-Usage-Anti-Tank">0</real>
+      <real paramName="Ammunition-Usage-High-Explosive">0</real>
+      <real paramName="Attack-Strength-Morale-Modifier">0.1</real>
+      <real paramName="Aviation-Fuel-Auto-Resupply-Rate">0</real>
+      <real paramName="Aviation-Fuel-Usage-Per-Meter">0</real>
+      <real paramName="Aviation-Fuel-Usage-Per-Second">0</real>
+      <real paramName="Base-Aviation-Fuel">0</real>
+      <real paramName="Base-Combat-Power-Anti-Air-Hit-Factor">-1</real>
+      <real paramName="Base-Combat-Power-Anti-Air-Range">0</real>
+      <real paramName="Base-Combat-Power-Anti-Personnel-Hit-Factor">-1</real>
+      <real paramName="Base-Combat-Power-Anti-Personnel-Range">0</real>
+      <real paramName="Base-Combat-Power-Anti-Ship-Hit-Factor">-1</real>
+      <real paramName="Base-Combat-Power-Anti-Ship-Range">0</real>
+      <real paramName="Base-Combat-Power-Anti-Tank-Hit-Factor">-1</real>
+      <real paramName="Base-Combat-Power-Anti-Tank-Range">0</real>
+      <real paramName="Base-Combat-Power-High-Explosive-Hit-Factor">-1</real>
+      <real paramName="Base-Combat-Power-High-Explosive-Range">0</real>
+      <real paramName="Base-Diesel-Fuel">320</real>
+      <real paramName="Base-Food">60</real>
+      <real paramName="Base-Lubricant">4</real>
+      <real paramName="Base-Motor-Gas">600</real>
+      <real paramName="Base-Oil">40</real>
+      <real paramName="Base-Physical-Footprint">100</real>
+      <real paramName="Base-Vulnerability-Anti-Air-Defense-Factor">0</real>
+      <real paramName="Base-Vulnerability-Anti-Air-Modifier">0</real>
+      <real paramName="Base-Vulnerability-Anti-Personnel-Defense-Factor">20</real>
+      <real paramName="Base-Vulnerability-Anti-Personnel-Modifier">1</real>
+      <real paramName="Base-Vulnerability-Anti-Ship-Defense-Factor">0</real>
+      <real paramName="Base-Vulnerability-Anti-Ship-Modifier">0</real>
+      <real paramName="Base-Vulnerability-Anti-Tank-Defense-Factor">20</real>
+      <real paramName="Base-Vulnerability-Anti-Tank-Modifier">0</real>
+      <real paramName="Base-Vulnerability-Biological-Modifier">1</real>
+      <real paramName="Base-Vulnerability-Chemical-Modifier">1</real>
+      <real paramName="Base-Vulnerability-High-Explosive-Defense-Factor">20</real>
+      <real paramName="Base-Vulnerability-High-Explosive-Modifier">1</real>
+      <real paramName="Base-Vulnerability-Nuclear-Modifier">1</real>
+      <real paramName="Base-Water">120</real>
+      <real paramName="Casualty-Type-Captured-Probability">0</real>
+      <real paramName="Casualty-Type-Killed-Probability">0.15</real>
+      <real paramName="Casualty-Type-Wounded-Probability">0.84</real>
+      <real paramName="Combat-Detection-Level-0-Modifier">0</real>
+      <real paramName="Combat-Detection-Level-1-Modifier">0.3</real>
+      <real paramName="Combat-Detection-Level-2-Modifier">0.7</real>
+      <real paramName="Combat-Detection-Level-3-Modifier">0.9</real>
+      <real paramName="Combat-Detection-Level-4-Modifier">1</real>
+      <real paramName="Combat-MOPP-Level-0-Modifier">1</real>
+      <real paramName="Combat-MOPP-Level-1-Modifier">0.9</real>
+      <real paramName="Combat-MOPP-Level-2-Modifier">0.9</real>
+      <real paramName="Combat-MOPP-Level-3-Modifier">0.7</real>
+      <real paramName="Combat-MOPP-Level-4-Modifier">0.6</real>
+      <real paramName="Combat-Posture-Deliberate-Attack-Modifier">1</real>
+      <real paramName="Combat-Posture-Deliberate-Defense-Modifier">1</real>
+      <real paramName="Combat-Posture-Hasty-Attack-Modifier">0.7</real>
+      <real paramName="Combat-Posture-Hasty-Defense-Modifier">0.9</real>
+      <real paramName="Combat-Posture-Reconnaissance-Modifier">0.3</real>
+      <real paramName="Combat-Posture-Rout-Modifier">0.1</real>
+      <real paramName="Combat-Posture-Travel-Modifier">0.2</real>
+      <real paramName="Combat-Power-Illumination-Intensity-Modifier">0.9</real>
+      <real paramName="Combat-Power-Precipitation-Intensity-Modifier">0.5</real>
+      <real paramName="Combat-Sector-Flank-Modifier">0.4</real>
+      <real paramName="Combat-Sector-Front-Modifier">1</real>
+      <real paramName="Combat-Sector-Rear-Modifier">0.2</real>
+      <real paramName="Comms-Dependence">0.5</real>
+      <real paramName="Deliberate-Attack-To-Deliberate-Attack-Time">0</real>
+      <real paramName="Deliberate-Attack-To-Deliberate-Defense-Time">10800</real>
+      <real paramName="Deliberate-Attack-To-Hasty-Attack-Time">300</real>
+      <real paramName="Deliberate-Attack-To-Hasty-Defense-Time">5400</real>
+      <real paramName="Deliberate-Attack-To-Reconnaissance-Time">3600</real>
+      <real paramName="Deliberate-Attack-To-Rout-Time">0</real>
+      <real paramName="Deliberate-Attack-To-Travel-Time">3600</real>
+      <real paramName="Deliberate-Defense-To-Deliberate-Attack-Time">7200</real>
+      <real paramName="Deliberate-Defense-To-Deliberate-Defense-Time">0</real>
+      <real paramName="Deliberate-Defense-To-Hasty-Attack-Time">900</real>
+      <real paramName="Deliberate-Defense-To-Hasty-Defense-Time">5400</real>
+      <real paramName="Deliberate-Defense-To-Reconnaissance-Time">3600</real>
+      <real paramName="Deliberate-Defense-To-Rout-Time">0</real>
+      <real paramName="Deliberate-Defense-To-Travel-Time">3600</real>
+      <real paramName="Diesel-Fuel-Auto-Resupply-Rate">0.003703703703704</real>
+      <real paramName="Diesel-Fuel-Usage-Per-Meter">0.00047</real>
+      <real paramName="Diesel-Fuel-Usage-Per-Second">0</real>
+      <real paramName="EW-Defense">50</real>
+      <real paramName="Food-Auto-Resupply-Rate">0.0006944444444444</real>
+      <real paramName="Food-Usage-Per-Second">0.0006944444444444</real>
+      <real paramName="Footprint-Posture-Deliberate-Attack-Modifier">1</real>
+      <real paramName="Footprint-Posture-Deliberate-Defense-Modifier">1</real>
+      <real paramName="Footprint-Posture-Hasty-Attack-Modifier">1</real>
+      <real paramName="Footprint-Posture-Hasty-Defense-Modifier">1</real>
+      <real paramName="Footprint-Posture-Reconnaissance-Modifier">0.3</real>
+      <real paramName="Footprint-Posture-Rout-Modifier">1</real>
+      <real paramName="Footprint-Posture-Travel-Modifier">0.3</real>
+      <real paramName="Hasty-Attack-To-Deliberate-Attack-Time">7200</real>
+      <real paramName="Hasty-Attack-To-Deliberate-Defense-Time">10800</real>
+      <real paramName="Hasty-Attack-To-Hasty-Attack-Time">0</real>
+      <real paramName="Hasty-Attack-To-Hasty-Defense-Time">5400</real>
+      <real paramName="Hasty-Attack-To-Reconnaissance-Time">3600</real>
+      <real paramName="Hasty-Attack-To-Rout-Time">0</real>
+      <real paramName="Hasty-Attack-To-Travel-Time">1800</real>
+      <real paramName="Hasty-Defense-To-Deliberate-Attack-Time">7200</real>
+      <real paramName="Hasty-Defense-To-Deliberate-Defense-Time">5400</real>
+      <real paramName="Hasty-Defense-To-Hasty-Attack-Time">300</real>
+      <real paramName="Hasty-Defense-To-Hasty-Defense-Time">0</real>
+      <real paramName="Hasty-Defense-To-Reconnaissance-Time">3600</real>
+      <real paramName="Hasty-Defense-To-Rout-Time">0</real>
+      <real paramName="Hasty-Defense-To-Travel-Time">1800</real>
+      <real paramName="Health-Auto-Resupply-Rate">0</real>
+      <real paramName="Health-Percent-For-Rout">30</real>
+      <real paramName="Height">2.69</real>
+      <real paramName="If-Morale-Less-Than">0.2</real>
+      <real paramName="Large-Munition-Auto-Resupply-Rate">0</real>
+      <real paramName="Lubricant-Auto-Resupply-Rate">0</real>
+      <real paramName="Lubricant-Usage-Per-Second">4.62962962963e-007</real>
+      <real paramName="MOPP-0-Transition-Time">0</real>
+      <real paramName="MOPP-1-Transition-Time">300</real>
+      <real paramName="MOPP-2-Transition-Time">360</real>
+      <real paramName="MOPP-3-Transition-Time">420</real>
+      <real paramName="MOPP-4-Transition-Time">480</real>
+      <real paramName="MaximumSpeed-Footprint-Overlap-Modifier">0.8</real>
+      <real paramName="MaximumSpeed-MOPP-Level-0-Modifier">1</real>
+      <real paramName="MaximumSpeed-MOPP-Level-1-Modifier">1</real>
+      <real paramName="MaximumSpeed-MOPP-Level-2-Modifier">1</real>
+      <real paramName="MaximumSpeed-MOPP-Level-3-Modifier">0.75</real>
+      <real paramName="MaximumSpeed-MOPP-Level-4-Modifier">0.75</real>
+      <real paramName="MaximumSpeed-Posture-Deliberate-Attack-Modifier">0.5</real>
+      <real paramName="MaximumSpeed-Posture-Deliberate-Defense-Modifier">0.05</real>
+      <real paramName="MaximumSpeed-Posture-Hasty-Attack-Modifier">0.8</real>
+      <real paramName="MaximumSpeed-Posture-Hasty-Defense-Modifier">0.1</real>
+      <real paramName="MaximumSpeed-Posture-Reconnaissance-Modifier">0.4</real>
+      <real paramName="MaximumSpeed-Posture-Rout-Modifier">1</real>
+      <real paramName="MaximumSpeed-Posture-Travel-Modifier">1</real>
+      <real paramName="Motor-Gas-Auto-Resupply-Rate">0.006944444444444</real>
+      <real paramName="Motor-Gas-Usage-Per-Meter">0.001</real>
+      <real paramName="Motor-Gas-Usage-Per-Second">0</real>
+      <real paramName="Oil-Auto-Resupply-Rate">0</real>
+      <real paramName="Oil-Usage-Per-Second">4.62962962963e-006</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Attack-Front">60</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Attack-Left">105</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Attack-Rear">90</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Attack-Right">105</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Defense-Front">150</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Defense-Left">30</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Defense-Rear">150</real>
+      <real paramName="Posture-Sector-Size-Deliberate-Defense-Right">30</real>
+      <real paramName="Posture-Sector-Size-Hasty-Attack-Front">120</real>
+      <real paramName="Posture-Sector-Size-Hasty-Attack-Left">75</real>
+      <real paramName="Posture-Sector-Size-Hasty-Attack-Rear">90</real>
+      <real paramName="Posture-Sector-Size-Hasty-Attack-Right">75</real>
+      <real paramName="Posture-Sector-Size-Hasty-Defense-Front">150</real>
+      <real paramName="Posture-Sector-Size-Hasty-Defense-Left">30</real>
+      <real paramName="Posture-Sector-Size-Hasty-Defense-Rear">150</real>
+      <real paramName="Posture-Sector-Size-Hasty-Defense-Right">30</real>
+      <real paramName="Posture-Sector-Size-Reconnaissance-Front">300</real>
+      <real paramName="Posture-Sector-Size-Reconnaissance-Left">30</real>
+      <real paramName="Posture-Sector-Size-Reconnaissance-Rear">0</real>
+      <real paramName="Posture-Sector-Size-Reconnaissance-Right">30</real>
+      <real paramName="Posture-Sector-Size-Rout-Front">0</real>
+      <real paramName="Posture-Sector-Size-Rout-Left">90</real>
+      <real paramName="Posture-Sector-Size-Rout-Rear">180</real>
+      <real paramName="Posture-Sector-Size-Rout-Right">90</real>
+      <real paramName="Posture-Sector-Size-Travel-Front">0</real>
+      <real paramName="Posture-Sector-Size-Travel-Left">160</real>
+      <real paramName="Posture-Sector-Size-Travel-Rear">40</real>
+      <real paramName="Posture-Sector-Size-Travel-Right">160</real>
+      <real paramName="Range-Posture-Deliberate-Attack-Modifier">1</real>
+      <real paramName="Range-Posture-Deliberate-Defense-Modifier">1</real>
+      <real paramName="Range-Posture-Hasty-Attack-Modifier">1</real>
+      <real paramName="Range-Posture-Hasty-Defense-Modifier">1</real>
+      <real paramName="Range-Posture-Reconnaissance-Modifier">1</real>
+      <real paramName="Range-Posture-Rout-Modifier">1</real>
+      <real paramName="Range-Posture-Travel-Modifier">1</real>
+      <real paramName="Reconnaissance-To-Deliberate-Attack-Time">7200</real>
+      <real paramName="Reconnaissance-To-Deliberate-Defense-Time">10800</real>
+      <real paramName="Reconnaissance-To-Hasty-Attack-Time">300</real>
+      <real paramName="Reconnaissance-To-Hasty-Defense-Time">5400</real>
+      <real paramName="Reconnaissance-To-Reconnaissance-Time">0</real>
+      <real paramName="Reconnaissance-To-Rout-Time">0</real>
+      <real paramName="Reconnaissance-To-Travel-Time">1800</real>
+      <real paramName="Rout-To-Deliberate-Attack-Time">7200</real>
+      <real paramName="Rout-To-Deliberate-Defense-Time">10800</real>
+      <real paramName="Rout-To-Hasty-Attack-Time">1800</real>
+      <real paramName="Rout-To-Hasty-Defense-Time">5400</real>
+      <real paramName="Rout-To-Reconnaissance-Time">3600</real>
+      <real paramName="Rout-To-Rout-Time">0</real>
+      <real paramName="Rout-To-Travel-Time">1800</real>
+      <real paramName="Sensor-Sensitivity-MOPP-Level-0-Modifier">1</real>
+      <real paramName="Sensor-Sensitivity-MOPP-Level-1-Modifier">1</real>
+      <real paramName="Sensor-Sensitivity-MOPP-Level-2-Modifier">1</real>
+      <real paramName="Sensor-Sensitivity-MOPP-Level-3-Modifier">0.6</real>
+      <real paramName="Sensor-Sensitivity-MOPP-Level-4-Modifier">0.6</real>
+      <real paramName="Sensor-Sensitivity-Posture-Deliberate-Attack-Modifier">1</real>
+      <real paramName="Sensor-Sensitivity-Posture-Deliberate-Defense-Modifier">1</real>
+      <real paramName="Sensor-Sensitivity-Posture-Hasty-Attack-Modifier">0.9</real>
+      <real paramName="Sensor-Sensitivity-Posture-Hasty-Defense-Modifier">0.95</real>
+      <real paramName="Sensor-Sensitivity-Posture-Reconnaissance-Modifier">1.1</real>
+      <real paramName="Sensor-Sensitivity-Posture-Rout-Modifier">0.8</real>
+      <real paramName="Sensor-Sensitivity-Posture-Travel-Modifier">1</real>
+      <real paramName="Sensor-Signature-Posture-Deliberate-Attack-Modifier">0.8</real>
+      <real paramName="Sensor-Signature-Posture-Deliberate-Defense-Modifier">0.7</real>
+      <real paramName="Sensor-Signature-Posture-Hasty-Attack-Modifier">1</real>
+      <real paramName="Sensor-Signature-Posture-Hasty-Defense-Modifier">0.75</real>
+      <real paramName="Sensor-Signature-Posture-Reconnaissance-Modifier">0.6</real>
+      <real paramName="Sensor-Signature-Posture-Rout-Modifier">1</real>
+      <real paramName="Sensor-Signature-Posture-Travel-Modifier">1.25</real>
+      <real paramName="Travel-To-Deliberate-Attack-Time">7200</real>
+      <real paramName="Travel-To-Deliberate-Defense-Time">10800</real>
+      <real paramName="Travel-To-Hasty-Attack-Time">300</real>
+      <real paramName="Travel-To-Hasty-Defense-Time">5400</real>
+      <real paramName="Travel-To-Reconnaissance-Time">3600</real>
+      <real paramName="Travel-To-Rout-Time">0</real>
+      <real paramName="Travel-To-Travel-Time">0</real>
+      <real paramName="Vulnerability-MOPP-Level-0-Modifier">1</real>
+      <real paramName="Vulnerability-MOPP-Level-1-Modifier">1.05</real>
+      <real paramName="Vulnerability-MOPP-Level-2-Modifier">1.05</real>
+      <real paramName="Vulnerability-MOPP-Level-3-Modifier">1.1</real>
+      <real paramName="Vulnerability-MOPP-Level-4-Modifier">1.1</real>
+      <real paramName="Vulnerability-Posture-Deliberate-Attack-Modifier">0.7</real>
+      <real paramName="Vulnerability-Posture-Deliberate-Defense-Modifier">0.2</real>
+      <real paramName="Vulnerability-Posture-Hasty-Attack-Modifier">0.8</real>
+      <real paramName="Vulnerability-Posture-Hasty-Defense-Modifier">0.4</real>
+      <real paramName="Vulnerability-Posture-Reconnaissance-Modifier">0.5</real>
+      <real paramName="Vulnerability-Posture-Rout-Modifier">1</real>
+      <real paramName="Vulnerability-Posture-Travel-Modifier">1</real>
+      <real paramName="Vulnerability-Sector-Flank-Modifier">1.4</real>
+      <real paramName="Vulnerability-Sector-Front-Modifier">1</real>
+      <real paramName="Vulnerability-Sector-Rear-Modifier">2</real>
+      <real paramName="Water-Auto-Resupply-Rate">0.001388888888889</real>
+      <real paramName="Water-Usage-Per-Second">0.001388888888889</real>
+      <real paramName="disaggregation-range">1000</real>
+      <real paramName="max-slope">0.1745329251994</real>
+      <real paramName="max-speed">22.22222222222</real>
+      <real paramName="ordered-speed">13.88888888889</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="emissions-signature">0</real>
+         <real paramName="infrared-signature">3</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">5</real>
+         <real paramName="visual-signature">3</real>
+      </sensorSignatures>
+      <slotExclusions paramName="slot-exclusions">
+         <slotExclusion/>
+      </slotExclusions>
+      <string paramName="Base-Aviation-Fuel-Pacing-Tracking"/>
+      <string paramName="Base-Diesel-Fuel-Pacing-Tracking"/>
+      <string paramName="Base-Food-Pacing-Tracking"/>
+      <string paramName="Base-Lubricant-Pacing-Tracking"/>
+      <string paramName="Base-Motor-Gas-Pacing-Tracking"/>
+      <string paramName="Base-Oil-Pacing-Tracking"/>
+      <string paramName="Base-Water-Pacing-Tracking"/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="echelon-level">PLT</string>
+      <string paramName="gui-categories">"Aggregate" "Infantry" "Land"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">MI PLT US</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-238857844-SIGINT PLT</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="short-name">MI </string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+simObject</simObject>
+</simObjects>

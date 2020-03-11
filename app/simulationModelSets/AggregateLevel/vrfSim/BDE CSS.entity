@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject name="simObjects" entityVersion="1.0" platform="@(platforms-dir)\PseudoAggregate.ope" objectType="3:11:1:-1:8:31:1:1" matchType="3:11:1:-1:8:31:1:1">
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="gui-can-aggregate">True</bool>
+      <bool paramName="gui-can-create">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">True</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <formations paramName="formation-list" autoLayout="0"/>
+      <real paramName="disaggregation-range">1000</real>
+      <sensorSignatures/>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="echelon-level">BDE</string>
+      <string paramName="gui-categories">"Echelon"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">BDE CSS</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-109529091-BDE CSS</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="object-geometry-filename"/>
+      <string paramName="short-name">SUST</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+
+simObject</simObject>
+</simObjects>

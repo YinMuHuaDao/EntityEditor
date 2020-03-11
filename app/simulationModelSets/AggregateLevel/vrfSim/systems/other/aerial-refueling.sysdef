@@ -1,0 +1,54 @@
+(resupplier-capability 
+   (controllers 
+      (script-enable-controller 
+         (component-descriptor-type "script-enable-controller-descriptor")
+         (component-type  "script-enable-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (create-component True)
+         (script-ids "Provide_Supplies" "Change_Supplying_Command")
+      )
+      (resupply-controller 
+         (component-descriptor-type "resupply-controller-descriptor")
+         (component-type  "resupply-controller")
+         (min-tick-period  5.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (range 100)
+         (supplying-mode "air-air")
+         (supplies-offered
+            (
+            DtRwMap "Supplies-Offered" DtRwString ; Map name not important
+               (DtRwReal "Rate")
+               ("Aviation-Fuel" $aviation-fuel)
+            )
+         )
+      )
+   )
+   (resources )
+   (meta-data 
+      (system-name  "Aerial Refueling Resupply") ; Must have "supply" in the name.
+      (system-description  "Gives the unit the capability to resupply aviation fuel to airborne units from an airborne unit.")
+      (allowed-state-repository-types "all")
+      (system-categories "other")
+      (parameter-data-list 
+         (real-parameter-data 
+            (parameter-name  "aviation-fuel")
+            (variable-type  "DtRwReal")
+            (display-label  "Aviation Fuel Resupply Rate")
+            (display-units  "kg/sec")
+            (source-units  "kg/sec")
+            (default-value  0.000000)
+         )
+      )
+      (meta-data-entry-list )
+   )
+   (compatibility-psr-names )
+)

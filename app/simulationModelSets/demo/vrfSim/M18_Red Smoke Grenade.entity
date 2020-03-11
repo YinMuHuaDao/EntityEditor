@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:2:9:225:2:85:6:0" matchType="1:2:9:225:2:85:6:0" platform="@(platforms-dir)/Expendable_Object.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="-0.001111499965191" right="-0.02164980024099" down="-0.009172819554806"/>
+      <bodyPosition paramName="other-support" forward="0.01451770029962" right="-0.005361820105463" down="-0.009172819554806"/>
+      <bodyPosition paramName="right-support" forward="-0.001111499965191" right="0.01092610042542" down="-0.009172819554806"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-embark">False</bool>
+      <bool paramName="di-guy-enabled">True</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">False</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="custom">
+         <dimensions length="0.0542" width="0.0649" height="0.107"/>
+         <offset forward="-0.00111" right="0" down="-0.054"/>
+      </boundingVolume>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\frictionless-gravity-with-collisions.sysdef">
+         <bool paramName="random-spin">True</bool>
+         <real paramName="random-spin-rate">2</real>
+      </componentSystem>
+      <componentSystem systemName="weapon" platform="@(system-dir)\weapons\grenade-warhead.sysdef"/>
+      <objectTypes paramName="additional-match-types">
+         <objectType>1:2:9:225:2:85:2:0</objectType>
+      </objectTypes>
+      <real paramName="mass">0.5</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">0</real>
+         <real paramName="infrared-signature">18</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">0</real>
+         <real paramName="radar-signature">25</real>
+         <real paramName="visual-signature">4</real>
+      </sensorSignatures>
+      <string paramName="animation">stand</string>
+      <string paramName="character-appearance">chicken_2</string>
+      <string paramName="character-type">chicken</string>
+      <string paramName="gui-categories">"3D Model" "Military" "Munition"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">M18 Red Smoke Grenade</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-52965925-M18_Red Smoke Grenade</string>
+      <string paramName="hand-item">none</string>
+      <string paramName="head"/>
+      <string paramName="short-name">Smoke</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

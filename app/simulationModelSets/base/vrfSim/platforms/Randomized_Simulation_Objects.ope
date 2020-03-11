@@ -1,0 +1,7 @@
+(vrfObject
+   (parameter-type "randomized-object-param")
+   (display-name "Rancomized Simulation Objects")
+   (display-description "Keeps a list of objects that can be used to select a random one from to create.  This object is not created -- it is a container of objects than can be created.  Note this will only support single point entity or unit objects")
+   (subordinate-objects $subordinates)
+   (can-create-as-new False)
+)

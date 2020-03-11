@@ -1,0 +1,1497 @@
+commModelParams.mtl,3410445052
+extra\componentAttachmentTable.mtl,692917863
+extra\hazardAreaInformation.xml,420954687
+extra\sensor-signatures.csv,3638533064
+forceHostilty.mtl,2829107985
+gui\computedRouteRulesTypes.xml,2323314857
+gui\disallowedObjectGroupTaskSets.xml,1602400379
+gui\initialCreateMenuConfiguration.xml,2836662970
+gui\initialSetMenuConfiguration.xml,1674743657
+gui\initialTaskMenuConfiguration.xml,3614177953
+gui\ui\aggregate-object-param.ui,2877225531
+gui\ui\bomb-param.ui,2055267349
+gui\ui\cultural-feature-param.ui,2605329870
+gui\ui\fixed-wing-entity-param.ui,2548595868
+gui\ui\ground-vehicle-param.ui,3981257054
+gui\ui\human-param.ui,2329106645
+gui\ui\missile-param.ui,488044349
+gui\ui\moving-object-param.ui,3990841186
+gui\ui\rotary-wing-entity-param.ui,2318861219
+gui\ui\scripted-movement-object-param.ui,1678145823
+gui\ui\subsurface-entity-param.ui,3298428069
+gui\ui\surface-entity-param.ui,3298276
+gui\ui\tactical-smoke-param.ui,2567016108
+gui\ui\tag-volume-area-param.ui,141637590
+gui\ui\tag-volume-line-param.ui,3437131831
+indirectArtilleryTypes.mtl,2763399197
+objectGroups\Aircraft Carrier with Air Wing\Aircraft Carrier with Air Wing.gpl,2199535135
+objectGroups\Aircraft Carrier with Air Wing\Aircraft Carrier with Air Wing.oob,3566710916
+objectGroups\Aircraft Carrier with Air Wing\Aircraft Carrier with Air Wing.pln,3919397572
+objectGroups\Aircraft Carrier with Air Wing\Aircraft Carrier with Air Wing.spt,3970271584
+objectGroups\Aircraft Carrier with Air Wing\Aircraft Carrier with Air Wing.xtr,2480264322
+objectGroups\Barracks with Guards\Barracks with Guards.gpl,2199535135
+objectGroups\Barracks with Guards\Barracks with Guards.oob,1341845546
+objectGroups\Barracks with Guards\Barracks with Guards.pln,502970043
+objectGroups\Barracks with Guards\Barracks with Guards.spt,3970271584
+objectGroups\Barracks with Guards\Barracks with Guards.xtr,2480264322
+objectGroups\Conversing Civilians\Conversing Civilians.oob,2081213731
+objectGroups\Conversing Civilians\Conversing Civilians.pln,1972687041
+objectGroups\Conversing Civilians\Conversing Civilians.spt,3970271584
+objectGroups\Conversing Civilians\Conversing Civilians.xtr,2480264322
+objectGroups\Crowd\Crowd.oob,1059214060
+objectGroups\Crowd\Crowd.pln,981156873
+objectGroups\Crowd\Crowd.spt,3329833621
+objectGroups\Crowd\Crowd.xtr,2480264322
+objectGroups\Grazing Sheep\Grazing Sheep.oob,2907518472
+objectGroups\Grazing Sheep\Grazing Sheep.pln,2947141421
+objectGroups\Grazing Sheep\Grazing Sheep.spt,3970271584
+objectGroups\Grazing Sheep\Grazing Sheep.xtr,2480264322
+objectGroups\Patriot Battery\Patriot Battery.gpl,2199535135
+objectGroups\Patriot Battery\Patriot Battery.oob,2409715431
+objectGroups\Patriot Battery\Patriot Battery.pln,1061192399
+objectGroups\Patriot Battery\Patriot Battery.spt,675858437
+objectGroups\Patriot Battery\Patriot Battery.xtr,2480264322
+objectGroups\USCGC Bertholf with Fire Scout\USCGC Bertholf with Fire Scout.gpl,2199535135
+objectGroups\USCGC Bertholf with Fire Scout\USCGC Bertholf with Fire Scout.oob,2861922668
+objectGroups\USCGC Bertholf with Fire Scout\USCGC Bertholf with Fire Scout.pln,3919397572
+objectGroups\USCGC Bertholf with Fire Scout\USCGC Bertholf with Fire Scout.spt,3970271584
+objectGroups\USCGC Bertholf with Fire Scout\USCGC Bertholf with Fire Scout.xtr,2480264322
+physicalWorldParams.mtl,2660076870
+scriptedObjectMovement\Barrel Roll.xml,1746784333
+scriptedObjectMovement\Fast Traj.csv,534104350
+scriptedObjectMovement\Fixed Wing Landing.xml,1580529572
+scriptedObjectMovement\LandingShort.ASE,249617330
+scriptedObjectMovement\Multi Stage Ballistic Missile (400km).xml,1881751635
+scriptedObjectMovement\Pull In.xml,3627351424
+scriptedObjectMovement\Pull Over.xml,835995241
+scriptedObjectMovement\Short Range Ballistic Missile (400km).xml,105742951
+scriptedObjectMovement\Slow Traj.csv,4225186385
+scriptedObjectMovement\Tactical Ballistic Missile (140km).xml,2119743323
+scriptedObjectMovement\VehiclePullInAnimation.ASE,3195093732
+scriptedObjectMovement\VehiclePullOverAnimation.ASE,718328246
+scriptedObjectMovement\barrelRoll.csv,4047013221
+scriptedObjectMovement\movementDataFileConfigurations.xml,616259681
+scriptedObjectMovement\stage1.csv,1653257207
+scriptedObjectMovement\stage2.csv,1207851571
+scriptedObjectMovement\stage3.csv,1872271024
+scripts\AircraftHold.lua,3214300140
+scripts\AircraftHold.xml,1584347757
+scripts\AircraftHold_Waypoint.lua,1114803485
+scripts\AircraftHold_Waypoint.xml,3748884247
+scripts\AngryCrowd.lua,444650790
+scripts\AngryCrowd.xml,62628163
+scripts\Animate_With_References.lua,962545092
+scripts\Animate_With_References.xml,1506323155
+scripts\Arm_Mine_At_Depth.lua,2358264773
+scripts\Arm_Mine_At_Depth.xml,1665931627
+scripts\Attack_Aircraft_with_Guns.lua,1193804964
+scripts\Attack_Aircraft_with_Guns.xml,1053476781
+scripts\Automatic_Headlights.lua,1836363115
+scripts\Automatic_Headlights.xml,4110401516
+scripts\Avoid_Other_Ships.lua,1312276468
+scripts\Avoid_Other_Ships.xml,2975170619
+scripts\Bingo_Fuel_Monitor.lua,1258705069
+scripts\Bingo_Fuel_Monitor.xml,3821318365
+scripts\Bombing_Mission.lua,51834565
+scripts\Bombing_Mission.xml,2495401891
+scripts\Bounding_Overwatch_Move_To.lua,2317398051
+scripts\Bounding_Overwatch_Move_To.xml,3101416447
+scripts\Close_Cargo_Door.lua,512269082
+scripts\Close_Cargo_Door.xml,4034677098
+scripts\Conversation.lua,1690047836
+scripts\Conversation.xml,2110207405
+scripts\Create_and_Move_To_Waypoint.lua,3183030757
+scripts\Create_and_Move_To_Waypoint.xml,1870142643
+scripts\Delayed_homing.lua,684640322
+scripts\Delayed_homing.xml,4190097477
+scripts\Delayed_homing_ASW.lua,2522726911
+scripts\Delayed_homing_ASW.xml,21953882
+scripts\Deploy_Refueling_Boom.lua,244613604
+scripts\Deploy_Refueling_Boom.xml,962516107
+scripts\Deploy_Sonobuoy.lua,1441576354
+scripts\Deploy_Sonobuoy.xml,1304773370
+scripts\Deploy_Sonobuoys_Along_Route.lua,3793705304
+scripts\Deploy_Sonobuoys_Along_Route.xml,2801554964
+scripts\Drop_Naval_Depth_Charge.lua,2056456022
+scripts\Drop_Naval_Depth_Charge.xml,3654865351
+scripts\Drop_Naval_Depth_Charge_At_Location.lua,2775154513
+scripts\Drop_Naval_Depth_Charge_At_Location.xml,3712408144
+scripts\Drop_Naval_Mine.lua,1432042799
+scripts\Drop_Naval_Mine.xml,4041571030
+scripts\Drop_Naval_Mines_Along_Route.lua,1868896485
+scripts\Drop_Naval_Mines_Along_Route.xml,2611593098
+scripts\Dump_Surface_Info.lua,1768601360
+scripts\Dump_Surface_Info.xml,2286353119
+scripts\Dump_Terrain_Intersection_Info.lua,2016153660
+scripts\Dump_Terrain_Intersection_Info.xml,1938835936
+scripts\Embedded_Sector_SAR.lua,3640766964
+scripts\Embedded_Sector_SAR.xml,3201437084
+scripts\Evade_Missile.lua,1273080749
+scripts\Evade_Missile.xml,4126625625
+scripts\Explode_Charge_At_Depth.lua,2534430909
+scripts\Explode_Charge_At_Depth.xml,791749820
+scripts\Fixed_Wing_Carrier_Land.lua,1647198564
+scripts\Fixed_Wing_Carrier_Land.xml,2541543910
+scripts\Fixed_Wing_Land.lua,2893554532
+scripts\Fixed_Wing_Land.xml,3735492908
+scripts\Fixed_Wing_Takeoff.lua,1324704442
+scripts\Fixed_Wing_Takeoff.xml,4290610721
+scripts\Flee.c++,0
+scripts\Flee.xml,1605180724
+scripts\Flee_From_Explosion.lua,481963451
+scripts\Flee_From_Explosion.xml,1466264148
+scripts\Jump_To_Position_with_Fix.lua,4032500900
+scripts\Jump_To_Position_with_Fix.xml,1268687791
+scripts\Launch_ASW_Missile.lua,2057084674
+scripts\Launch_ASW_Missile.xml,3404277514
+scripts\Lower_Periscope.lua,3555358612
+scripts\Lower_Periscope.xml,340919085
+scripts\Make_Way_for_Emergency.lua,2070703290
+scripts\Make_Way_for_Emergency.xml,1375333301
+scripts\Monitor_Terrain.lua,2370446173
+scripts\Monitor_Terrain.xml,2149707540
+scripts\Move In Cover.lua,2192240383
+scripts\Move In Cover.xml,584422339
+scripts\Move_To_Position_with_Fix.lua,1861078918
+scripts\Move_To_Position_with_Fix.xml,1322927557
+scripts\Move_to_Named_Street.lua,35059484
+scripts\Move_to_Named_Street.xml,1564708219
+scripts\Naval_Mine_Sweep.lua,445724529
+scripts\Naval_Mine_Sweep.xml,2217980862
+scripts\Open_Cargo_Door.lua,1758745916
+scripts\Open_Cargo_Door.xml,597465667
+scripts\Place_IED.lua,2120965454
+scripts\Place_IED.xml,3817246876
+scripts\Provide_Suppressive_Fire.lua,4001633728
+scripts\Provide_Suppressive_Fire.xml,634274842
+scripts\Provide_Suppressive_Fire_Loc.lua,2875223781
+scripts\Provide_Suppressive_Fire_Loc.xml,333301227
+scripts\Raise_Periscope.lua,175562719
+scripts\Raise_Periscope.xml,4191371251
+scripts\SAR_Creep_Pattern.lua,3309281292
+scripts\SAR_Creep_Pattern.xml,1853667943
+scripts\SAR_Parallel_Pattern.lua,3175221511
+scripts\SAR_Parallel_Pattern.xml,1291997514
+scripts\SAR_Sector_Search.lua,3438748282
+scripts\SAR_Sector_Search.xml,3511305848
+scripts\Show_Land-Water_Grid.lua,63806293
+scripts\Show_Land-Water_Grid.xml,4081777386
+scripts\Sonar_Dip.lua,3170498484
+scripts\Sonar_Dip.xml,463807855
+scripts\Stow_Refueling_Boom.lua,2917710038
+scripts\Stow_Refueling_Boom.xml,3202494414
+scripts\Strafe_Ground_Target.lua,2376220958
+scripts\Strafe_Ground_Target.xml,1515048357
+scripts\Suppressed_Crouch.lua,1438037107
+scripts\Suppressed_Crouch.xml,3168514975
+scripts\Suppressed_Prone.lua,2002157924
+scripts\Suppressed_Prone.xml,2199162189
+scripts\Talk_To_Friends.lua,4116728359
+scripts\Talk_To_Friends.xml,3599915584
+scripts\Taxi_And_Launch.lua,3216382732
+scripts\Taxi_And_Launch.xml,3279663658
+scripts\Taxi_To_On_Carrier.lua,2185816212
+scripts\Taxi_To_On_Carrier.xml,3422200506
+scripts\Time_On_Target__Along_Route_.lua,3067553828
+scripts\Time_On_Target__Along_Route_.xml,1754589185
+scripts\ZigHeading.lua,712078865
+scripts\ZigHeading.xml,1118422737
+scripts\animated-movement-task.xml,1970046929
+scripts\bhave-flee-task.xml,1368954048
+scripts\bhave-hide-task.xml,3515540102
+scripts\bhave-wander-task.xml,4052784188
+scripts\deploy-embedded-entity.xml,2340428313
+scripts\disaggregated_flee.lua,2386843446
+scripts\disaggregated_flee.xml,2237589731
+scripts\find_cover_point.c++,3803618590
+scripts\find_cover_point.xml,4124744440
+scripts\goto-depth.c++,0
+scripts\goto-depth.xml,3346844618
+scripts\launch-munition.c++,0
+scripts\launch-munition.xml,3244310406
+scripts\move-on-roads-to-location.xml,2120563793
+scripts\move-on-roads-to-waypoint.xml,3900410357
+scripts\move-to-location-path-plan.lua,2550724208
+scripts\move-to-location-path-plan.xml,4178980970
+scripts\move-to-waypoint-path-plan.lua,1898534653
+scripts\move-to-waypoint-path-plan.xml,788968140
+scripts\recover-embedded-entity.xml,801239627
+scripts\ship-navigate-to-location.lua,1506881307
+scripts\ship-navigate-to-location.xml,1538354376
+scripts\ship-navigate-to-waypoint.lua,745457686
+scripts\ship-navigate-to-waypoint.xml,3866399643
+scripts\stop-moving-ship.c++,0
+scripts\stop-moving-ship.xml,1330286100
+scripts\turn-move-sail-heading.c++,0
+scripts\turn-move-sail-heading.xml,1040001480
+scripts\turn-move.c++,0
+scripts\turn-move.xml,2570388048
+scripts\wander.lua,2176625797
+scripts\wander.xml,175265846
+vrfSim.opd,528292064
+vrfSim\A-10_Thunderbolt.entity,2754618076
+vrfSim\A-4 Skyhawk (No 3D).entity,180130787
+vrfSim\AA-11_Archer_Missile.entity,49198056
+vrfSim\AA-8_Aphid_Missile.entity,1869916938
+vrfSim\AAVC7A1_Landing_Vehicle.entity,647105315
+vrfSim\AAV_Symbol.entity,3044484613
+vrfSim\ACE_Symbol.entity,2895773207
+vrfSim\ADA_Plt_(CIS).entity,2805013189
+vrfSim\ADA_Plt_(US).entity,1934833644
+vrfSim\AGM-65_Maverick_Missile.entity,2270493363
+vrfSim\AH-1W_SuperCobra.entity,97479931
+vrfSim\AH-64A_Apache.entity,3086617794
+vrfSim\AH-6_Little_Bird.entity,1505562375
+vrfSim\AIM-9_Sidewinder_Missile.entity,3873224024
+vrfSim\AMX-30_MBT.entity,1529638109
+vrfSim\AMX-56_Leclerc_MBT.entity,3735565503
+vrfSim\AN_BLQ-11_UUV.entity,1979992395
+vrfSim\AN_MPQ-65.entity,294608584
+vrfSim\AS-12_Kegler_Missile.entity,288687307
+vrfSim\AS-14_Kedge_Missile.entity,2994746704
+vrfSim\AS-365_Dauphin.entity,3184995258
+vrfSim\AS-565 (No 3D).entity,4119154934
+vrfSim\AS-7_Kerry_Missile.entity,964046163
+vrfSim\AS-90 Artillery.entity,687531201
+vrfSim\AT-6_Spiral_Missile.entity,2530603035
+vrfSim\AT-802 (No 3D).entity,3061428652
+vrfSim\AV-8B_Harrier_II.entity,2983719679
+vrfSim\AVLB_Symbol.entity,1558641733
+vrfSim\Aardvark JSFU (No 3D).entity,1206032685
+vrfSim\Achzarit APC (No 3D).entity,125524604
+vrfSim\Actros AHSVS.entity,2608774027
+vrfSim\Afghan Police Officer.entity,3793492150
+vrfSim\Afghan Soldier.entity,373405964
+vrfSim\African Insurgent.entity,3171235473
+vrfSim\Air_Axis.entity,3723373430
+vrfSim\Air_Corridor.entity,2615162786
+vrfSim\Airbus 310.entity,3310084021
+vrfSim\Airbus_320.entity,3349413052
+vrfSim\Airbus_320_AmericanAirlines.entity,415377108
+vrfSim\Airbus_320_BritishAirways.entity,736137390
+vrfSim\Airbus_320_Lufthansa.entity,3587051646
+vrfSim\Airbus_320_SingaporeAirlines.entity,3437811068
+vrfSim\Airbus_380.entity,3063077445
+vrfSim\Aircraft Carrier with Air Wing.sog,1346210948
+vrfSim\Aircraft_Carrier.entity,4051852697
+vrfSim\Aircraft_Hangar.entity,3804628595
+vrfSim\Alert_Area.entity,3991464956
+vrfSim\Alta.entity,944378405
+vrfSim\Ambulance.entity,2212863698
+vrfSim\Area.entity,2649814859
+vrfSim\Arjun_MBT.entity,2694069790
+vrfSim\Arleigh_Burke-class_Destroyer.entity,2982192710
+vrfSim\Armor-Co-CIS.entity,2584026527
+vrfSim\Armor-Co-US.entity,1847962711
+vrfSim\Armor_Co_(CIS).entity,2401528841
+vrfSim\Armor_Co_(US).entity,2712339314
+vrfSim\Armor_Co_HQ_(CIS).entity,3221183284
+vrfSim\Armor_Co_HQ_(US).entity,3088373496
+vrfSim\Armor_Plt_(CIS).entity,2889058191
+vrfSim\Armor_Plt_(US).entity,3816927516
+vrfSim\Armored-Utility-Platform.entity,959818186
+vrfSim\Astute-class Submarine (No 3D).entity,2958214686
+vrfSim\Auto Ferry.entity,493964382
+vrfSim\Auto Rickshaw.entity,2065298305
+vrfSim\Avenger_Symbol.entity,3840838945
+vrfSim\Axis.entity,1607753427
+vrfSim\B-2_Spirit.entity,324335978
+vrfSim\BAE CT-155 Hawk.entity,2260280265
+vrfSim\BGM-71_TOW_Missile.entity,2802001554
+vrfSim\BMP-2_AFV.entity,189453890
+vrfSim\BMP_Symbol.entity,826972147
+vrfSim\BN-2 Islander.entity,3426369331
+vrfSim\BTR-80_APC.entity,3742345269
+vrfSim\BV206 SUSV (No 3D).entity,2174281958
+vrfSim\Badger AEV.entity,3270599634
+vrfSim\Bag_Garbage_Green.entity,839335939
+vrfSim\Bag_Garbage_Silver.entity,2213285895
+vrfSim\Barracks with Guards.sog,1061565109
+vrfSim\Barracks.entity,2927480993
+vrfSim\Bay-class DLS (No 3D).entity,409917885
+vrfSim\Beaver AVLB.entity,3534232430
+vrfSim\Beechcraft 36 Bonanza (No 3D).entity,2804798043
+vrfSim\Beechcraft C-12 Super King (No 3D).entity,3640024324
+vrfSim\Beechcraft T-6.entity,4006570742
+vrfSim\Bell 412 (No 3D).entity,129807458
+vrfSim\Bell_206_JetRanger.entity,3994911986
+vrfSim\Bell_406.entity,2838432191
+vrfSim\Bison APC (No 3D).entity,1343820523
+vrfSim\Boeing_707.entity,1217090761
+vrfSim\Boeing_737_British_Midland.entity,2046016765
+vrfSim\Boeing_747-400.entity,2286133434
+vrfSim\Boeing_757.entity,1511538073
+vrfSim\Boeing_767.entity,1714509728
+vrfSim\Boeing_777.entity,181888367
+vrfSim\Boeing_787.entity,1394671945
+vrfSim\Bombardier CL-600 (No 3D).entity,1464763984
+vrfSim\Bombardier DHC-8.entity,2976274499
+vrfSim\Bombardier Global Express.entity,1722801943
+vrfSim\Bombardier_CRJ100_Conrad_Air.entity,3026586952
+vrfSim\Bombardier_CRJ200_Air_France.entity,1568684306
+vrfSim\Border Patrol Agent.entity,429682716
+vrfSim\Bottle.entity,459483733
+vrfSim\Box.entity,3276062155
+vrfSim\Box_Cardboard_Brown.entity,2617880629
+vrfSim\Box_Cardboard_White.entity,1126550158
+vrfSim\Box_Fruit_Cardboard.entity,3799789316
+vrfSim\Box_Shipping_Cardboard.entity,2835972023
+vrfSim\Box_Wine_Cardboard.entity,2766904882
+vrfSim\Brazilian Soldier.entity,823663192
+vrfSim\Bridge_Arch_Stone.entity,2334231086
+vrfSim\Bridge_Concrete_Two_Lane.entity,2193959864
+vrfSim\Buffalo MRAP III .entity,3031962035
+vrfSim\Buffel ARV.entity,710044203
+vrfSim\Building Warehouse Steel.entity,803464288
+vrfSim\Building_Barracks_Wood.entity,4104349357
+vrfSim\Building_Commercial_Brick_Two_Story.entity,2794517098
+vrfSim\Building_Fire_Station_Brick.entity,1716481740
+vrfSim\Building_Medieval_Church_Brick.entity,1415705510
+vrfSim\Building_Office_Four_Story.entity,2706098365
+vrfSim\Building_Post_Office_Brick.entity,2564797392
+vrfSim\Building_Stucco_Three_Story_Gray.entity,689796922
+vrfSim\Building_Warehouse_Metal.entity,365452115
+vrfSim\Bulldozer.entity,776465356
+vrfSim\Buoy_(Can).entity,2192253113
+vrfSim\Buoy_(Green_Lighted).entity,3745973310
+vrfSim\Buoy_(Nun).entity,2408173869
+vrfSim\Buoy_(Red_Lighted).entity,984357055
+vrfSim\Bus MBTA.entity,1307495586
+vrfSim\Bus.entity,711147196
+vrfSim\C-130_Hercules.entity,4222482448
+vrfSim\C-17_Globemaster_III.entity,1884936958
+vrfSim\C-5_Galaxy.entity,4237543944
+vrfSim\C1_Ariete_MBT.entity,3906388737
+vrfSim\CAESAR_SP_Howitzer.entity,369137430
+vrfSim\CBU-105_SFW.entity,1935113901
+vrfSim\CEV_Symbol.entity,2430834221
+vrfSim\CH-148 Cyclone (No 3D).entity,141658316
+vrfSim\CH-149_Cormorant.entity,2443395881
+vrfSim\CH-46E_Sea_Knight.entity,4187597562
+vrfSim\CH-47_Chinook.entity,1862872293
+vrfSim\CH-53E_Super_Stallion.entity,236087827
+vrfSim\CIS-attack-strike-fixed-wing-platform.entity,2601962741
+vrfSim\CIS-fighter-air-defense-fixed-wing-platform.entity,3806519063
+vrfSim\CIS-generic-subsurface-platform.entity,1446228527
+vrfSim\CIS_Chaff.entity,46207669
+vrfSim\CIS_Flare.entity,3354024461
+vrfSim\COLT_Team_(CIS).entity,2956314653
+vrfSim\COLT_Team_(US).entity,76016398
+vrfSim\CSS_Plt_(CIS).entity,1348896448
+vrfSim\CSS_Plt_(US).entity,819928551
+vrfSim\Cameraman.entity,3614872699
+vrfSim\Canadair CT-114 (No 3D).entity,2993473174
+vrfSim\Car_Bomb.entity,1469032026
+vrfSim\Carrier Air Wing.entity,2671976474
+vrfSim\Carrier Early Warning Squadron.entity,4168529082
+vrfSim\Cessna 172 Skyhawk.entity,3021568541
+vrfSim\Chevrolet Caprice.entity,1048052961
+vrfSim\Chicken.entity,1936438226
+vrfSim\Child.entity,3596896865
+vrfSim\Child_(Crowd_Behavior).entity,997417285
+vrfSim\Child_(Injured).entity,1278796471
+vrfSim\Chilean_AT4.entity,1952338912
+vrfSim\Chilean_IMI_Galil.entity,1068283318
+vrfSim\Chilean_M16-M203.entity,3401738618
+vrfSim\Chilean_M16.entity,990943285
+vrfSim\Chilean_M240.entity,2584858680
+vrfSim\Chilean_M249.entity,1023554414
+vrfSim\Chilean_M4.entity,931143219
+vrfSim\Chilean_M60.entity,301139717
+vrfSim\Civilian Airport Worker.entity,2071151905
+vrfSim\Civilian-Vehicle-Platform.entity,610363226
+vrfSim\Civilian_(Chem_Bio_Behavior).entity,3324260627
+vrfSim\Civilian_Female.entity,97015292
+vrfSim\Civilian_Male.entity,63160634
+vrfSim\Civilian_vehicle.entity,1686891604
+vrfSim\Colombian Police Officer.entity,2514861685
+vrfSim\Colombian Soldier.entity,552482108
+vrfSim\Construction Worker.entity,2911469749
+vrfSim\Container_Cargo.entity,2208976293
+vrfSim\Container_Ship.entity,411056573
+vrfSim\Container_Ship_Loaded.entity,687536507
+vrfSim\Container_Trash_Bin.entity,3070308495
+vrfSim\Container_Trash_Receptacle.entity,663839271
+vrfSim\Conversing Civilians.sog,932080335
+vrfSim\Convoy.entity,3159369107
+vrfSim\Cougar FSV.entity,4263999106
+vrfSim\Cow.entity,1592699510
+vrfSim\Coyote APC (No 3D).entity,1799955895
+vrfSim\Crate_Wooden.entity,1501781088
+vrfSim\Crate_Wooden_Strapped.entity,3857498868
+vrfSim\Crowd.sog,2470385226
+vrfSim\Cruise Ship.entity,184904740
+vrfSim\Cruise_Ship.entity,2124150269
+vrfSim\Cypher_VTUAV.entity,590123834
+vrfSim\DI-Plt-CIS.entity,1352204704
+vrfSim\DI-Squad-US.entity,1695552766
+vrfSim\DI_AK-47.entity,806234118
+vrfSim\DI_Lasing_(CIS).entity,284008265
+vrfSim\DI_Lasing_(US).entity,1605592148
+vrfSim\DI_Plt_(CIS).entity,815408452
+vrfSim\DI_RPG.entity,307128484
+vrfSim\DI_SMAW_And_Rifle.entity,195288699
+vrfSim\DI_Squad_(CIS).entity,2521336137
+vrfSim\DI_Squad_(US).entity,4230489116
+vrfSim\Dabur-class_Patrol_Boat.entity,1115505400
+vrfSim\Defense_Satellite.entity,2481179216
+vrfSim\Direction.entity,4057276864
+vrfSim\Direction_(Main).entity,2151759004
+vrfSim\Disaggregation_Area.entity,1368845228
+vrfSim\Ditch.entity,2352576788
+vrfSim\Dolphin-class Submarine (No 3D).entity,3412717327
+vrfSim\Dornier_DO_228-200_LGW.entity,1362712196
+vrfSim\Dragon_Warrior_VTUAV.entity,884039149
+vrfSim\Drum_Plastic_Blue.entity,870387048
+vrfSim\Duffle_Bag.entity,306953133
+vrfSim\Dumpster_Blue.entity,3691056956
+vrfSim\Dumpster_Green.entity,1982312103
+vrfSim\Dumpster_Light_Blue.entity,108427546
+vrfSim\Dumpster_Pink.entity,1281572901
+vrfSim\Durand de la Penne-class Destroyer (No 3d).entity,3717191039
+vrfSim\E-2 Hawkeye.entity,1077104243
+vrfSim\E-3_Sentry.entity,2138120151
+vrfSim\EA-6B_Prowler.entity,3563820915
+vrfSim\EC145.entity,1568459289
+vrfSim\EH101 Merlin (No 3D).entity,361018240
+vrfSim\Echo-class Survey Ship.entity,1289233090
+vrfSim\Electronic Attack Squadron.entity,3356692832
+vrfSim\Ellipse.entity,3331490152
+vrfSim\Emergency Medical Technician.entity,1616476676
+vrfSim\Eurofighter Typhoon.entity,1075863348
+vrfSim\European Soldier.entity,501275707
+vrfSim\Exocet_Cruise_Missile.entity,187838354
+vrfSim\Extruded Area.entity,487438861
+vrfSim\Extruded Box.entity,1914563338
+vrfSim\Extruded Ellipse.entity,2508637212
+vrfSim\F-117A_Nighthawk.entity,3599258300
+vrfSim\F-15_Eagle.entity,1029903451
+vrfSim\F-16A_Fighting_Falcon.entity,2518061774
+vrfSim\F-22_Raptor.entity,4008261295
+vrfSim\F-35_Lightning_II.entity,1037111526
+vrfSim\FA_Battery_(US).entity,90622185
+vrfSim\FIM-92_Stinger_Missile.entity,428063232
+vrfSim\FV 510 Warrior.entity,1595433367
+vrfSim\FV101_Scorpion_CVR.entity,667470809
+vrfSim\FV107 Scimitar.entity,164789705
+vrfSim\FV4030_4_Challenger_MBT.entity,3288280698
+vrfSim\FV4034_Challenger_2_MBT.entity,2123898452
+vrfSim\FV432 APC.entity,1494317877
+vrfSim\F_A-18_Hornet.entity,2822345635
+vrfSim\Factory_Worker.entity,3243765490
+vrfSim\Federal Express Truck.entity,3601399147
+vrfSim\Feint.entity,1828831406
+vrfSim\Female_Civilian_(Crowd_Behavior).entity,4107288416
+vrfSim\Female_Dancer.entity,3811998775
+vrfSim\Female_On_Bike.entity,2078092612
+vrfSim\Fire_Engine.entity,3962426177
+vrfSim\Fireman_(Extinguisher).entity,837151514
+vrfSim\Fireman_(Hose).entity,2074736791
+vrfSim\Fishing_Boat.entity,3699493926
+vrfSim\Fist-V_Symbol.entity,3233604697
+vrfSim\Fixed_Wing_Aggregate.entity,2432876930
+vrfSim\Flight_Deck_Crew.entity,1561369138
+vrfSim\Flight_Deck_Crew_(Chock_And_Chains).entity,725926335
+vrfSim\Flight_Deck_Crew_(Grounding_Cable).entity,1991945615
+vrfSim\Flight_Deck_Crew_(Pallet_Handler).entity,1327498724
+vrfSim\Flight_Deck_Crewman.entity,4264979591
+vrfSim\Flight_Deck_Worker.entity,2213938012
+vrfSim\Food Truck.entity,4133383944
+vrfSim\Fortified_Area.entity,1028758691
+vrfSim\Fortified_Ditch.entity,1172497848
+vrfSim\Fortified_Line.entity,1177406036
+vrfSim\Freehand_Line.entity,2288884487
+vrfSim\Freehand_Line_with_Arrow.entity,3268999747
+vrfSim\Fridtjof Nansen-class.entity,3604231351
+vrfSim\Fuel_Tanker_Trailer.entity,471696281
+vrfSim\Furniture_Outdoor_Bench_Park.entity,3475392367
+vrfSim\G-Wagen (No 3D).entity,2049973801
+vrfSim\GAZ-66 Truck.entity,3652329278
+vrfSim\GAZ-69_Utility_Vehicle.entity,1744179082
+vrfSim\GBU-31A_JDAM.entity,796403603
+vrfSim\Generic-Flare.entity,2194570049
+vrfSim\Ghillie Suit Soldier.entity,161646773
+vrfSim\Goat.entity,3959888923
+vrfSim\Grazing Sheep.sog,3003177375
+vrfSim\Grizzly APC (No 3D).entity,4008866208
+vrfSim\Ground_Aggregate.entity,827014144
+vrfSim\Guided_Missile_Destroyer.entity,2110823034
+vrfSim\Guided_Missile_Frigate.entity,1696282546
+vrfSim\Gulfstream G550 (No 3D).entity,1315527196
+vrfSim\HH-65_Dolphin.entity,2081880373
+vrfSim\HMMWV_50CAL_Symbol.entity,1257183028
+vrfSim\HMMWV_MK19_Symbol.entity,2433677194
+vrfSim\HMMWV_Utility_Vehicle.entity,3846603601
+vrfSim\HMMWV_with_Avenger.entity,1210859011
+vrfSim\HMMWV_with_M2.entity,1632780564
+vrfSim\HMMWV_with_Shelter.entity,3197730923
+vrfSim\HMMWV_with_TOW_launcher.entity,2862252979
+vrfSim\Halifax-class Destroyer.entity,426813453
+vrfSim\Hauk-class Fast Attack (No 3D).entity,2391064172
+vrfSim\Hellfire_Missile.entity,711932244
+vrfSim\Henry_J_Kaiser-class Oiler.entity,2384804007
+vrfSim\Hermes 450 (No 3D).entity,2316286107
+vrfSim\Honda Accord.entity,219961113
+vrfSim\Horizon-class Destroyer (No 3D).entity,1622335999
+vrfSim\Horse.entity,925672407
+vrfSim\House_Farmhouse.entity,2299329604
+vrfSim\House_French_Colonial_Clapboard_Gray.entity,1578786673
+vrfSim\House_German_Colonial_Stucco_Tan.entity,2569443191
+vrfSim\House_Raised_Ranch_Clapboard_White.entity,2642326437
+vrfSim\House_Single_Family.entity,27821645
+vrfSim\House_Spanish_Colonial_Stucco_Beige.entity,2190097379
+vrfSim\House_Spanish_Single_Story_Stucco_White.entity,357490415
+vrfSim\House_Stick_Style_Brick_White.entity,3888353367
+vrfSim\Hunt-class.entity,2411088187
+vrfSim\Husky ARV (No 3D).entity,2098438412
+vrfSim\Hydra-70.entity,3464680509
+vrfSim\IAI 1124 Sea Scan.entity,3803452852
+vrfSim\IMR_Symbol.entity,3450223301
+vrfSim\ISIS Fighter.entity,133067297
+vrfSim\Insurgent.entity,1356709006
+vrfSim\Intel Collection Area.entity,1194765471
+vrfSim\Intelligence Object.entity,189312431
+vrfSim\Invincible-class Carrier (No 3D).entity,1224343349
+vrfSim\Iranian Soldier.entity,4007231876
+vrfSim\Iraqi Police Officer.entity,1036010855
+vrfSim\Iraqi Soldier.entity,2424721391
+vrfSim\Iroquois-class Destroyer.entity,1036835704
+vrfSim\Island-class Patrol Vessel (No 3D).entity,2879156419
+vrfSim\Iveco LMV.entity,1152096064
+vrfSim\Jackal MWMIK.entity,482089798
+vrfSim\Jacob van Heemskerck-class_Frigate.entity,572613516
+vrfSim\Jet_Ski.entity,629441039
+vrfSim\Jingle Truck.entity,2959507576
+vrfSim\K1_MBT.entity,3513884572
+vrfSim\KA-50_Hokum.entity,2949353934
+vrfSim\KAB-500N_Bomb.entity,1763946264
+vrfSim\KC-135 Stratotanker.entity,1849705407
+vrfSim\KD-III-class Destroyer.entity,1761757878
+vrfSim\Karel Doormand-class_Frigate.entity,3202250855
+vrfSim\Kingston-class Patrol vessel.entity,4046855439
+vrfSim\Kurdish Fighter.entity,2896669139
+vrfSim\L 14 Albion (No 3D).entity,4250448328
+vrfSim\L-118 Howitzer.entity,615435908
+vrfSim\LAV III APC.entity,2462561671
+vrfSim\LAV_Symbol.entity,754931550
+vrfSim\LCAC-Landing.entity,1736986605
+vrfSim\LCAC.entity,1503082668
+vrfSim\LG1 Howitzer.entity,2929072180
+vrfSim\LPH01 Ocean (No 3D).entity,464536000
+vrfSim\LSD_Harpers_Ferry-class_Ship.entity,2153762572
+vrfSim\Ladder Truck.entity,2823380508
+vrfSim\Land Rover Wolf.entity,709052744
+vrfSim\Large-Wheeled-Platform.entity,1119369687
+vrfSim\Laser_Guided_Hellfire_Missile.entity,1949546082
+vrfSim\Legend Class (WMSL).entity,4257504231
+vrfSim\Leo2A4_Tank.entity,893980897
+vrfSim\Libyan Police Officer.entity,2875695546
+vrfSim\Libyan Soldier.entity,616747026
+vrfSim\Light_Lamp_Post.entity,3962797879
+vrfSim\Light_Lamp_Post_Sign_Begin_Right_Turn.entity,4078918319
+vrfSim\Light_Lamp_Post_Sign_Caution_Children.entity,3629441418
+vrfSim\Light_Lamp_Post_Sign_Dead_End.entity,777553640
+vrfSim\Light_Lamp_Post_Sign_Do_Not_Block_Crosswalk.entity,1047004253
+vrfSim\Light_Lamp_Post_Sign_Do_Not_Enter.entity,3649492085
+vrfSim\Light_Lamp_Post_Sign_Five_Minute_Parking.entity,2553559682
+vrfSim\Light_Lamp_Post_Sign_Go_Right.entity,1767425951
+vrfSim\Light_Lamp_Post_Sign_No_Parking.entity,198495169
+vrfSim\Light_Lamp_Post_Sign_No_Parking_Taxi_Zone.entity,91649421
+vrfSim\Light_Lamp_Post_Sign_No_Parking_Tow_Zone.entity,83439603
+vrfSim\Light_Lamp_Post_Sign_Pedestrian_Crossing.entity,3897448510
+vrfSim\Light_Lamp_Post_Sign_Prohibited_on_Sidewalk.entity,3359302438
+vrfSim\Light_Lamp_Post_Sign_Slow_Children.entity,655394971
+vrfSim\Light_Lamp_Post_Sign_Speed_Limit_25.entity,1120290445
+vrfSim\Light_Lamp_Post_Sign_Stop.entity,3161099319
+vrfSim\Light_Lamp_Post_Sign_Stop_for_Pedestrians.entity,1578946156
+vrfSim\Line.entity,3491390934
+vrfSim\Line_of_Contact_(Friendly).entity,3083718156
+vrfSim\Line_of_Contact_(Hostile).entity,4090521476
+vrfSim\Linear Obstacle.entity,3525913642
+vrfSim\Linear_Target.entity,4063127279
+vrfSim\Lockheed L-1011 (No 3D).entity,422796356
+vrfSim\Logistics Support Sqn.entity,3362839440
+vrfSim\Los_Angeles-Class_Submarine.entity,2387853095
+vrfSim\M-71 Howitzer.entity,782004713
+vrfSim\M-88_Symbol.entity,914261208
+vrfSim\M-Gator ATV.entity,753209037
+vrfSim\M1028 FMTV Cargo Truck.entity,671014582
+vrfSim\M107_155mm.entity,2981047244
+vrfSim\M109A5_SP_Howitzer.entity,2475838817
+vrfSim\M1126_Stryker_ICV.entity,1792496868
+vrfSim\M113_APC.entity,3603272350
+vrfSim\M113_Symbol.entity,2428665293
+vrfSim\M1A2_Abrams_MBT.entity,412499749
+vrfSim\M1A2_Symbol.entity,3357090158
+vrfSim\M252_Mortar.entity,2556982444
+vrfSim\M26_Rocket.entity,564221512
+vrfSim\M2A2_Bradley_IFV.entity,4033084664
+vrfSim\M2A2_Symbol.entity,516761209
+vrfSim\M35 Truck.entity,894214286
+vrfSim\M374A2_81mm.entity,3472148687
+vrfSim\M39_Missile.entity,4123264756
+vrfSim\M3A2_Bradley_CFV.entity,2495643534
+vrfSim\M577A2_Command_Post.entity,3177979686
+vrfSim\M58_MICLIC.entity,3838745024
+vrfSim\M777 Howitzer.entity,3110696462
+vrfSim\M88_Medium_Recovery_Vehicle.entity,1921476502
+vrfSim\M939A2_5-Ton_Truck.entity,4196239178
+vrfSim\M977_HEMTT_Cargo_Truck.entity,836485721
+vrfSim\M978_HEMTT_Fuel_Truck.entity,3045703869
+vrfSim\M993_MLRS.entity,2004246158
+vrfSim\M9_Ace.entity,1437067682
+vrfSim\MBT_2000.entity,4254489279
+vrfSim\MD_500.entity,2229739471
+vrfSim\MH-47_Chinook.entity,2537583871
+vrfSim\MH-60L_Black_Hawk_DAP.entity,2292457618
+vrfSim\MH-60_Black_Hawk.entity,3496473061
+vrfSim\MH-6_Little_Bird.entity,142854449
+vrfSim\MILCOTTS Silverado.entity,2580536043
+vrfSim\MIM-104 Patriot Remote Launcher.entity,1618749601
+vrfSim\MIM-104_Patriot_Launcher.entity,3351018186
+vrfSim\MIM004_Patriot_Missile.entity,4096774213
+vrfSim\MI_Plt_(CIS).entity,246870087
+vrfSim\MI_Plt_with_IFV_(US).entity,3677311303
+vrfSim\MK.entity,1640702789
+vrfSim\MQ-8B Fire Scout.entity,3889281744
+vrfSim\MQ-9_Reaper_UAV.entity,2730290374
+vrfSim\MRAP-ATV.entity,3867834257
+vrfSim\MRAP-CAT_II_Cougar.entity,2107406873
+vrfSim\MRAP-CAT_I_MaxxPro.entity,523713582
+vrfSim\MT-LB_APC.entity,3682881926
+vrfSim\MTK_Symbol.entity,3296762049
+vrfSim\Main_Axis.entity,521876236
+vrfSim\Male On Motorbike.entity,1854007120
+vrfSim\Male_Civilian_(Crowd_Behavior).entity,1206845250
+vrfSim\Male_On_Bike.entity,3021158970
+vrfSim\Mamba APC.entity,1883648089
+vrfSim\Man_in_Wheelchair.entity,3213029399
+vrfSim\Maritime Strike Sqn.entity,4018958845
+vrfSim\Maveric UAS (No 3D).entity,3928449385
+vrfSim\Merkava_III_MBT.entity,380895311
+vrfSim\Merkava_IV_MBT.entity,1533868568
+vrfSim\Mi-24_Hind.entity,1954905943
+vrfSim\Mi-28_Havoc.entity,1693071467
+vrfSim\Mi-2_Hoplite.entity,1661361564
+vrfSim\MiG-27_Flogger.entity,2843456908
+vrfSim\MiG-29_Fulcrum.entity,3760705574
+vrfSim\Mideast_Combatant.entity,203196476
+vrfSim\Mideast_Combatant_with_RPG.entity,3339766467
+vrfSim\Mideast_Female.entity,3020311180
+vrfSim\Mideast_Female_(Crowd_Behavior).entity,3945114018
+vrfSim\Mideast_Male.entity,1348118169
+vrfSim\Mideast_Male_(Crowd_Behavior).entity,724568715
+vrfSim\Mine Sweeper.entity,1145600111
+vrfSim\Minefield.entity,1087447497
+vrfSim\Minefield_Flag-Marker.entity,4236675371
+vrfSim\Mini Cooper Silver.entity,932969147
+vrfSim\Mirage_2000.entity,2218234454
+vrfSim\Mirage_F1.entity,3832862535
+vrfSim\Missile-Target-Point.entity,1907011429
+vrfSim\Mk-46 MOD 5 Torpedo.entity,3389176663
+vrfSim\Mk-48_ADCAP.entity,2707819096
+vrfSim\Mule.entity,697448160
+vrfSim\Namer APC (No 3D).entity,2257060114
+vrfSim\Naval Mine.entity,243689
+vrfSim\Navistar 7000 (No 3D).entity,384285096
+vrfSim\Nimitz-class_Carrier.entity,2552152711
+vrfSim\Nissan Maxima.entity,3841762295
+vrfSim\No-Go_Area.entity,535116742
+vrfSim\Nuclear_Power_Plant.entity,346134817
+vrfSim\OH-58_Kiowa.entity,2782588524
+vrfSim\Obstacle.entity,1535246166
+vrfSim\Obstacle_Bollard.entity,3062827739
+vrfSim\Obstacle_Dragon's_Teeth.entity,85426895
+vrfSim\Obstacle_Fence_Chain_Link.entity,3993815603
+vrfSim\Obstacle_Fire_Hydrant.entity,286731739
+vrfSim\Obstacle_Minefield_Post.entity,847727982
+vrfSim\Obstacle_Traffic_Barricade_Blue.entity,3573000642
+vrfSim\Obstacle_Traffic_Barricade_Yellow.entity,3095924617
+vrfSim\Ohio-class_Submarine.entity,2361220608
+vrfSim\Oskoy.entity,149952831
+vrfSim\P-3_Orion.entity,2247157135
+vrfSim\PALADIN_Symbol.entity,78391236
+vrfSim\POL_Storage_Tank.entity,1774486601
+vrfSim\PT-91_Twardy_MBT.entity,2248387924
+vrfSim\Paddy Wagon.entity,2467425993
+vrfSim\Pakistani Police Officer.entity,789592190
+vrfSim\Pakistani Soldier.entity,15246455
+vrfSim\Palette_Wooden.entity,824712138
+vrfSim\Palette_Wooden_Gray.entity,1253979415
+vrfSim\Passenger Ferry.entity,1163654891
+vrfSim\Patriot Battery.sog,1050050615
+vrfSim\Patriot ECS Power Generator.entity,3773441238
+vrfSim\Patriot Engagement Control Sys.entity,3662553257
+vrfSim\Pedestrian Path.entity,1889519717
+vrfSim\Planned_Minefield.entity,1212062713
+vrfSim\Police Cruiser.entity,1403057753
+vrfSim\Police Tactical Van.entity,3022584485
+vrfSim\Police_Car.entity,1129297640
+vrfSim\Police_Officer.entity,668051104
+vrfSim\Predator_UAV.entity,3860991356
+vrfSim\Puma CEV (No 3D).entity,952806838
+vrfSim\Quadcopter.entity,3519089654
+vrfSim\Queen Elizabeth-class Carrier.entity,3152667252
+vrfSim\Quickstrike Mk 65.entity,3451379497
+vrfSim\RAH-66_Comanche.entity,1333502415
+vrfSim\REMUS_UUV.entity,3771623105
+vrfSim\RQ-11_Raven_UAV.entity,1485043459
+vrfSim\RQ-4_Global_Hawk_UAV.entity,1521533832
+vrfSim\RQ-7_Shadow_UAV.entity,186131435
+vrfSim\RUR-5 ASROC.entity,4195868098
+vrfSim\Radio_Antenna.entity,622077699
+vrfSim\Rapier SAM.entity,2995519452
+vrfSim\Rigid-Hulled_Inflatable_Boat.entity,3306904889
+vrfSim\Rigid-Hulled_Inflatable_BoatCivilian.entity,35582056
+vrfSim\River-class Patrol Vessel (No 3D).entity,1603659682
+vrfSim\Roadside_IED.entity,250777832
+vrfSim\Romeo-class_Submarine.entity,4212305214
+vrfSim\Rotary_Wing_Aggregate.entity,2907321158
+vrfSim\Runway_1000m.entity,765034598
+vrfSim\Runway_150m.entity,3353663920
+vrfSim\Russian Rebels.entity,165369908
+vrfSim\S-300_Symbol.entity,2229599136
+vrfSim\SA 330 Puma.entity,3101748695
+vrfSim\SA-15_Gauntlet_SAM.entity,2739592008
+vrfSim\SA-19_Grison.entity,59470807
+vrfSim\SA-6_Gainful_SAM.entity,1834589565
+vrfSim\SA-9_Gaskin_SAM_System.entity,1437583459
+vrfSim\SA-9_Missile.entity,2392374103
+vrfSim\SA-9_Symbol.entity,4169164790
+vrfSim\SH-3 Sea King (No 3D).entity,2975384374
+vrfSim\SH-60 Seahawk.entity,2467983448
+vrfSim\SM-2_Standard_Missile.entity,1823803475
+vrfSim\SS-24_Scalpel_Missile.entity,1479323713
+vrfSim\SS-24_Scalpel_Stage.entity,2766224341
+vrfSim\SU-25_Frogfoot.entity,811000114
+vrfSim\SU-27_Flanker.entity,2719612726
+vrfSim\Saar 4-class Missile Boat.entity,465976026
+vrfSim\Saar 45-class Missile Boat (No 3D).entity,1840417203
+vrfSim\Saar 5-class Corvette (No 3D).entity,1571618841
+vrfSim\Safir Military Vehicle.entity,2388979071
+vrfSim\Sailboat.entity,3106290080
+vrfSim\Sandown-class Minehunter.entity,1848677399
+vrfSim\ScanEagle_UAV.entity,2772396104
+vrfSim\Scenario Event.entity,4270052557
+vrfSim\Scorpene-class_Submarine.entity,3132021171
+vrfSim\Scud-B_Missile.entity,1504901010
+vrfSim\Sea Combat Sqn.entity,4161998076
+vrfSim\Sea Lance ASW.entity,3069254330
+vrfSim\Sergeant_M16.entity,1627622430
+vrfSim\Sheep.entity,1122811580
+vrfSim\Shooting Target.entity,520259239
+vrfSim\Sign_Pole_Blank.entity,815645951
+vrfSim\Sign_Pole_Traffic_5_Minute_Parking.entity,4148669121
+vrfSim\Sign_Pole_Traffic_Begin_Right_Turn.entity,55616191
+vrfSim\Sign_Pole_Traffic_Caution_Children.entity,3367410895
+vrfSim\Sign_Pole_Traffic_Dead_End.entity,3184147603
+vrfSim\Sign_Pole_Traffic_Do_Not_Block_Crosswalk.entity,3447309594
+vrfSim\Sign_Pole_Traffic_Do_Not_Enter.entity,2854098890
+vrfSim\Sign_Pole_Traffic_Go_Right.entity,2610872105
+vrfSim\Sign_Pole_Traffic_No_Parking_Tow_Zone.entity,2119921305
+vrfSim\Sign_Pole_Traffic_Pedestrian_Crossing.entity,1762027683
+vrfSim\Sign_Pole_Traffic_Prohibited_on_Sidewalk.entity,2356031238
+vrfSim\Sign_Pole_Traffic_Slow_Children.entity,2091448952
+vrfSim\Sign_Pole_Traffic_Speed_Limit_25.entity,1916552065
+vrfSim\Sign_Pole_Traffic_Stop.entity,1164003802
+vrfSim\Sign_Pole_Traffic_Stop_for_Pedestrians.entity,2254013109
+vrfSim\Skiff (Green).entity,2217889838
+vrfSim\Skiff.entity,1395197434
+vrfSim\Skjold-class Patrol (No 3D).entity,685954182
+vrfSim\Somali Police Officer.entity,2133914178
+vrfSim\Somali Soldier.entity,1743338565
+vrfSim\Song-class_Submarine.entity,3330241129
+vrfSim\Sovremenny-class_Destroyer.entity,2271238525
+vrfSim\Space_Shuttle.entity,4210347114
+vrfSim\Speedboat.entity,3584504282
+vrfSim\Strike Fighter Squadron.entity,3663311404
+vrfSim\Su-37_Flanker.entity,4225304395
+vrfSim\Sudanese Police Officer.entity,1318621674
+vrfSim\Sudanese Soldier.entity,658208586
+vrfSim\Suicide_Bomber.entity,896864426
+vrfSim\Super Dvora Mark II (No 3D).entity,2203117559
+vrfSim\Super_Tanker.entity,165108529
+vrfSim\Supply_Route.entity,3010936071
+vrfSim\Supply_Route_[1-Way].entity,1937173247
+vrfSim\Supply_Route_[2_Way].entity,2241213163
+vrfSim\Surface.entity,3119412098
+vrfSim\Suspect.entity,1837679783
+vrfSim\Syrian Police Officer.entity,492092718
+vrfSim\Syrian Soldier.entity,1738924015
+vrfSim\T-69_MBT.entity,588642414
+vrfSim\T-72_MBT.entity,2394626697
+vrfSim\T-80_MBT.entity,2069182597
+vrfSim\T-80_Symbol.entity,1012001869
+vrfSim\T-84_MBT.entity,617165523
+vrfSim\T90A_MBT.entity,2941688591
+vrfSim\Taliban.entity,2335315106
+vrfSim\Taurus ARV.entity,1520600422
+vrfSim\Taxicab.entity,1073994736
+vrfSim\Technical_Truck.entity,1057963822
+vrfSim\Terrain_Page-in_Area.entity,4065810516
+vrfSim\Tiger-class_Fast_Attack_Craft.entity,2251920699
+vrfSim\Tire_Spare.entity,2303768717
+vrfSim\Tire_Spare_Compact.entity,2547091637
+vrfSim\Tornado ADV.entity,2262344758
+vrfSim\Tower_Clock_German.entity,2832323392
+vrfSim\Tower_Communications.entity,3986504621
+vrfSim\Tower_Control_Concrete.entity,306375775
+vrfSim\Tower_Power_Transmission.entity,1470873706
+vrfSim\Tower_Radio.entity,2965220049
+vrfSim\Tower_Water.entity,1241207077
+vrfSim\Toyota Corolla.entity,3359552930
+vrfSim\Toyota Pickup.entity,3021690698
+vrfSim\Tractor_Trailer_Cab.entity,3688608395
+vrfSim\Tractor_Trailer_with_Cab.entity,354344425
+vrfSim\Trafalgar-class Submarine.entity,3058316800
+vrfSim\Traffic_Cone_Red.entity,3001234065
+vrfSim\Traffic_Cone_Yellow.entity,1639536343
+vrfSim\Traffic_Light.entity,3351037940
+vrfSim\Tugboat.entity,1305578228
+vrfSim\Type 209 Submarine.entity,2259146398
+vrfSim\Type 42 Destroyer.entity,2931459114
+vrfSim\Type45-class Destroyer.entity,2263262462
+vrfSim\Type_10_MBT.entity,2335149871
+vrfSim\Type_22_Frigate.entity,639031277
+vrfSim\Type_23_Frigate (No 3D).entity,1237866554
+vrfSim\Type_90_Kyu-maru_MBT.entity,1595336195
+vrfSim\Type_99_MBT.entity,828546886
+vrfSim\UH-1N Twin Huey.entity,860012570
+vrfSim\UH-60_Blackhawk.entity,4159410989
+vrfSim\UH-72_Lakota.entity,1666104339
+vrfSim\UK Soldier.entity,1840296337
+vrfSim\US Air Force.entity,41024270
+vrfSim\US Army Medic.entity,61428509
+vrfSim\US EOD.entity,190781614
+vrfSim\US Navy With Binoculars.entity,2380349170
+vrfSim\US Navy.entity,3578549114
+vrfSim\US Postal Truck.entity,3932831608
+vrfSim\US-attack-strike-fixed-wing-platform.entity,2597621731
+vrfSim\US-fighter-air-defense-fixed-wing-platform.entity,2731025815
+vrfSim\US-generic-subsurface-platform.entity,2515032155
+vrfSim\USCG Bertholf.entity,1467516526
+vrfSim\USCGC Bertholf with Fire Scout.sog,2146126518
+vrfSim\USCGC Hamilton-class.entity,3461722756
+vrfSim\USET-80_Torpedo.entity,1381351175
+vrfSim\USMC_FT.entity,2080198105
+vrfSim\USMC_M16-M203.entity,1497614991
+vrfSim\USMC_M16.entity,2795090683
+vrfSim\USMC_M240.entity,967435598
+vrfSim\USMC_M249.entity,2248581178
+vrfSim\USMC_M4.entity,3894091616
+vrfSim\USMC_SQD.entity,2992732603
+vrfSim\US_Army_AT4.entity,4010439276
+vrfSim\US_Army_Javelin.entity,2181019023
+vrfSim\US_Army_LtInf_FT.entity,1366119871
+vrfSim\US_Army_LtInf_SQD.entity,2324207534
+vrfSim\US_Army_M16-M203.entity,3262605612
+vrfSim\US_Army_M16.entity,2195311465
+vrfSim\US_Army_M240.entity,1288997006
+vrfSim\US_Army_M249.entity,2764959892
+vrfSim\US_Army_M4.entity,2364638391
+vrfSim\US_Army_M60.entity,3399827938
+vrfSim\US_Army_M9.entity,891566150
+vrfSim\US_Army_Mech_FT_A_(Javelin).entity,426863143
+vrfSim\US_Army_Mech_FT_B.entity,2963434788
+vrfSim\US_Army_Mech_SQD.entity,648704276
+vrfSim\US_Chaff.entity,1589081982
+vrfSim\US_Flare.entity,2030962959
+vrfSim\Udaloy-class Destroyer.entity,4010197559
+vrfSim\Ugandan Police Officer.entity,2352028323
+vrfSim\Ugandan Soldier.entity,3679583821
+vrfSim\Ula-class Submarine.entity,4285404139
+vrfSim\V-22_Osprey.entity,1017231697
+vrfSim\VAB_APC.entity,1962333238
+vrfSim\VBL_ATV.entity,60144717
+vrfSim\VM 90 LSVW (No 3D).entity,2445200621
+vrfSim\Vanguard-class Submarine.entity,57822356
+vrfSim\Vending_Machine_Newspaper.entity,3327895199
+vrfSim\Vending_Machine_Publication.entity,4173929789
+vrfSim\Victoria-class.entity,860070
+vrfSim\Volkswagen Passat.entity,2464924560
+vrfSim\WPB 87329 Cochito.entity,298115009
+vrfSim\WS-61 Sea King.entity,3167096319
+vrfSim\Walrus-class_submarine.entity,1157363330
+vrfSim\Water_Buffalo.entity,3701348262
+vrfSim\Weather.entity,4134833200
+vrfSim\Western_Teen.entity,422873467
+vrfSim\Westland Lynx (No 3D).entity,2578068806
+vrfSim\XM7_FIST-Bradley.entity,3760622204
+vrfSim\ZIL-135_8x8_Truck.entity,99678960
+vrfSim\ZPU-4_AA_Gun.entity,3832999401
+vrfSim\ZSU-23-4_Shilka.entity,1006567471
+vrfSim\ZSU-23-4_Symbol.entity,2997236978
+vrfSim\aggregate-CO-T80.entity,536768361
+vrfSim\aggregate-Co-Infantry-Friendly.entity,1208051130
+vrfSim\aggregate-Co-Infantry-Hostile.entity,3217651908
+vrfSim\aggregate-Co-M1A2.entity,2017404866
+vrfSim\aggregate-Company-HQ-Friendly.entity,373868444
+vrfSim\aggregate-Company-HQ-Hostile.entity,4034255842
+vrfSim\aggregate-DI-Sectn-Friendly.entity,2270971541
+vrfSim\aggregate-DI-Sectn-Hostile.entity,1435594002
+vrfSim\aggregate-Plt-HQ-Friendly.entity,1149264829
+vrfSim\aggregate-Plt-HQ-Hostile.entity,1923061582
+vrfSim\aggregate-Plt-Infantry-Hostile.entity,2534954173
+vrfSim\aggregate-Plt-M1A2.entity,2509331221
+vrfSim\aggregate-Plt-T80.entity,3927434518
+vrfSim\ammoselect\14_5mm_quad_gun.asl,3725768729
+vrfSim\ammoselect\AKA762.asl,620912297
+vrfSim\ammoselect\BMP2MainGun.asl,2455945489
+vrfSim\ammoselect\CISCounterMeasuresTable.asl,3636572398
+vrfSim\ammoselect\CISattackHelo.asl,1375941697
+vrfSim\ammoselect\CISfixedWing.asl,1585329589
+vrfSim\ammoselect\GAU8.asl,313644464
+vrfSim\ammoselect\GSh-301.asl,2037121002
+vrfSim\ammoselect\HMMWV_Avenger.asl,2082658529
+vrfSim\ammoselect\HMMWV_TOW.asl,4204475874
+vrfSim\ammoselect\M136_AT4.asl,885905419
+vrfSim\ammoselect\M16.asl,3929443802
+vrfSim\ammoselect\M1A2MainGun.asl,3776565814
+vrfSim\ammoselect\M2.asl,737475369
+vrfSim\ammoselect\M230.asl,2661847132
+vrfSim\ammoselect\M240.asl,608324518
+vrfSim\ammoselect\M2A2MainGun.asl,750833808
+vrfSim\ammoselect\M61.asl,2642342126
+vrfSim\ammoselect\MIM-104.asl,4289741490
+vrfSim\ammoselect\RPG.asl,927749858
+vrfSim\ammoselect\SA9.asl,3027611170
+vrfSim\ammoselect\T80MainGun.asl,2565260720
+vrfSim\ammoselect\USCounterMeasuresTable.asl,3344526807
+vrfSim\ammoselect\USfixedWing.asl,4078117876
+vrfSim\ammoselect\adamMines.asl,3959254857
+vrfSim\ammoselect\attackHelo.asl,2999429892
+vrfSim\ammoselect\gatorMines.asl,2585073195
+vrfSim\ammoselect\maverickLauncher.asl,1447889675
+vrfSim\ammoselect\raamMines.asl,3988858360
+vrfSim\ammoselect\sidewinderLauncher.asl,2957747980
+vrfSim\ammoselect\sm-2.asl,215481935
+vrfSim\ammoselect\subsurface.asl,3882203022
+vrfSim\areaObject.entity,1607553107
+vrfSim\cargo-warfare-fixed-wing-platform.entity,867183472
+vrfSim\civilian.entity,4286554611
+vrfSim\damage\BMP-PG7.dmg,2533988380
+vrfSim\damage\BMP2-AT30.dmg,909868464
+vrfSim\damage\BMP2-BM14m.dmg,785924946
+vrfSim\damage\BMP2-BM9.dmg,3746773437
+vrfSim\damage\BMP2-M791.dmg,320163659
+vrfSim\damage\BMP2-M829A1.dmg,432580801
+vrfSim\damage\BMP2-M830.dmg,2901559906
+vrfSim\damage\BMP2-TOW.dmg,248907563
+vrfSim\damage\M2A2-AT30.dmg,2355799204
+vrfSim\damage\M2A2-BM14m.dmg,1642826771
+vrfSim\damage\M2A2-BM9.dmg,3846563806
+vrfSim\damage\M2A2-M791.dmg,3601366350
+vrfSim\damage\M2A2-M829A1.dmg,3971462603
+vrfSim\damage\M2A2-M830.dmg,111570276
+vrfSim\damage\M2A2-PG7.dmg,211687374
+vrfSim\damage\air-M107.dmg,2263019700
+vrfSim\damage\air-vs-IED.dmg,3686213166
+vrfSim\damage\always-kill.dmg,885292975
+vrfSim\damage\collateral-gnd-AT30.dmg,10885773
+vrfSim\damage\collateral-gnd-BM14m.dmg,2570694934
+vrfSim\damage\collateral-gnd-BM9.dmg,573192873
+vrfSim\damage\collateral-gnd-M791.dmg,2916107277
+vrfSim\damage\collateral-gnd-M829A1.dmg,2523813965
+vrfSim\damage\collateral-gnd-M830.dmg,763260349
+vrfSim\damage\collateral-gnd-PG7.dmg,1028944223
+vrfSim\damage\collateral-heavy-armor-vs-AT30.dmg,3276517944
+vrfSim\damage\collateral-inf-PG7.dmg,296181582
+vrfSim\damage\collateral-large-ship-vs-medium-warhead.dmg,3154947600
+vrfSim\damage\collateral-ship-vs-medium-warhead.dmg,610205056
+vrfSim\damage\collateral-small-ship-vs-medium-warhead.dmg,3283053878
+vrfSim\damage\collateral-sub-vs-medium-warhead.dmg,953697033
+vrfSim\damage\collateral-unarmored-vs-explosive-round.dmg,1258127543
+vrfSim\damage\fixedWing-AIM9.dmg,856838215
+vrfSim\damage\fixedWing-AntiAir.dmg,1795990990
+vrfSim\damage\fwa-vs-cannon-direct.dmg,3718780921
+vrfSim\damage\gnd-AT30.dmg,3500813776
+vrfSim\damage\gnd-BM14m.dmg,2032527955
+vrfSim\damage\gnd-BM9.dmg,2653772264
+vrfSim\damage\gnd-M107.dmg,2336456096
+vrfSim\damage\gnd-M791.dmg,4068286265
+vrfSim\damage\gnd-M829A1.dmg,3030357752
+vrfSim\damage\gnd-M830.dmg,3160756956
+vrfSim\damage\gnd-PG7.dmg,2983199370
+vrfSim\damage\gnd-TOW.dmg,2894992748
+vrfSim\damage\heavy-armor-vs-25mm-HE-round.dmg,3386340119
+vrfSim\damage\heavy-armor-vs-30mm-AP-round.dmg,2313596050
+vrfSim\damage\heavy-armor-vs-AT30.dmg,509168328
+vrfSim\damage\heavy-armor-vs-IED.dmg,4240943876
+vrfSim\damage\heavy-armor-vs-artillery-round.dmg,3318201817
+vrfSim\damage\heavy-armor-vs-ballistic-missile.dmg,2198047636
+vrfSim\damage\heavy-armor-vs-bomb.dmg,804074224
+vrfSim\damage\heavy-armor-vs-cluster-bomb.dmg,1898369985
+vrfSim\damage\heavy-armor-vs-cruise-missile.dmg,410001384
+vrfSim\damage\heavy-armor-vs-explosive-round.dmg,3463117300
+vrfSim\damage\heavy-armor-vs-missile.dmg,3137199855
+vrfSim\damage\inf-PG7.dmg,3503159291
+vrfSim\damage\inf-adam.dmg,1324968604
+vrfSim\damage\inf-gatorBLU92.dmg,3441276149
+vrfSim\damage\lifeform-large-round-direct-hit.dmg,1381123546
+vrfSim\damage\lifeform-vs-7mmShrapnel.dmg,2915803777
+vrfSim\damage\lifeform-vs-IED.dmg,2786105872
+vrfSim\damage\lifeform-vs-artillery-round-light.dmg,351972547
+vrfSim\damage\lifeform-vs-artillery-round.dmg,92948773
+vrfSim\damage\lifeform-vs-bomb.dmg,2098645230
+vrfSim\damage\lifeform-vs-cluster-bomb.dmg,1996582267
+vrfSim\damage\light-armor-vs-7mmShrapnel.dmg,751275566
+vrfSim\damage\light-armor-vs-ballistic-missile.dmg,2163390508
+vrfSim\damage\light-armor-vs-bomb.dmg,3921075218
+vrfSim\damage\light-armor-vs-cluster-bomb.dmg,2571019145
+vrfSim\damage\light-armor-vs-cruise-missile.dmg,1477797031
+vrfSim\damage\light-armor-vs-explosive-round.dmg,63463065
+vrfSim\damage\light-armor-vs-missile.dmg,347903394
+vrfSim\damage\missile-Unknown.dmg,3898360564
+vrfSim\damage\naval-mine-depth-charge.dmg,2361432224
+vrfSim\damage\rifle.dmg,1625488225
+vrfSim\damage\rotaryWing-AIM9.dmg,3694272733
+vrfSim\damage\rotaryWing-AntiAir.dmg,387648550
+vrfSim\damage\rotaryWing-PG7.dmg,1498464513
+vrfSim\damage\rwa-vs-cannon-direct.dmg,131262581
+vrfSim\damage\unarmored-vs-7mmShrapnel.dmg,1164651742
+vrfSim\damage\unarmored-vs-IED.dmg,865383434
+vrfSim\damage\unarmored-vs-artillery-round.dmg,2973386871
+vrfSim\damage\unarmored-vs-ballistic-missile.dmg,2372596112
+vrfSim\damage\unarmored-vs-bomb.dmg,4081734451
+vrfSim\damage\unarmored-vs-cluster-bomb.dmg,1188139090
+vrfSim\damage\unarmored-vs-cruise-missile.dmg,1978967979
+vrfSim\damage\unarmored-vs-explosive-round.dmg,3259594979
+vrfSim\damage\unarmored-vs-missile.dmg,2545629173
+vrfSim\detection\cube-law-detect-only-detection-table.csv,2028148617
+vrfSim\detection\fourth-power-detect-only-detection-table.csv,3456641621
+vrfSim\detection\legacy-std-infrared-detection-table.csv,1116429164
+vrfSim\detection\legacy-std-radar-detection-table.csv,2830527714
+vrfSim\detection\legacy-std-sonar-detection-table.csv,2143786151
+vrfSim\detection\legacy-std-visual-detection-table.csv,2515719612
+vrfSim\detection\std-active-sonar-detection-table.csv,2358191886
+vrfSim\detection\std-infrared-detection-table.csv,3506603767
+vrfSim\detection\std-passive-sonar-detection-table.csv,2143488001
+vrfSim\detection\std-radar-detection-table.csv,2358191886
+vrfSim\detection\std-visual-detection-table.csv,265683473
+vrfSim\electronic-warfare-fixed-wing-platform.entity,2642392710
+vrfSim\formation\ADA_Plt_CIS_Column.frm,1319533921
+vrfSim\formation\ADA_Plt_CIS_Line.frm,3037138989
+vrfSim\formation\ADA_Plt_CIS_Wedge.frm,602546005
+vrfSim\formation\Ar_Co_US_Column.frm,1686335654
+vrfSim\formation\Ar_Co_US_Line.frm,3030807820
+vrfSim\formation\Ar_Co_US_Vee.frm,1074583735
+vrfSim\formation\Ar_Co_US_Wedge.frm,177293920
+vrfSim\formation\Ar_Plt_CIS_Column.frm,2146416016
+vrfSim\formation\Ar_Plt_CIS_Line.frm,2537209823
+vrfSim\formation\Ar_Plt_CIS_Vee.frm,2406635047
+vrfSim\formation\Ar_Plt_CIS_Wedge.frm,2961136318
+vrfSim\formation\Ar_Plt_US_Column.frm,3941568159
+vrfSim\formation\Ar_Plt_US_Line-Armor-Plt(US).frm,247835028
+vrfSim\formation\Ar_Plt_US_Line.frm,3453716396
+vrfSim\formation\Ar_Plt_US_Vee.frm,2437487227
+vrfSim\formation\Ar_Plt_US_Wedge.frm,3136980394
+vrfSim\formation\COLT_Team_US_Column.frm,181403361
+vrfSim\formation\COLT_Team_US_Line.frm,1117634830
+vrfSim\formation\COLT_Team_US_Wedge.frm,1235330668
+vrfSim\formation\CSS_Plt_CIS_Column.frm,86988146
+vrfSim\formation\CSS_Plt_CIS_Line.frm,2863923839
+vrfSim\formation\CSS_Plt_CIS_Vee.frm,615619476
+vrfSim\formation\CSS_Plt_CIS_Wedge.frm,2033053978
+vrfSim\formation\DI-column.frm,1037303675
+vrfSim\formation\DI-companyColumn.frm,66081187
+vrfSim\formation\DI-companyLine.frm,858799769
+vrfSim\formation\DI-companyUser1.frm,1768786064
+vrfSim\formation\DI-companyVee.frm,489486651
+vrfSim\formation\DI-companyWedge.frm,2171116769
+vrfSim\formation\DI-line.frm,2426920239
+vrfSim\formation\DI-platoonColumn.frm,2264255063
+vrfSim\formation\DI-platoonLine.frm,985322792
+vrfSim\formation\DI-platoonUser1.frm,333166591
+vrfSim\formation\DI-platoonVee.frm,3406653138
+vrfSim\formation\DI-platoonWedge.frm,3771212156
+vrfSim\formation\DI-sectionColumn.frm,3467016416
+vrfSim\formation\DI-sectionLine.frm,2776262279
+vrfSim\formation\DI-sectionUser1.frm,1265810321
+vrfSim\formation\DI-sectionVee.frm,2046843151
+vrfSim\formation\DI-sectionWedge.frm,300177755
+vrfSim\formation\DI-squadColumn.frm,3467016416
+vrfSim\formation\DI-squadLine.frm,2776262279
+vrfSim\formation\DI-squadUser1.frm,1265810321
+vrfSim\formation\DI-squadVee.frm,2046843151
+vrfSim\formation\DI-squadWedge.frm,300177755
+vrfSim\formation\DI-teamColumn.frm,3467016416
+vrfSim\formation\DI-teamLine.frm,2776262279
+vrfSim\formation\DI-teamUser1.frm,1265810321
+vrfSim\formation\DI-teamVee.frm,2046843151
+vrfSim\formation\DI-teamWedge.frm,300177755
+vrfSim\formation\DI-user1.frm,271971989
+vrfSim\formation\DI-vee.frm,886725493
+vrfSim\formation\DI-wedge.frm,1183656731
+vrfSim\formation\DI_Plt_US_Column.frm,2033053978
+vrfSim\formation\DI_Plt_US_Line.frm,3037138989
+vrfSim\formation\DI_Plt_US_Wedge.frm,86988146
+vrfSim\formation\DI_Squad_US_Column.frm,2878136974
+vrfSim\formation\DI_Squad_US_Line.frm,1956764725
+vrfSim\formation\DI_Squad_US_Vee.frm,3677073422
+vrfSim\formation\DI_Squad_US_Wedge.frm,2464265087
+vrfSim\formation\Fixed_Wing_Column.frm,1999965705
+vrfSim\formation\Fixed_Wing_Line.frm,32512779
+vrfSim\formation\Fixed_Wing_Vee.frm,3783400143
+vrfSim\formation\Fixed_Wing_Wedge.frm,897322327
+vrfSim\formation\Formation-Column-Armor-Co(CIS).frm,4056797658
+vrfSim\formation\Formation-Column-Armor-Co(US).frm,4056797658
+vrfSim\formation\Formation-Column-DI-Plt(CIS).frm,374667074
+vrfSim\formation\Formation-Column-Formation-DI-Plt(US)-1.frm,4219615526
+vrfSim\formation\Formation-Column-Formation-DI-Plt(US).frm,4219615526
+vrfSim\formation\Formation-Column-MI-Plt(CIS).frm,2116029016
+vrfSim\formation\Formation-Column-US-Army-LtInf-FT.frm,412175633
+vrfSim\formation\Formation-Column-US-Army-LtInf-SQD.frm,363199912
+vrfSim\formation\Formation-Column-US-Army-Mech-Plt-w-IFV.frm,1581306140
+vrfSim\formation\Formation-Column-US-Army-Mech-SQD.frm,2066778732
+vrfSim\formation\Formation-Column-USMC-SQD.frm,1843695476
+vrfSim\formation\Formation-Diamond-US-Army-LtInf-FT.frm,813558687
+vrfSim\formation\Formation-File-US-Army-LtInf-FT.frm,3677369140
+vrfSim\formation\Formation-File-US-Army-Mech-SQD.frm,2504995350
+vrfSim\formation\Formation-File-USMC-SQD.frm,3155628509
+vrfSim\formation\Formation-Line-US-Army-LtInf-FT.frm,2197006932
+vrfSim\formation\Formation-Line-US-Army-LtInf-SQD.frm,4269935925
+vrfSim\formation\Formation-Line-US-Army-Mech-Plt-w-IFV.frm,1647759644
+vrfSim\formation\Formation-Line-US-Army-Mech-SQD.frm,1960507491
+vrfSim\formation\Formation-Line-USMC-SQD.frm,528919522
+vrfSim\formation\Formation-New-Formation-DI-Plt(US).frm,671015752
+vrfSim\formation\Formation-New-Formation-US-Army-LtInf-SQD.frm,2504995350
+vrfSim\formation\Formation-Vee-Armor-Co(CIS).frm,3860320231
+vrfSim\formation\Formation-Vee-Armor-Co(US).frm,3860320231
+vrfSim\formation\Formation-Vee-Formation-DI-Plt(US)-1.frm,1466378875
+vrfSim\formation\Formation-Vee-Formation-DI-Plt(US).frm,1466378875
+vrfSim\formation\Formation-Vee-MI-Plt(CIS).frm,1813699623
+vrfSim\formation\Formation-Vee-US-Army-LtInf-FT.frm,1373098326
+vrfSim\formation\Formation-Vee-US-Army-Mech-Plt-w-IFV.frm,3463442473
+vrfSim\formation\Formation-Wedge-Armor-Co(CIS).frm,4020745776
+vrfSim\formation\Formation-Wedge-Armor-Co(US).frm,4020745776
+vrfSim\formation\Formation-Wedge-DI-Plt(CIS).frm,141224774
+vrfSim\formation\Formation-Wedge-Formation-DI-Plt(US)-1.frm,2774100308
+vrfSim\formation\Formation-Wedge-Formation-DI-Plt(US).frm,2774100308
+vrfSim\formation\Formation-Wedge-MI-Plt(CIS).frm,678604646
+vrfSim\formation\Formation-Wedge-US-Army-LtInf-FT.frm,1468458894
+vrfSim\formation\Formation-Wedge-US-Army-Mech-Plt-w-IFV.frm,2611923254
+vrfSim\formation\MI_Plt_US_Column.frm,1569791009
+vrfSim\formation\MI_Plt_US_Line.frm,4134232642
+vrfSim\formation\MI_Plt_US_Vee.frm,721714880
+vrfSim\formation\MI_Plt_US_Wedge.frm,1556238035
+vrfSim\formation\Rotary_Wing_Column.frm,860631363
+vrfSim\formation\Rotary_Wing_Line.frm,828863705
+vrfSim\formation\Rotary_Wing_Vee.frm,1832994152
+vrfSim\formation\Rotary_Wing_Wedge.frm,3755406977
+vrfSim\formation\Surface_Column.frm,860631363
+vrfSim\formation\Surface_Line.frm,828863705
+vrfSim\formation\Surface_Vee.frm,1832994152
+vrfSim\formation\Surface_Wedge.frm,3755406977
+vrfSim\formation\column.frm,2744001731
+vrfSim\formation\companyColumn.frm,2452189306
+vrfSim\formation\companyLine.frm,609762354
+vrfSim\formation\companyUser1.frm,1769143326
+vrfSim\formation\companyVee.frm,1203556110
+vrfSim\formation\companyWedge.frm,4080342172
+vrfSim\formation\line.frm,4264369356
+vrfSim\formation\platoonColumn.frm,3850084566
+vrfSim\formation\platoonLine.frm,1910480618
+vrfSim\formation\platoonUser1.frm,3702970798
+vrfSim\formation\platoonVee.frm,2682368259
+vrfSim\formation\platoonWedge.frm,1817679843
+vrfSim\formation\sectionColumn.frm,3850084566
+vrfSim\formation\sectionLine.frm,1910480618
+vrfSim\formation\sectionUser1.frm,3702970798
+vrfSim\formation\sectionVee.frm,2682368259
+vrfSim\formation\sectionWedge.frm,1817679843
+vrfSim\formation\squadColumn.frm,3850084566
+vrfSim\formation\squadLine.frm,1910480618
+vrfSim\formation\squadUser1.frm,3702970798
+vrfSim\formation\squadVee.frm,2682368259
+vrfSim\formation\squadWedge.frm,1817679843
+vrfSim\formation\teamColumn.frm,1556875127
+vrfSim\formation\teamLine.frm,1545854953
+vrfSim\formation\teamUser1.frm,3338967798
+vrfSim\formation\teamVee.frm,2540211438
+vrfSim\formation\teamWedge.frm,3610469226
+vrfSim\formation\user1.frm,2072614727
+vrfSim\formation\vee.frm,77244718
+vrfSim\formation\wedge.frm,2021433800
+vrfSim\generic-attack-helicopter-platform.entity,2894754247
+vrfSim\generic-cargo-helicopter-platform.entity,2794841695
+vrfSim\generic-lifeform-platform.entity,747398559
+vrfSim\generic-missile-platform.entity,3008132199
+vrfSim\generic-observation-helicopter-platform.entity,4062938841
+vrfSim\generic-surface-platform.entity,778654038
+vrfSim\generic-unmanned-aerial-vehicle.entity,1174590726
+vrfSim\generic-utility-helicopter-platform.entity,2416496492
+vrfSim\generic_rocket_platform.entity,2528187903
+vrfSim\ground-vehicle-parameters.entity,2887337702
+vrfSim\hit\14_5mm_quad_gun.hit,1754253814
+vrfSim\hit\AKA762.hit,4223596636
+vrfSim\hit\AT4.hit,3113448076
+vrfSim\hit\BMP2MainGun.hit,1231368846
+vrfSim\hit\GAU8-Avenger.hit,529690539
+vrfSim\hit\M16.hit,1203440933
+vrfSim\hit\M1A2MainGun.hit,2373969810
+vrfSim\hit\M2.hit,3177264613
+vrfSim\hit\M230.hit,685005064
+vrfSim\hit\M2A2MainGun.hit,3858565715
+vrfSim\hit\M61-Vulcan.hit,127827209
+vrfSim\hit\RPG.hit,3184625622
+vrfSim\hit\T80MainGun.hit,1719535785
+vrfSim\hostile-DI-with-RPG.entity,3388092535
+vrfSim\male_pedestrian_in_crowd.entity,4201124320
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy.navGenConfig,596841374
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy.navRuntimeConfig,2866194832
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy\1407007162_arleigh-burke_ddg51_arleigh-burke_navy.navGenConfig,596841374
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy\lifeform\Generator.DataIndex,763566937
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy\lifeform\Generator.GenIO,410442279
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy\lifeform\lifeform_vdTt.ClientInput,1709105791
+vrfSim\navData\1407007162_arleigh-burke_ddg51_arleigh-burke_navy\lifeform\lifeform_vdTt.NavData,3149832465
+vrfSim\navData\Arleigh_Burke-class_Destroyer\lifeform\Sector_fullTerrain.ClientInput,2873153642
+vrfSim\navData\Arleigh_Burke-class_Destroyer\lifeform\Sector_fullTerrain.NavData,2289012006
+vrfSim\navData\CVN-75_Harry_S_Truman.navGenConfig,803157165
+vrfSim\navData\CVN-75_Harry_S_Truman.navRuntimeConfig,2645515588
+vrfSim\navData\CVN-75_Harry_S_Truman\CVN-75_Harry_S_Truman.navGenConfig,803157165
+vrfSim\navData\CVN-75_Harry_S_Truman\lifeform\Generator.DataIndex,3378974294
+vrfSim\navData\CVN-75_Harry_S_Truman\lifeform\Generator.GenIO,2752930675
+vrfSim\navData\CVN-75_Harry_S_Truman\lifeform\lifeform_70X0.ClientInput,894132520
+vrfSim\navData\CVN-75_Harry_S_Truman\lifeform\lifeform_70X0.NavData,3959114384
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0.navGenConfig,2801020432
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0.navRuntimeConfig,1964031964
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0\DB_CONTAINER_SHIP_LOADED_V7.0.navGenConfig,2801020432
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0\lifeform\Generator.DataIndex,1500740080
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0\lifeform\Generator.GenIO,1626747593
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0\lifeform\lifeform_EhOB.ClientInput,3874495512
+vrfSim\navData\DB_CONTAINER_SHIP_LOADED_V7.0\lifeform\lifeform_EhOB.NavData,3984420813
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0.navGenConfig,1113423990
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0.navRuntimeConfig,637718850
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0\DB_CONTAINER_SHIP_UNLOADED_V7.0.navGenConfig,1113423990
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0\lifeform\Generator.DataIndex,3867507470
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0\lifeform\Generator.GenIO,1680690361
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0\lifeform\lifeform_ER3A.ClientInput,100258730
+vrfSim\navData\DB_CONTAINER_SHIP_UNLOADED_V7.0\lifeform\lifeform_ER3A.NavData,1612374340
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0.navGenConfig,1606400209
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0.navRuntimeConfig,2539579792
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0\DB_FISHING_VESSEL_MEDIUM_V7.0.navGenConfig,1606400209
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0\lifeform\Generator.DataIndex,2921306161
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0\lifeform\Generator.GenIO,2441007326
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0\lifeform\lifeform_LZV3.ClientInput,5709767
+vrfSim\navData\DB_FISHING_VESSEL_MEDIUM_V7.0\lifeform\lifeform_LZV3.NavData,48959763
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0.navGenConfig,725087704
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0.navRuntimeConfig,2703990550
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0.navGenConfig,725087704
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0\lifeform\Generator.DataIndex,3391660681
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0\lifeform\Generator.GenIO,210513209
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0\lifeform\lifeform_4l7W.ClientInput,2143067056
+vrfSim\navData\DB_SIRIUS_STAR_OIL_TANKER_LOADED_V7.0\lifeform\lifeform_4l7W.NavData,1548938559
+vrfSim\navData\LCAC-US.navGenConfig,3570631162
+vrfSim\navData\LCAC-US.navRuntimeConfig,4147184439
+vrfSim\navData\LCAC-US\LCAC-US.navGenConfig,3570631162
+vrfSim\navData\LCAC-US\lifeform\Generator.DataIndex,991078426
+vrfSim\navData\LCAC-US\lifeform\Generator.GenIO,33229649
+vrfSim\navData\LCAC-US\lifeform\lifeform_tiCS.ClientInput,52380393
+vrfSim\navData\LCAC-US\lifeform\lifeform_tiCS.NavData,1882867235
+vrfSim\navData\LSD-49_Harpers_Ferry_class.navGenConfig,1573792486
+vrfSim\navData\LSD-49_Harpers_Ferry_class.navRuntimeConfig,3904480517
+vrfSim\navData\LSD-49_Harpers_Ferry_class\LSD-49_Harpers_Ferry_class.navGenConfig,1573792486
+vrfSim\navData\LSD-49_Harpers_Ferry_class\lifeform\Generator.DataIndex,1441332738
+vrfSim\navData\LSD-49_Harpers_Ferry_class\lifeform\Generator.GenIO,3500055626
+vrfSim\navData\LSD-49_Harpers_Ferry_class\lifeform\lifeform_drEr.ClientInput,861258287
+vrfSim\navData\LSD-49_Harpers_Ferry_class\lifeform\lifeform_drEr.NavData,1234730889
+vrfSim\navData\MarketStone2\lifeform\Sector_fullTerrain.ClientInput,4273635096
+vrfSim\navData\MarketStone2\lifeform\Sector_fullTerrain.NavData,2727299504
+vrfSim\navData\P677-Flamant.FR.grey.navGenConfig,3058580295
+vrfSim\navData\P677-Flamant.FR.grey.navRuntimeConfig,700537069
+vrfSim\navData\P677-Flamant.FR.grey\P677-Flamant.FR.grey.navGenConfig,3058580295
+vrfSim\navData\P677-Flamant.FR.grey\lifeform\Generator.DataIndex,4077529044
+vrfSim\navData\P677-Flamant.FR.grey\lifeform\Generator.GenIO,962459389
+vrfSim\navData\P677-Flamant.FR.grey\lifeform\lifeform_dAku.ClientInput,393286932
+vrfSim\navData\P677-Flamant.FR.grey\lifeform\lifeform_dAku.NavData,2890958271
+vrfSim\navData\Type-23 Frigate Duke Class.navGenConfig,1719332084
+vrfSim\navData\Type-23 Frigate Duke Class.navRuntimeConfig,583733627
+vrfSim\navData\Type-23 Frigate Duke Class\Type-23 Frigate Duke Class.navGenConfig,1719332084
+vrfSim\navData\Type-23 Frigate Duke Class\lifeform\Generator.DataIndex,3878156191
+vrfSim\navData\Type-23 Frigate Duke Class\lifeform\Generator.GenIO,18748236
+vrfSim\navData\Type-23 Frigate Duke Class\lifeform\lifeform_B3DJ.ClientInput,4014993709
+vrfSim\navData\Type-23 Frigate Duke Class\lifeform\lifeform_B3DJ.NavData,702627899
+vrfSim\navData\WHEC 715 High Endurance Cutter.navGenConfig,1447351276
+vrfSim\navData\WHEC 715 High Endurance Cutter.navRuntimeConfig,2027620373
+vrfSim\navData\WHEC 715 High Endurance Cutter\WHEC 715 High Endurance Cutter.navGenConfig,1447351276
+vrfSim\navData\WHEC 715 High Endurance Cutter\lifeform\Generator.DataIndex,629616666
+vrfSim\navData\WHEC 715 High Endurance Cutter\lifeform\Generator.GenIO,288593815
+vrfSim\navData\WHEC 715 High Endurance Cutter\lifeform\lifeform_wDxw.ClientInput,7867618
+vrfSim\navData\WHEC 715 High Endurance Cutter\lifeform\lifeform_wDxw.NavData,576309392
+vrfSim\navData\WMSL-750 Bertholf.navGenConfig,3599273522
+vrfSim\navData\WMSL-750 Bertholf.navRuntimeConfig,219784988
+vrfSim\navData\WMSL-750 Bertholf\WMSL-750 Bertholf.navGenConfig,3599273522
+vrfSim\navData\WMSL-750 Bertholf\lifeform\Generator.DataIndex,1930779839
+vrfSim\navData\WMSL-750 Bertholf\lifeform\Generator.GenIO,2322875262
+vrfSim\navData\WMSL-750 Bertholf\lifeform\lifeform_qgGv.ClientInput,209870768
+vrfSim\navData\WMSL-750 Bertholf\lifeform\lifeform_qgGv.NavData,617258808
+vrfSim\navData\Y345-Tug Boat.navGenConfig,3977616335
+vrfSim\navData\Y345-Tug Boat.navRuntimeConfig,2218093816
+vrfSim\navData\Y345-Tug Boat\Y345-Tug Boat.navGenConfig,3977616335
+vrfSim\navData\Y345-Tug Boat\lifeform\Generator.DataIndex,2641975568
+vrfSim\navData\Y345-Tug Boat\lifeform\Generator.GenIO,309536494
+vrfSim\navData\Y345-Tug Boat\lifeform\lifeform_7fQ9.ClientInput,834765792
+vrfSim\navData\Y345-Tug Boat\lifeform\lifeform_7fQ9.NavData,3079748783
+vrfSim\navData\project-956_sovremenny_HiRes.navGenConfig,226336249
+vrfSim\navData\project-956_sovremenny_HiRes.navRuntimeConfig,2346321885
+vrfSim\navData\project-956_sovremenny_HiRes\lifeform\Generator.DataIndex,1581956978
+vrfSim\navData\project-956_sovremenny_HiRes\lifeform\Generator.GenIO,1304756876
+vrfSim\navData\project-956_sovremenny_HiRes\lifeform\lifeform_O0OG.ClientInput,1955170770
+vrfSim\navData\project-956_sovremenny_HiRes\lifeform\lifeform_O0OG.NavData,2220546995
+vrfSim\navData\project-956_sovremenny_HiRes\project-956_sovremenny_HiRes.navGenConfig,226336249
+vrfSim\platforms\Aggregate.ope,1469929928
+vrfSim\platforms\Animal.ope,3665775892
+vrfSim\platforms\Bomb.ope,3711712945
+vrfSim\platforms\Cultural_Feature.ope,1946735504
+vrfSim\platforms\Fixed_Wing_Aircraft.ope,3348700626
+vrfSim\platforms\Ground_Vehicle.ope,2726788802
+vrfSim\platforms\Human.ope,1007587352
+vrfSim\platforms\Indirect_Artillery_Target.ope,2814683885
+vrfSim\platforms\Missile.ope,142409726
+vrfSim\platforms\Missile_Target_Point.ope,2213197493
+vrfSim\platforms\Naval_Mine.ope,3329455910
+vrfSim\platforms\Rotary_Wing_Aircraft.ope,1908175743
+vrfSim\platforms\Scripted_Movement_Object.ope,4121594095
+vrfSim\platforms\Subsurface_Vehicle.ope,2327837125
+vrfSim\platforms\Surface_Ship.ope,1728373937
+vrfSim\platforms\Tactical_Smoke.ope,2085827088
+vrfSim\platforms\Tag_Volume_Area.ope,2337552467
+vrfSim\platforms\Tag_Volume_Line.ope,1237557664
+vrfSim\remoteConfigurations\f18.mtl,1334281287
+vrfSim\remoteConfigurations\mig29.mtl,3090718067
+vrfSim\signatureRules\lifeform-visual-rules.mtl,2623263557
+vrfSim\signatureRules\subsurface-mad-rules.mtl,3731599794
+vrfSim\signatureRules\subsurface-radar-illumination-rules.mtl,3219970890
+vrfSim\signatureRules\subsurface-visual-illumination-rules.mtl,3074377172
+vrfSim\signatureRules\underwater-acoustics-rules.mtl,4010963017
+vrfSim\signatureRules\visual-illumination-rules.mtl,3011693893
+vrfSim\sonobuoy.entity,2033915699
+vrfSim\systems\damage\building-default.sysdef,3879140844
+vrfSim\systems\damage\crew-suppression-default.sysdef,958856689
+vrfSim\systems\damage\fixed-wing-default.sysdef,1260500469
+vrfSim\systems\damage\ground-heavy-armor.sysdef,2347952863
+vrfSim\systems\damage\ground-light-armor.sysdef,749667525
+vrfSim\systems\damage\ground-unarmored.sysdef,646412915
+vrfSim\systems\damage\lifeform-default.sysdef,598370150
+vrfSim\systems\damage\lifeform-suppression-default.sysdef,3917475104
+vrfSim\systems\damage\missile-default.sysdef,2915967760
+vrfSim\systems\damage\rotary-wing-default.sysdef,955233278
+vrfSim\systems\damage\subsurface-default.sysdef,2882538339
+vrfSim\systems\damage\surface-default.sysdef,4294012142
+vrfSim\systems\damage\surface-multiple-hit-damage.sysdef,2324141566
+vrfSim\systems\damage\surface-small-craft.sysdef,1708961500
+vrfSim\systems\movement\Handheld-UAV.sysdef,3633452982
+vrfSim\systems\movement\air-aggregate-movement.sysdef,3017268720
+vrfSim\systems\movement\air-cushion.sysdef,3401559282
+vrfSim\systems\movement\cruise-missile-dynamics.sysdef,3694867484
+vrfSim\systems\movement\fall-from-sky-dynamics.sysdef,2951881978
+vrfSim\systems\movement\fixed-wing-fighter-jet.sysdef,1531972335
+vrfSim\systems\movement\fixed-wing-heavy.sysdef,1783928032
+vrfSim\systems\movement\fixed-wing-high-maneuverability-fighter.sysdef,2463685395
+vrfSim\systems\movement\frictionless-gravity-dynamics.sysdef,3933714505
+vrfSim\systems\movement\ground-aggregated-movement.sysdef,2888066513
+vrfSim\systems\movement\ground-convoy-movement.sysdef,745661797
+vrfSim\systems\movement\ground-disaggregated-movement.sysdef,2455446618
+vrfSim\systems\movement\ground-tracked.sysdef,850717540
+vrfSim\systems\movement\ground-tracks-amphibious.sysdef,972553558
+vrfSim\systems\movement\ground-wheels-off-road.sysdef,344398442
+vrfSim\systems\movement\ground-wheels-road.sysdef,3145041828
+vrfSim\systems\movement\human-disaggregated-movement.sysdef,3016963582
+vrfSim\systems\movement\human.sysdef,2967284296
+vrfSim\systems\movement\laser-guided-missile-dynamics.sysdef,4206550745
+vrfSim\systems\movement\missile-dynamics.sysdef,2787880479
+vrfSim\systems\movement\naval-mine-dynamics.sysdef,2602590650
+vrfSim\systems\movement\rotary-wing-attack.sysdef,3082769308
+vrfSim\systems\movement\rotary-wing-heavy.sysdef,2250250981
+vrfSim\systems\movement\rotary-wing-quadcopter.sysdef,499759596
+vrfSim\systems\movement\rotary-wing-utility.sysdef,911611466
+vrfSim\systems\movement\rotary-wing-vtuav.sysdef,2412719426
+vrfSim\systems\movement\scripted-movement-dynamics.sysdef,556622331
+vrfSim\systems\movement\small-boat.sysdef,1989342765
+vrfSim\systems\movement\smart-bomb-dynamics.sysdef,4064622536
+vrfSim\systems\movement\space-shuttle.sysdef,3262079726
+vrfSim\systems\movement\subsurface-dynamics.sysdef,2561833639
+vrfSim\systems\movement\surface-disaggregated-movement.sysdef,1501781551
+vrfSim\systems\movement\surface-large-ship.sysdef,1848071887
+vrfSim\systems\other\aircraft-cargo-door.sysdef,3411429285
+vrfSim\systems\other\cis-counter-measures-launcher.sysdef,671651473
+vrfSim\systems\other\counter-measures-launcher.sysdef,1279168913
+vrfSim\systems\other\ddg-embedded-support-craft.sysdef,2690002419
+vrfSim\systems\other\di-laser-designator.sysdef,505437953
+vrfSim\systems\other\iff-transponder.sysdef,3261746477
+vrfSim\systems\other\laser-designator.sysdef,3730667445
+vrfSim\systems\other\limit-existance.sysdef,1256361726
+vrfSim\systems\other\m250-smoke-grenade.sysdef,346956563
+vrfSim\systems\other\naval-mine-sweep.sysdef,1292196
+vrfSim\systems\other\periscope.sysdef,3211310330
+vrfSim\systems\other\sonobuoy-deployer.sysdef,3558355784
+vrfSim\systems\other\spot-report-generator.sysdef,2542819112
+vrfSim\systems\other\spot-report-receiver.sysdef,4180267473
+vrfSim\systems\other\tactical-radar-jammer.sysdef,1833758953
+vrfSim\systems\other\tanker-refueling-boom.sysdef,1623613504
+vrfSim\systems\sensors\active-radar-sensor.sysdef,4051153229
+vrfSim\systems\sensors\active-sonar-sensor.sysdef,517153421
+vrfSim\systems\sensors\airborne-targeting-radar.sysdef,310910565
+vrfSim\systems\sensors\gimbaled-visual-sensor.sysdef,1905221179
+vrfSim\systems\sensors\infrared-sensor.sysdef,3953197851
+vrfSim\systems\sensors\mad-sensor.sysdef,3858885900
+vrfSim\systems\sensors\passive-radar-sensor.sysdef,4098642757
+vrfSim\systems\sensors\passive-sonar-sensor.sysdef,3286305685
+vrfSim\systems\sensors\rotary-wing-sonar-sensor.sysdef,885188334
+vrfSim\systems\sensors\sonar-sensor.sysdef,2170410798
+vrfSim\systems\sensors\visual-sensor.sysdef,655008661
+vrfSim\systems\weapons\120mm-gun.sysdef,2277514064
+vrfSim\systems\weapons\125mm-gun.sysdef,4028586568
+vrfSim\systems\weapons\14_5mm-quad-gun.sysdef,417478484
+vrfSim\systems\weapons\25mm-gun.sysdef,4004434048
+vrfSim\systems\weapons\30mm-gun.sysdef,2827717791
+vrfSim\systems\weapons\AswMissile.sysdef,2247560553
+vrfSim\systems\weapons\CIS-air-defense-missile-package.sysdef,3896080435
+vrfSim\systems\weapons\CIS-attack-helo-missile-package.sysdef,1667492322
+vrfSim\systems\weapons\CIS-attack-strike-missile-package.sysdef,3848026180
+vrfSim\systems\weapons\CIS-fighter-bomber-bomb-bay.sysdef,2659984921
+vrfSim\systems\weapons\CIS-heavy-bomber-bomb-bay.sysdef,3789145543
+vrfSim\systems\weapons\GAU-8-Avenger-cannon.sysdef,716861648
+vrfSim\systems\weapons\GSh-301-cannon.sysdef,3904478462
+vrfSim\systems\weapons\Homing-torpedo-fwd-launcher.sysdef,2826617952
+vrfSim\systems\weapons\M2-machine-gun.sysdef,2746651513
+vrfSim\systems\weapons\M230-chain-gun.sysdef,796406697
+vrfSim\systems\weapons\M240-7_62mm-mach-gun.sysdef,3414741962
+vrfSim\systems\weapons\M252-81mm-mortar.sysdef,842747376
+vrfSim\systems\weapons\M270-MLRS.sysdef,3739129490
+vrfSim\systems\weapons\M284-155mm-cannon.sysdef,3954991004
+vrfSim\systems\weapons\M60-7_62mm-mach-gun.sysdef,1248507539
+vrfSim\systems\weapons\M61-vulcan-cannon.sysdef,1971555151
+vrfSim\systems\weapons\MK45NavalGun.sysdef,4042900846
+vrfSim\systems\weapons\TOW-missile-launcher-with-turret.sysdef,1034869988
+vrfSim\systems\weapons\US-fighter-bomber-bomb-bay.sysdef,2204570968
+vrfSim\systems\weapons\US-heavy-bomber-bomb-bay.sysdef,535390403
+vrfSim\systems\weapons\exocet-cruise-missile-launcher.sysdef,1872396523
+vrfSim\systems\weapons\exocet-cruise-vertical-missile-launcher.sysdef,2998528187
+vrfSim\systems\weapons\explosive-device.sysdef,1479378270
+vrfSim\systems\weapons\fixed-maverick-missile-launcher.sysdef,668830068
+vrfSim\systems\weapons\fixed-sidewinder-missile-launcher.sysdef,1494537253
+vrfSim\systems\weapons\handheld-AK47.sysdef,2793647517
+vrfSim\systems\weapons\handheld-AT4.sysdef,3037468195
+vrfSim\systems\weapons\handheld-M16.sysdef,4029544358
+vrfSim\systems\weapons\handheld-M240-mg.sysdef,844231515
+vrfSim\systems\weapons\handheld-M249-mg.sysdef,780870745
+vrfSim\systems\weapons\handheld-M60-mg.sysdef,2500572777
+vrfSim\systems\weapons\handheld-RPG-Launcher.sysdef,4270677217
+vrfSim\systems\weapons\human-explosive-device.sysdef,4157254238
+vrfSim\systems\weapons\laser-guided-apkws-launcher.sysdef,881258911
+vrfSim\systems\weapons\laser-guided-hellfire-missile-launcher.sysdef,1654595323
+vrfSim\systems\weapons\m1a2-multigun.sysdef,3983837625
+vrfSim\systems\weapons\missile-warhead.sysdef,2373296626
+vrfSim\systems\weapons\naval-depth-charge-deployment.sysdef,342405362
+vrfSim\systems\weapons\naval-mine-deployment.sysdef,3522898976
+vrfSim\systems\weapons\naval-mine-explosive-device.sysdef,568151144
+vrfSim\systems\weapons\patriot-missile-launcher.sysdef,2907024866
+vrfSim\systems\weapons\sa-9-missile-launcher.sysdef,2452697277
+vrfSim\systems\weapons\stinger-missile-launcher.sysdef,4203860230
+vrfSim\systems\weapons\torpedoWarhead.sysdef,1851422760
+vrfSim\systems\weapons\vertical-missile-launcher.sysdef,2497861454
+vrfSim\tactical_smoke.entity,1397986267
+vrfSim\taskRules\actionCategories.tsk,1428882797
+vrfSim\taskRules\default-task-rules.tsk,864592216
+vrfSim\taskRules\doctrines.dct,1223347741

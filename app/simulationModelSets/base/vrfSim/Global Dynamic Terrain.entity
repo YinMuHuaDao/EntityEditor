@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject name="simObjects" entityVersion="1.0" platform="@(platforms-dir)\Global_Dynamic_Terrain.ope" objectType="1:105:105:105:105:105:105:105" matchType="1:105:105:105:105:105:105:105">
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">False</bool>
+      <string paramName="short-name">GlblTerrDmg</string>
+
+simObject</simObject>
+</simObjects>

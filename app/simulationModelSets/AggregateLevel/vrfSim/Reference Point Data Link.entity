@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+  <simObject objectType="1:16:0:0:100:1:0:0" matchType="1:16:0:0:100:1:0:0" platform="@(platforms-dir)/Point_Object.ope">
+    <bool paramName="use-random-appearance-upon-creation">True</bool>
+    <string paramName="short-name">Reference Point Data Link</string>
+    <string paramName="character-type"/>
+    <string paramName="character-appearance"/>
+    <string paramName="animation"/>
+    <stringList paramName="appearances-for-random-selection"/>
+    <string paramName="gui-unique-id">Reference Point Data Link</string>
+    <string paramName="gui-keywords"/>
+    <string paramName="gui-label">Reference Point Data Link</string>
+    <string paramName="gui-categories">"Reference Point"</string>
+    <string paramName="gui-deployable-countries"/>
+    <string paramName="gui-menu-icon"/>
+    <bool paramName="gui-can-create">True</bool>
+    <bool paramName="gui-can-aggregate">False</bool>
+    <string paramName="gui-on-palettes">"TacticalGraphicCreationPalette"</string>
+    <sensorSignatures/>
+  </simObject>
+</simObjects>

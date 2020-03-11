@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DoNotChangeThisFormName</class>
+ <widget class="QWidget" name="DoNotChangeThisFormName">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>310</width>
+    <height>809</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="descriptionLabel">
+     <property name="text">
+      <string>Enter a standard hold pattern, using direct, parallel, or teardrop entry as appropriate.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="descriptionBreak">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtVrfFilteredListView" name="fix">
+     <property name="toolTip">
+      <string>Fix point for the holding pattern.</string>
+     </property>
+     <property name="label">
+      <string>Holding Fix</string>
+     </property>
+     <property name="variableData">
+      <string>DtWaypointsFilter</string>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <number>100000</number>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <number>-100000</number>
+     </property>
+     <property name="defaultValue" stdset="0">
+      <string/>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtHeadingEntryWidget" name="heading">
+     <property name="toolTip">
+      <string>Heading of the pattern.</string>
+     </property>
+     <property name="label">
+      <string>Heading</string>
+     </property>
+     <property name="variableData">
+      <string/>
+     </property>
+     <property name="rangeTop">
+      <double>360.000000000000000</double>
+     </property>
+     <property name="rangeBottom">
+      <double>0.000000000000000</double>
+     </property>
+     <property name="defaultValue">
+      <double>0.000000000000000</double>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtRateEntryWidget" name="speed">
+     <property name="toolTip">
+      <string>Speed to fly while holding.</string>
+     </property>
+     <property name="label">
+      <string>Speed</string>
+     </property>
+     <property name="variableData">
+      <string/>
+     </property>
+     <property name="rangeTop">
+      <double>100000.000000000000000</double>
+     </property>
+     <property name="rangeBottom">
+      <double>0.000000000000000</double>
+     </property>
+     <property name="defaultValue">
+      <double>300.000000000000000</double>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtAltitudeEntryWidget" name="altitude">
+     <property name="toolTip">
+      <string>Altitude to fly while holding.</string>
+     </property>
+     <property name="label">
+      <string>Altitude</string>
+     </property>
+     <property name="variableData">
+      <string/>
+     </property>
+     <property name="rangeTop">
+      <double>100000.000000000000000</double>
+     </property>
+     <property name="rangeBottom">
+      <double>-100000.000000000000000</double>
+     </property>
+     <property name="defaultValue">
+      <double>5000.000000000000000</double>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtSimpleComboVariableWidget" name="direction">
+     <property name="toolTip">
+      <string>Direction of turns in the holding pattern.</string>
+     </property>
+     <property name="label">
+      <string>Turn Direction: </string>
+     </property>
+     <property name="variableData">
+      <string>Right;Left</string>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <number>100000</number>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <number>-100000</number>
+     </property>
+     <property name="defaultValue" stdset="0">
+      <string>Right</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Pattern Type</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="makVrf::DtSimpleSingleRadioButtonVariableWidget" name="myPatternTime">
+     <property name="label">
+      <string>Time</string>
+     </property>
+     <property name="isDefault">
+      <bool>true</bool>
+     </property>
+     <property name="buttonGroup">
+      <string>pattern_type</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtTimeEntryWidget" name="time">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="label">
+      <string>Time per Leg:</string>
+     </property>
+     <property name="variableData">
+      <string/>
+     </property>
+     <property name="rangeTop" stdset="0">
+      <time>
+       <hour>23</hour>
+       <minute>59</minute>
+       <second>59</second>
+      </time>
+     </property>
+     <property name="rangeBottom" stdset="0">
+      <time>
+       <hour>0</hour>
+       <minute>0</minute>
+       <second>0</second>
+      </time>
+     </property>
+     <property name="defaultValue">
+      <string>0:00:01:00</string>
+     </property>
+     <property name="isVisible" stdset="0">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="makVrf::DtSimpleSingleRadioButtonVariableWidget" name="myPatternDistance">
+     <property name="label">
+      <string>Distance</string>
+     </property>
+     <property name="buttonGroup">
+      <string>pattern_type</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="myDistanceWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="makVrf::DtRangeEntryWidget" name="length">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="label">
+         <string>Length</string>
+        </property>
+        <property name="variableData">
+         <string/>
+        </property>
+        <property name="rangeTop">
+         <double>100000.000000000000000</double>
+        </property>
+        <property name="rangeBottom">
+         <double>0.000000000000000</double>
+        </property>
+        <property name="defaultValue">
+         <double>6000.000000000000000</double>
+        </property>
+        <property name="isVisible" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="makVrf::DtRangeEntryWidget" name="width">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="label">
+         <string>Width</string>
+        </property>
+        <property name="variableData">
+         <string/>
+        </property>
+        <property name="rangeTop">
+         <double>100000.000000000000000</double>
+        </property>
+        <property name="rangeBottom">
+         <double>0.000000000000000</double>
+        </property>
+        <property name="defaultValue">
+         <double>1000.000000000000000</double>
+        </property>
+        <property name="isVisible" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>makVrf::DtAltitudeEntryWidget</class>
+   <extends>makVrf::DtSimpleDoubleVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/altitudeEntryWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtSimpleComboVariableWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleVariableWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtSimpleDoubleVariableWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleVariableWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtHeadingEntryWidget</class>
+   <extends>makVrf::DtSimpleDoubleVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/headingEntryWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtRangeEntryWidget</class>
+   <extends>makVrf::DtSimpleDoubleVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/rangeEntryWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtTaskSetVariableWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleLabelWidgets.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtRateEntryWidget</class>
+   <extends>makVrf::DtSimpleDoubleVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/rateEntryWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtVrfFilteredListView</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/vrfFilteredListView.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtSimpleSingleRadioButtonVariableWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/simpleVariableWidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>makVrf::DtTimeEntryWidget</class>
+   <extends>makVrf::DtTaskSetVariableWidget</extends>
+   <header location="global">vrfGuiCoreQt/timeEntryWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>myPatternTime</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>time</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>125</x>
+     <y>568</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>594</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>myPatternDistance</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>myDistanceWidget</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>731</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>154</x>
+     <y>772</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,52 @@
+(ditch-digger
+   (systems )
+   (sensors )
+   (controllers 
+      (booby-trap-setter-controller 
+         (component-descriptor-type "create-engineering-object-controller-descriptor")
+         (component-type  "create-engineering-object-controller")
+         (process-state-repository-name "create-booby-trap-controller-psr")
+         (min-tick-period  1.000000)
+         (min-tick-period-variance  -1.000000)
+         (is-enabled True)
+         (creatable-objects
+            (affectable-object
+               (object-type  1 (16 1 0 62 1 0 0))
+               (time-to-complete $time-to-create-booby-trap)
+               (range $creation-range-booby-trap)
+               (create-script-id "Create_Booby_Trap")
+               (improve-script-id "Improve_Booby_Trap")
+            )
+         )
+      )
+   )
+   (actuators )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "Booby Trap Setter")
+      (system-description  "A system which provides the capability to create booby traps.")
+      (allowed-state-repository-types "aggregate-object-param" "assemblies")
+      (system-categories "engineering-object-creation")
+      (parameter-data-list 
+         (real-parameter-data 
+            (parameter-name  "time-to-create-booby-trap")
+            (variable-type  "DtRwReal")
+            (display-label  "Time to Create a Booby Trap")
+            (display-units  "hour")
+            (source-units  "second")
+            (default-value  300)
+         )
+         (real-parameter-data 
+            (parameter-name  "creation-range-booby-trap")
+            (variable-type  "DtRwReal")
+            (display-label  "Range to Create a Booby Trap")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  0)
+         )
+      )
+      (meta-data-entry-list )
+   )
+   (part-of-roll-up $part-of-roll-up)
+)

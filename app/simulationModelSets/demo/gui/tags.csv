@@ -1,0 +1,56 @@
+category,rank,topLevelTag,iconFilename,visible
+3D Model,100,0,,1
+AFV,100,0,,1
+ASW,100,0,,1
+Air Defense,100,0,,1
+Aircraft,2,1,$(DATA_DIR)/Icons/EntityAir.svg,1
+Airport,100,0,,1
+Animal,5,1,$(DATA_DIR)/Icons/EntityAnimal.svg,1
+Areal,20,0,,1
+Armored,100,0,,1
+Artillery,100,0,,1
+Attack,100,0,,1
+Bomber,100,0,,1
+Building,100,0,,1
+Cargo,100,0,,1
+Carrier,100,0,,1
+Civilian,100,0,,1
+Commercial,100,0,,1
+Construction,100,0,,1
+Corvette,100,0,,1
+Crowd,100,0,,1
+Cultural Feature,6,1,$(DATA_DIR)/Icons/EntityFeature.svg,1
+Destroyer,100,0,,1
+Emergency,100,0,,1
+Empty Unit,100,0,,1
+Expendable,100,0,,1
+Fighter,100,0,,1
+Fixed Wing,10,0,,1
+Frigate,100,0,,1
+Ground Vehicle,1,1,$(DATA_DIR)/Icons/EntityLand.svg,1
+Hazard,20,0,,1
+Human,4,1,$(DATA_DIR)/Icons/EntityHuman.svg,1
+Linear,20,0,,1
+Materially Classified,100,0,,1
+Military,100,0,,1
+Munition,100,0,,1
+Object Group,100,0,,0
+Overlay,11,1,$(DATA_DIR)/Icons/OverlayGraphics.svg,1
+Patrol Boat,100,0,,1
+Pedestrian,100,0,,1
+Police,100,0,,1
+Refueling,100,0,,1
+Rotary Wing,10,0,,1
+Shapes,100,0,,1
+Simulation Effect Object,12,1,$(DATA_DIR)/Icons/SimulationEffectObject.svg,1
+Space,100,0,,1
+Subsurface,100,0,,1
+Surface,100,0,,1
+Surveillance,100,0,,1
+Symbol,100,0,,1
+Tank,100,0,,1
+Tracked,100,0,,1
+Unit,10,0,,1
+Unmanned,100,0,,1
+Utility,100,0,,1
+Watercraft,3,1,$(DATA_DIR)/Icons/EntityMarine.svg,1

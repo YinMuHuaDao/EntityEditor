@@ -1,0 +1,88 @@
+(radar-sensor-system 
+   (systems )
+   (sensors 
+      (radar-sensor 
+         (component-descriptor-type "signature-sensor-descriptor")
+         (component-type  "signature-sensor")
+         (min-tick-period  10.00000)
+         (min-tick-period-variance  2.500000)
+         (tick-period-uses-real-time False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled True)
+         (detect-only-hostile-forces False)
+         (detection-types 
+            (entity-type 1 (5 -1 -1 -1 -1 -1 -1))
+            (entity-type 2 (11 -1 -1 -1 -1 -1 -1))
+            (entity-type 3 (11 -1 -1 -1 -1 -1 -1))
+            (entity-type 4 (11 -1 -1 -1 -1 -1 -1))
+         )
+         (detect-destroyed-objects False)
+         (sensor-geometry 
+            (in-range 
+               (range $max-range)
+            )
+         )
+         (sensor-domain  "radar")
+         (sensor-offset $sensor-position)
+         (sensor-sensitivity $sensor-sensitivity-start)
+         (sensor-positional-error  0.000000)
+         (detection-level-determinator 
+            (determinator-type  "signature-detection-level-determinator")
+            (detection-level-to-set-hostility  3)
+            (combat-identification-level-table-file 
+               (filename  "$(detection-dir)\std-radar-detection-table.csv")
+            )
+         )
+      )
+   )
+   (controllers )
+   (actuators )
+   (connections 
+      (connect system:object-types-to-detect radar-sensor:object-types-to-detect)
+      (connect radar-sensor:detected-objects system:detected-objects)
+      (connect system:sensor-offset radar-sensor:sensor-offset)
+   )
+   (resources )
+   (meta-data 
+      (system-name  "Passive RADAR Sensor")
+      (system-description  "Allows an entity to detect other objects through RADAR.  No emitters are published for this sensor.")
+      (allowed-state-repository-types "all")
+      (system-categories "sensor")
+      (parameter-data-list 
+         (vector-parameter-data 
+            (parameter-name  "sensor-position")
+            (variable-type  "DtRwOffsetVector")
+            (display-label  "Sensor Location")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  0.000000 0.000000 0.000000)
+            (relative-to  "")
+         )
+         (real-parameter-data 
+            (parameter-name  "max-range")
+            (variable-type  "DtRwReal")
+            (display-label  "Maximum Range")
+            (display-units  "meters")
+            (source-units  "meters")
+            (default-value  10000.000000)
+         )
+         (sensitivity-parameter-data 
+            (parameter-name  "sensor-sensitivity-start")
+            (variable-type  "DtRwReal")
+            (display-label  "Sensor Sensitivity Modifier")
+            (display-units  "")
+            (source-units  "")
+            (default-value  1.000000)
+         )
+      )
+      (meta-data-entry-list 
+         (detect-object-types-input 
+            (detect-object-types-input-port-name  "object-types-to-detect")
+         )
+         (detected-objects-output 
+            (detected-objects-output-port-name  "detected-objects")
+         )
+      )
+   )
+)

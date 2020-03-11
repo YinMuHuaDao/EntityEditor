@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="8">
+<DtMenuPathConfiguration class_id="0" tracking_level="0" version="0">
+	<count>25</count>
+	<item_version>0</item_version>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveAlongRouteAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveToAltitudeAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveToLocationAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveToAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveAlongRouteRetrogradeAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveToLocationRetrogradeAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskMoveToRetrogradeAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskPatrolObjectsAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskPatrolRouteAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskRotaryWingLandAction</item>
+   <item>:DtTaskMenu/Movement/DtVrfTaskTurnToHeadingAction</item>
+   <item>:DtTaskMenu/Engagement/DtVrfTaskAggregateIndirectFireAction</item>
+   <item>:DtTaskMenu/Engagement/DtVrfTaskAggregateBombLocationAction</item>
+   <item>:DtTaskMenu/Engagement/DtVrfTaskNuclearAttackAction</item>
+   <item>:DtTaskMenu/Engagement/DtVrfTaskBiologicalAttackAction</item>
+   <item>:DtTaskMenu/Engagement/DtVrfTaskChemicalAttackAction</item>
+   <item>:DtTaskMenu/Embarkation/DtVrfTaskDisembarkAction</item>
+   <item>:DtTaskMenu/Embarkation/DtVrfTaskDisembarkAllAction</item>
+   <item>:DtTaskMenu/Embarkation/DtVrfTaskEmbarkAction</item>   
+   <item>:DtTaskMenu/Wait/DtVrfTaskWaitAction</item>
+   <item>:DtTaskMenu/Wait/DtVrfTaskWaitDurationAction</item>
+   <item>:DtTaskMenu/Wait/DtVrfTaskWaitElapsedAction</item>
+   <item>:DtTaskMenu/Radio/DtVrfTaskSendTextAction</item>
+   <item>:DtTaskMenu/Radio/DtRadioSetItem</item>
+   <item>:DtTaskMenu/Radio/DtRadioTaskItem</item>
+</DtMenuPathConfiguration>
+</boost_serialization>
+

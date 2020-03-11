@@ -1,0 +1,5 @@
+CID Table-radar,Version 1.0,,Detection,Interval,(seconds),->
+ ,,0,2,5,10,
+Apparent ,1,0,0,1,2,
+Signature  ,2,0,1,1,2,
+       |,4,0,1,2,2,

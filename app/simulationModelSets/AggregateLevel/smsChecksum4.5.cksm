@@ -1,0 +1,444 @@
+commModelParams.mtl,3410445052
+extra\componentAttachmentTable.mtl,692917863
+extra\hazardAreaInformation.xml,521491909
+extra\sensor-signatures.csv,386478665
+forceHostilty.mtl,2829107985
+gui\activities.xml,3409868373
+gui\assemblyData.xml,92081306
+gui\computedRouteRulesTypes.xml,2323314857
+gui\disallowedObjectGroupTaskSets.xml,1602400379
+gui\initialCreateMenuConfiguration.xml,1212436194
+gui\initialSetMenuConfiguration.xml,1823712921
+gui\initialTaskMenuConfiguration.xml,655065540
+gui\rollUpRules.xml,3647639576
+gui\rwKeywordValuePairs.xml,2648759760
+gui\ui\aggregate-object-param.ui,2969067258
+gui\ui\bomb-param.ui,4258729105
+gui\ui\cultural-feature-param.ui,608438859
+gui\ui\engineering-area-object-param.ui,4078784895
+gui\ui\engineering-line-object-param.ui,2336576675
+gui\ui\engineering-point-object-param.ui,1347722584
+gui\ui\enterPostureTransitionTimes.ui,184872678
+gui\ui\fixed-wing-entity-param.ui,762496492
+gui\ui\ground-vehicle-param.ui,4059267571
+gui\ui\human-param.ui,892331887
+gui\ui\missile-param.ui,3531456316
+gui\ui\moving-object-param.ui,2348484981
+gui\ui\pseudo-aggregate-object-param.ui,244350831
+gui\ui\rotary-wing-entity-param.ui,5773735
+gui\ui\scripted-movement-object-param.ui,3581886539
+gui\ui\subsurface-entity-param.ui,2926527888
+gui\ui\surface-entity-param.ui,1363783478
+gui\ui\tactical-smoke-param.ui,1951442818
+indirectArtilleryTypes.mtl,2763399197
+physicalWorldParams.mtl,1972861151
+scripts\Activate_Jammer.lua,821504118
+scripts\Activate_Jammer.xml,4177792188
+scripts\Attack_Enemies.lua,3034250202
+scripts\Attack_Enemies.xml,886020363
+scripts\Attack_Target.lua,802686148
+scripts\Attack_Target.xml,986472648
+scripts\Attack_with_AntiAir_Missile.lua,570409977
+scripts\Attack_with_AntiAir_Missile.xml,2135456657
+scripts\Attack_with_Antiship_Missile.lua,2798489911
+scripts\Attack_with_Antiship_Missile.xml,3741365120
+scripts\Attack_with_Land-Attack_Missile.lua,1034314895
+scripts\Attack_with_Land-Attack_Missile.xml,2928297814
+scripts\Attack_with_Torpedo.lua,2377075434
+scripts\Attack_with_Torpedo.xml,1673299250
+scripts\Automatic_Air_Defense.lua,94714138
+scripts\Automatic_Air_Defense.xml,867916154
+scripts\Biological_Attack.lua,567178902
+scripts\Biological_Attack.xml,499862739
+scripts\Bomb_Location.lua,4038166246
+scripts\Bomb_Location.xml,2340456456
+scripts\Breach_Obstacle.c++,0
+scripts\Breach_Obstacles.xml,2815038121
+scripts\Change_MOPP_Level.lua,2507214356
+scripts\Change_MOPP_Level.xml,784187673
+scripts\Change_Posture.lua,1329595625
+scripts\Change_Posture.xml,485969538
+scripts\Change_Supplying_Command.lua,461914111
+scripts\Change_Supplying_Command.xml,85341091
+scripts\Chemical_Attack.lua,95782103
+scripts\Chemical_Attack.xml,2707584283
+scripts\Construct_Abatis.c++,0
+scripts\Construct_Abatis.xml,4014512916
+scripts\Construct_Barbed_Wire.c++,0
+scripts\Construct_Barbed_Wire.xml,3600703241
+scripts\Construct_Barricade.c++,0
+scripts\Construct_Barricade.xml,3940547889
+scripts\Construct_Berm.c++,0
+scripts\Construct_Berm.xml,150264337
+scripts\Construct_Bridge.c++,0
+scripts\Construct_Bridge.xml,967098808
+scripts\Construct_Fortified_Area.c++,0
+scripts\Construct_Fortified_Area.xml,4129747880
+scripts\Construct_Fortified_Line.c++,0
+scripts\Construct_Fortified_Line.xml,1951361258
+scripts\Construct_Road.c++,0
+scripts\Construct_Road.xml,2168334994
+scripts\Construct_Strong_Point.c++,0
+scripts\Construct_Strong_Point.xml,1870363493
+scripts\Create_Anti-Tank_Ditch.c++,0
+scripts\Create_Anti-Tank_Ditch.xml,2436680537
+scripts\Create_Booby_Trap.c++,0
+scripts\Create_Booby_Trap.xml,1816261084
+scripts\Create_Dry_Gap.c++,0
+scripts\Create_Dry_Gap.xml,3633815367
+scripts\Create_Minefield.c++,0
+scripts\Create_Minefield.xml,2512869876
+scripts\Deactivate_Jammer.lua,1694978601
+scripts\Deactivate_Jammer.xml,4163402503
+scripts\Destroy_Bridge.c++,0
+scripts\Destroy_Bridge.xml,1647757280
+scripts\Destroy_Ditch.c++,0
+scripts\Destroy_Ditch.xml,289460234
+scripts\Destroy_Explosive.c++,0
+scripts\Destroy_Explosive.xml,3376030699
+scripts\Destroy_Fortification.c++,0
+scripts\Destroy_Fortification.xml,2933352133
+scripts\Destroy_Obstacle.c++,0
+scripts\Destroy_Obstacle.xml,245073322
+scripts\Destroy_Road.c++,0
+scripts\Destroy_Road.xml,3270181334
+scripts\EW_Attack.lua,1454897014
+scripts\EW_Attack.xml,3855534871
+scripts\FASCAM.c++,0
+scripts\FASCAM.xml,2333483876
+scripts\Flee_When_Routed.lua,703547574
+scripts\Flee_When_Routed.xml,3047488996
+scripts\Ground_Attack.lua,405402390
+scripts\Ground_Attack.xml,2584355808
+scripts\Halt_Movement.lua,2594753191
+scripts\Halt_Movement.xml,3902163536
+scripts\Halt_Movement_Before_Obstacles.lua,974165436
+scripts\Halt_Movement_Before_Obstacles.xml,3093764116
+scripts\Halt_When_Engaged.lua,267211417
+scripts\Halt_When_Engaged.xml,2780316933
+scripts\Improve_Booby_Trap.c++,0
+scripts\Improve_Booby_Trap.xml,4015667608
+scripts\Improve_Breach.c++,0
+scripts\Improve_Breach.xml,1780693444
+scripts\Improve_Bridge.c++,0
+scripts\Improve_Bridge.xml,3342122423
+scripts\Improve_Ditch.c++,0
+scripts\Improve_Ditch.xml,2947301388
+scripts\Improve_Fortification.c++,0
+scripts\Improve_Fortification.xml,2033724999
+scripts\Improve_Obstacle.c++,0
+scripts\Improve_Obstacle.xml,2847092922
+scripts\Improve_Road.c++,0
+scripts\Improve_Road.xml,2732526569
+scripts\Indirect_Fire.lua,3981772016
+scripts\Indirect_Fire.xml,1778087357
+scripts\Limited_Munition_Attack.lua,2077128543
+scripts\Limited_Munition_Attack.xml,252582418
+scripts\Mark_Minefields.lua,272017353
+scripts\Mark_Minefields.xml,2230271644
+scripts\Maximum_Speed_Modifier.lua,550722152
+scripts\Maximum_Speed_Modifier.xml,1802053859
+scripts\Move_To_Location_Plan_Path.lua,4013316053
+scripts\Move_To_Location_Plan_Path.xml,2665826123
+scripts\Move_To_Waypoint_Plan_Path.lua,3116421161
+scripts\Move_To_Waypoint_Plan_Path.xml,3972542863
+scripts\NBC_Attack.lua,3636105562
+scripts\NBC_Attack.xml,3325781297
+scripts\Nuclear_Attack.lua,459435841
+scripts\Nuclear_Attack.xml,1200985592
+scripts\PA_Attack_By_Fire.lua,2460588155
+scripts\PA_Attack_By_Fire.xml,1799813051
+scripts\PA_Move_Along_Route.lua,2947204160
+scripts\PA_Move_Along_Route.xml,1496474910
+scripts\PA_Move_Along_Route_Retrograde.lua,586159117
+scripts\PA_Move_Along_Route_Retrograde.xml,2265701521
+scripts\PA_Move_To_Location_Direct.lua,2937304002
+scripts\PA_Move_To_Location_Direct.xml,2243088722
+scripts\PA_Move_To_Location_Direct_Retrograde.lua,834007088
+scripts\PA_Move_To_Location_Direct_Retrograde.xml,1543245521
+scripts\PA_Move_To_Waypoint_Direct.lua,1702734589
+scripts\PA_Move_To_Waypoint_Direct.xml,2134869622
+scripts\PA_Move_To_Waypoint_Direct_Retrograde.lua,2795632111
+scripts\PA_Move_To_Waypoint_Direct_Retrograde.xml,3941303414
+scripts\PA_Patrol_Between.lua,520097458
+scripts\PA_Patrol_Between.xml,3737461854
+scripts\PA_Patrol_Route.lua,2727179155
+scripts\PA_Patrol_Route.xml,3454908626
+scripts\PA_Turn_To_Heading.lua,1971138278
+scripts\PA_Turn_To_Heading.xml,2393079918
+scripts\Perform_Attrition.lua,871671463
+scripts\Perform_Attrition.xml,3239249729
+scripts\Provide_Supplies.lua,4229945220
+scripts\Provide_Supplies.xml,837055661
+scripts\Put_On_MOPP_Gear.lua,967399451
+scripts\Put_On_MOPP_Gear.xml,4245891399
+scripts\React_To_Air_Threats.lua,3173091639
+scripts\React_To_Air_Threats.xml,1083347932
+scripts\React_To_Naval_Threats_Missile.lua,1284694228
+scripts\React_To_Naval_Threats_Missile.xml,3531699133
+scripts\React_To_Naval_Threats_Torpedo.lua,4220782896
+scripts\React_To_Naval_Threats_Torpedo.xml,380572774
+scripts\Receive_Construction.lua,3601903507
+scripts\Receive_Construction.xml,1640568161
+scripts\Resize_Footprints.lua,2304465137
+scripts\Resize_Footprints.xml,1250803520
+scripts\Send_NBC_Report.lua,1043906992
+scripts\Send_NBC_Report.xml,965276888
+scripts\Send_Obstacle_Report.lua,408953877
+scripts\Send_Obstacle_Report.xml,263720449
+scripts\Set_Resupply_Mode.lua,1910609228
+scripts\Set_Resupply_Mode.xml,1856472238
+scripts\Update_Combat_Effectiveness.lua,3283149415
+scripts\Update_Combat_Effectiveness.xml,1826384783
+scripts\Update_EW_Degradation.lua,2511273356
+scripts\Update_EW_Degradation.xml,3820310269
+scripts\Use_Supplies.lua,4259791411
+scripts\Use_Supplies.xml,3529184057
+vrfSim.opd,1101846949
+vrfSim\ADA BN RU solo.entity,2249780730
+vrfSim\ADA BN US solo.entity,783166241
+vrfSim\ADA BTY US.entity,1922895249
+vrfSim\ADA PLT US.entity,3174671211
+vrfSim\AIR ASLT BN US solo.entity,2141262472
+vrfSim\AIR LIFT BN US solo.entity,4267701833
+vrfSim\AR CAV TRP US.entity,3355846888
+vrfSim\AVN SPT TROOP.entity,3851129961
+vrfSim\Abatis.entity,2662073862
+vrfSim\Air Asslt CO US.entity,1175264922
+vrfSim\Air Attack CO.entity,2173854921
+vrfSim\Air Cav TRP US.entity,130998588
+vrfSim\Anti-Tank Ditch.entity,2638168683
+vrfSim\Artiller SP BTY - NBC.entity,2179139747
+vrfSim\Artillery BTY RU.entity,4141951022
+vrfSim\Artillery SP BTY RU.entity,1993431558
+vrfSim\Artillery SP BTY US.entity,332844356
+vrfSim\BDE CSS.entity,2397663296
+vrfSim\BDE Light Infantry.entity,4100844169
+vrfSim\BDE SP ARTY PA.entity,2030639970
+vrfSim\BDE, ADA.entity,1716906634
+vrfSim\BDE, Air Cavalry.entity,1893336524
+vrfSim\BDE, Armor.entity,2000961015
+vrfSim\BDE, Artillery.entity,280327464
+vrfSim\BDE, Combat AVN.entity,47726979
+vrfSim\BDE, Engineer.entity,2156297191
+vrfSim\BDE, Mech Infantry.entity,1432400358
+vrfSim\BDE, Motorized Rifle.entity,1341708358
+vrfSim\BN MLRS US.entity,1513503197
+vrfSim\BN, ADA.entity,3680092602
+vrfSim\BN, Artillery.entity,830826984
+vrfSim\BN, Attack.entity,3790043793
+vrfSim\BN, Engineer.entity,2017461126
+vrfSim\BN, Motorized Rifle.entity,954071578
+vrfSim\BN, Support AVN.entity,4116281756
+vrfSim\BN_Armor.entity,2333131297
+vrfSim\BN_Light Infantry.entity,1466113573
+vrfSim\BN_Mech Infantry.entity,259659179
+vrfSim\BN_RWA.entity,1116523729
+vrfSim\Barbed Wire.entity,3275143359
+vrfSim\Barricade.entity,4048062151
+vrfSim\Beam Post.entity,2479346478
+vrfSim\Berm.entity,1384135017
+vrfSim\Biological Contamination Type.entity,1146986915
+vrfSim\Booby Trap.entity,193474150
+vrfSim\Breach.entity,2006820160
+vrfSim\Bridge.entity,2329475300
+vrfSim\Buildings.entity,2965589662
+vrfSim\Bunker.entity,2943436390
+vrfSim\CIV BN solo.entity,1588106658
+vrfSim\CIV BN.entity,2558298931
+vrfSim\CSS BN US solo.entity,1625881253
+vrfSim\CSS BN US.entity,1671176185
+vrfSim\CSS CO PA.entity,1368969869
+vrfSim\CSS CO US.entity,4219609129
+vrfSim\CSS PLT.entity,3240123938
+vrfSim\Chemical Contamination Area.entity,3043980031
+vrfSim\Civilian Aircraft.entity,3754342674
+vrfSim\Civilian BDE.entity,136333744
+vrfSim\Civilian CO.entity,2868965901
+vrfSim\DIV Motorized Rifle.entity,1636190964
+vrfSim\DIV, Armor.entity,2050693550
+vrfSim\DIV, Mech Infantry.entity,4117519618
+vrfSim\Demolition Area.entity,2013093492
+vrfSim\Dragons Teeth.entity,2607330197
+vrfSim\Dry Gap.entity,4204625404
+vrfSim\EA-18G Growler.entity,3281118509
+vrfSim\ENG BN US solo.entity,3087479823
+vrfSim\ENG MA CO US PA.entity,1926550213
+vrfSim\ENG PLT US.entity,1588909849
+vrfSim\Emergency Point Downed Pilot.entity,2573131238
+vrfSim\Emergency Point.entity,497537632
+vrfSim\Eng Clearance CO.entity,1298621644
+vrfSim\Eng Mob Aug CO.entity,2040594440
+vrfSim\F-16C (Air Superiority - improved).entity,1233180493
+vrfSim\F-16C Air Superiority.entity,2070572450
+vrfSim\FA BN RU solo.entity,1734078584
+vrfSim\FA BN US solo.entity,4228229391
+vrfSim\FA BTY US.entity,2222325179
+vrfSim\F_A-18 (Ground Attack).entity,3735261822
+vrfSim\F_A-18 (Ship Attack).entity,748324898
+vrfSim\Falling Blocks.entity,1147684798
+vrfSim\Flight_FWA.entity,3577946995
+vrfSim\Flooding Area.entity,1634789904
+vrfSim\Fortified Area.entity,2342243427
+vrfSim\Fortified Line.entity,1927860330
+vrfSim\IFV SEC US.entity,3260334413
+vrfSim\INF BN RU solo.entity,2433717174
+vrfSim\Inf BN US single.entity,716825400
+vrfSim\Land Point HQ Complex.entity,3129815993
+vrfSim\Land Point.entity,3799389856
+vrfSim\Landslide.entity,1066426816
+vrfSim\MECH BN RU solo.entity,2264448834
+vrfSim\MECH BN US solo.entity,392659264
+vrfSim\MECH CO US PA.entity,2524981445
+vrfSim\MEDICAL  BN US solo.entity,1933470577
+vrfSim\MI BDE US.entity,1965420671
+vrfSim\MI BN US solo.entity,710519579
+vrfSim\MI BN US.entity,3128839076
+vrfSim\MI CO US.entity,3337030050
+vrfSim\MLRS BTY US.entity,1289335685
+vrfSim\MRL BTY RU.entity,168498702
+vrfSim\Mech Inf CO RU.entity,2324299635
+vrfSim\Mech Inf CO US.entity,692414083
+vrfSim\Mech Inf PLT US.entity,4080568005
+vrfSim\Medical BN US.entity,2645011925
+vrfSim\Medical CO US.entity,1374920460
+vrfSim\Minefield (ADAM-RAAM).entity,1593427565
+vrfSim\Minefield (Volcano).entity,678034920
+vrfSim\Mortar PLT US.entity,3720511189
+vrfSim\Mortar SP PLT US.entity,888671411
+vrfSim\Mountains.entity,1577341421
+vrfSim\Naval Minefield.entity,2393228819
+vrfSim\Nuclear Contamination Area.entity,1006421610
+vrfSim\Obstacle.entity,3876344126
+vrfSim\Other Engineering Area.entity,2869433782
+vrfSim\Other Engineering Fixed Size Area.entity,2800687771
+vrfSim\Other Engineering Line.entity,2061926672
+vrfSim\Other Engineering Point.entity,2308575922
+vrfSim\PLT SCT US PA.entity,4211341561
+vrfSim\PLT TNK US PA.entity,2948306812
+vrfSim\RW ATK TRP US solo.entity,974163043
+vrfSim\Reference Point Data Link.entity,3842308608
+vrfSim\Reference Point.entity,2758495197
+vrfSim\Rifle CO RU.entity,2410341721
+vrfSim\Rifle CO US.entity,3251694599
+vrfSim\Road Crater.entity,755114800
+vrfSim\Road.entity,650715
+vrfSim\SAM BTY RU.entity,1621039903
+vrfSim\SCOUT CO US PA.entity,2867398636
+vrfSim\SIGINT PLT.entity,914396749
+vrfSim\SQN, Attack.entity,2017036966
+vrfSim\SQN_Cavalry.entity,2612701381
+vrfSim\SQN_Ship.entity,3231900587
+vrfSim\Scout Hvy CO US.entity,2126696812
+vrfSim\Scout Hvy PLT US.entity,3622578725
+vrfSim\Scout Motorized CO US.entity,1110108656
+vrfSim\Scout Motorized PLT US.entity,1737234908
+vrfSim\Scout Motorized SQD US MK19.entity,2545310428
+vrfSim\Scout Motorized SQD US.entity,2241500646
+vrfSim\Ship_US DDG_Arleigh Burke.entity,1928529328
+vrfSim\Ship_US FFG_Perry.entity,1188357476
+vrfSim\Strong Point.entity,311857780
+vrfSim\Sub_RU SSP_Lada.entity,1890673104
+vrfSim\TANK BN RU solo.entity,2470832712
+vrfSim\TANK BN US solo.entity,2516931992
+vrfSim\TANK SEC US.entity,3722368074
+vrfSim\Tank CO RU.entity,3600237866
+vrfSim\Tank CO US.entity,3688740171
+vrfSim\Tank PLT US.entity,1844901037
+vrfSim\Terrain_Page-in_Area.entity,2640533857
+vrfSim\Unexploded Ordnance.entity,3191604667
+vrfSim\Waterway.entity,4115389920
+vrfSim\Weapons CO US.entity,3366408768
+vrfSim\_Air FW template.entity,195999669
+vrfSim\_Air RW template.entity,2776797509
+vrfSim\_Ground Unit Template.entity,36503456
+vrfSim\_Light armor template.entity,2085735456
+vrfSim\_Mechanized template.entity,1413189798
+vrfSim\_SPA template.entity,1538533831
+vrfSim\_Tank unit template.entity,2907179195
+vrfSim\_Towed arty template.entity,456686306
+vrfSim\_Unarmored foot template.entity,1623279573
+vrfSim\_Unarmored wheeled template.entity,3433362180
+vrfSim\detection\fourth-power-detect-only-detection-table.csv,3456641621
+vrfSim\detection\square-law-classify-detection-table.csv,4063686488
+vrfSim\detection\std-infrared-detection-table.csv,3506603767
+vrfSim\detection\std-passive-sonar-detection-table.csv,2143488001
+vrfSim\detection\std-radar-detection-table.csv,3526828919
+vrfSim\detection\std-sonar-detection-table.csv,2651790480
+vrfSim\detection\std-visual-detection-table.csv,3048977696
+vrfSim\platforms\Aggregate.ope,3381138174
+vrfSim\platforms\AircraftAggregate.ope,4083797823
+vrfSim\platforms\Engineering_Area_Object.ope,1022748953
+vrfSim\platforms\Engineering_Line_Object.ope,1589466596
+vrfSim\platforms\Engineering_Point_Object.ope,2716151701
+vrfSim\platforms\PseudoAggregate.ope,214293612
+vrfSim\signatureRules\lifeform-visual-rules.mtl,2623263557
+vrfSim\signatureRules\subsurface-visual-illumination-rules.mtl,1074821939
+vrfSim\signatureRules\underwater-acoustics-rules.mtl,4010963017
+vrfSim\signatureRules\visual-illumination-rules.mtl,3011693893
+vrfSim\systems\movement\aircraft-aggregated-movement.sysdef,668454454
+vrfSim\systems\movement\ground-aggregated-movement.sysdef,3784528565
+vrfSim\systems\movement\infantry-aggregated-movement.sysdef,3498307457
+vrfSim\systems\movement\mech-aggregated-movement.sysdef,666856191
+vrfSim\systems\movement\motorized-aggregated-movement.sysdef,3648550151
+vrfSim\systems\movement\riverine-aggregated-movement.sysdef,413464351
+vrfSim\systems\movement\ship-aggregated-movement.sysdef,2709863290
+vrfSim\systems\movement\submarine-aggregated-movement.sysdef,17679978
+vrfSim\systems\movement\tank-aggregated-movement.sysdef,1821598489
+vrfSim\systems\other\aerial-refueling.sysdef,2614891010
+vrfSim\systems\other\aggregate-comms-jammer.sysdef,690211028
+vrfSim\systems\other\aggregate-radar-jammer.sysdef,173683806
+vrfSim\systems\other\air-drop-supply.sysdef,1886797278
+vrfSim\systems\other\booby-trap-setter.sysdef,2764614699
+vrfSim\systems\other\bridge-builder.sysdef,2456052175
+vrfSim\systems\other\ditch-digger.sysdef,3920983
+vrfSim\systems\other\engagement-report-generator.sysdef,3741044205
+vrfSim\systems\other\engineering-obstacle-destroyer.sysdef,1442667507
+vrfSim\systems\other\explosive-hazard-destroyer.sysdef,823730906
+vrfSim\systems\other\fortification-builder.sysdef,128100932
+vrfSim\systems\other\ground-combat-behaviors.sysdef,507891857
+vrfSim\systems\other\iff-transponder.sysdef,4163300208
+vrfSim\systems\other\limit-existance.sysdef,3560358731
+vrfSim\systems\other\mine-dispenser.sysdef,86805540
+vrfSim\systems\other\mopp-gear.sysdef,1301377839
+vrfSim\systems\other\obstacle-builder.sysdef,3982839945
+vrfSim\systems\other\resupplier.sysdef,2764891672
+vrfSim\systems\other\simple-obstacle-destroyer.sysdef,3044373845
+vrfSim\systems\other\spot-report-generator.sysdef,3478120116
+vrfSim\systems\other\spot-report-receiver.sysdef,2011413805
+vrfSim\systems\sensors\active-radar-sensor.sysdef,1122725736
+vrfSim\systems\sensors\air-defense-radar-sensor.sysdef,2153275197
+vrfSim\systems\sensors\aircraft-active-radar-sensor.sysdef,768509015
+vrfSim\systems\sensors\emissions-sensor.sysdef,860544529
+vrfSim\systems\sensors\engineering-object-sensor.sysdef,3661450443
+vrfSim\systems\sensors\infrared-sensor.sysdef,3500855989
+vrfSim\systems\sensors\nbc-sensor.sysdef,1854133517
+vrfSim\systems\sensors\passive-radar-sensor.sysdef,4109912685
+vrfSim\systems\sensors\sonar-sensor.sysdef,2211311580
+vrfSim\systems\sensors\visual-sensor.sysdef,2570024430
+vrfSim\systems\weapons\120mm-mortar-tube.sysdef,1870181035
+vrfSim\systems\weapons\aggregate-122mm-howitzer.sysdef,2229427835
+vrfSim\systems\weapons\aggregate-152mm-howitzer.sysdef,4163978024
+vrfSim\systems\weapons\aggregate-155mm-howitzer.sysdef,3680902871
+vrfSim\systems\weapons\aggregate-2000lb-jdam.sysdef,3369544403
+vrfSim\systems\weapons\aggregate-5-inch-gun.sysdef,2059118833
+vrfSim\systems\weapons\aggregate-9K330-SAM.sysdef,1311856734
+vrfSim\systems\weapons\aggregate-9P140-MLRS-launcher.sysdef,3362173429
+vrfSim\systems\weapons\aggregate-M993-MLRS-launcher.sysdef,4198259073
+vrfSim\systems\weapons\aggregate-amraam-antiair-missile.sysdef,2801704656
+vrfSim\systems\weapons\aggregate-harpoon-antiship-missile.sysdef,3022250137
+vrfSim\systems\weapons\aggregate-mark54-torpedo.sysdef,3162604423
+vrfSim\systems\weapons\aggregate-release-bomb.sysdef,3325624056
+vrfSim\systems\weapons\aggregate-rim66-antiair-missile.sysdef,1709945945
+vrfSim\systems\weapons\aggregate-sidewinder-antiair-missile.sysdef,2156564843
+vrfSim\systems\weapons\aggregate-stinger-antiair-missile.sysdef,3697685579
+vrfSim\systems\weapons\aggregate-tomahawk-missile.sysdef,392682720
+vrfSim\systems\weapons\aggregate-unguided-bomb.sysdef,2270242862
+vrfSim\systems\weapons\aggregate-vodopad-type40-torpedo.sysdef,2059933137
+vrfSim\systems\weapons\biological-weapon.sysdef,864395076
+vrfSim\systems\weapons\chemical-weapon.sysdef,4209854517
+vrfSim\systems\weapons\fascam.sysdef,3574195058
+vrfSim\systems\weapons\nuclear-weapon.sysdef,2229606910
+vrfSim\taskRules\actionCategories.tsk,1700823899
+vrfSim\taskRules\default-task-rules.tsk,4139693498
+vrfSim\taskRules\doctrines.dct,2361367650

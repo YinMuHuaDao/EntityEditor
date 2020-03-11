@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <DtRwHazardAreaInformation paramName="hazardareainformation">
+    <DtRwHazardTypes paramName="hazardtypes">
+    <DtRwHazardType paramName="ALPHA RADIATION">
+      <entityType paramName="hazardtype">18:1:0:61:1:0:-1</entityType>
+      <string paramName="description">Alpha Radiation</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">3</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="BETA RADIATION">
+      <entityType paramName="hazardtype">18:1:0:61:1:0:-1</entityType>
+      <string paramName="description">Beta Radiation</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">3</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="GAMMA RADIATION">
+      <entityType paramName="hazardtype">18:1:0:61:1:0:-1</entityType>
+      <string paramName="description">Gamma Radiation</string>
+	  <int paramName="damagePerSec">1</int>
+	  <int paramName="minimumMOPP">5</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="OTHER NUCLEAR">
+      <entityType paramName="hazardtype">18:1:0:61:1:0:-1</entityType>
+      <string paramName="description">Other</string>
+	  <int paramName="damagePerSec">1</int>
+	  <int paramName="minimumMOPP">5</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="UNKNOWN NUCLEAR">
+      <entityType paramName="hazardtype">18:1:0:61:1:0:-1</entityType>
+      <string paramName="description">Unknown</string>
+	  <int paramName="damagePerSec">1</int>
+	  <int paramName="minimumMOPP">5</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="ANTHRAX">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Anthrax</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="BOTULISM">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Botulism</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="BRUCELLOSIS">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Brucellosis</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="E COLI">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">E Coli</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="ENCEPHALITIS">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Encephalitis</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="EPSILON TOXIN">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Epsilon Toxin</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="MELIOIDOSIS">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Meliodosis</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="NIPAH">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Nipah</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="PLAGUE">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Plague</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="Q FEVER">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Q Fever</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="SALMONELLA">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Salmonella</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="SMALLPOX">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Smallpox</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="STAPHYLOCOCCUS">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Staphylococus</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="TULAREMIA">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Tularemia</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="TYPHUS">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Typhus</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="VIBRIO CHOLERAE">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Vibrio Cholerae</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="VHF">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Viral Hemorrhagic Fevers</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType tparamName="OTHER BIOLOGICAL">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Other</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="UNKNOWN BIOLOGICAL">
+      <entityType paramName="hazardtype">18:1:0:61:2:0:-1</entityType>
+      <string paramName="description">Unknown</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="CHLORINE">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Chlorine</string>
+	  <int paramName="damagePerSec">0</int>
+	  <int paramName="minimumMOPP">3</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="CYANIDE">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Cyanide</string>
+	  <int paramName="damagePerSec">29</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="MUSTARD">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Mustard</string>
+	  <int paramName="damagePerSec">29</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="NERVE">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Nerve</string>
+	  <int paramName="damagePerSec">118</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="PHOSGENE">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Phosgene</string>
+	  <int paramName="damagePerSec">1</int>
+	  <int paramName="minimumMOPP">3</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="SARIN">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Sarin</string>
+	  <int paramName="damagePerSec">118</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="TABUN">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Tabun</string>
+	  <int paramName="damagePerSec">100</int>
+	  <int paramName="minimumMOPP">3</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="TOXIN">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Toxin</string>
+	  <int paramName="damagePerSec">29</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="VX">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">VX</string>
+	  <int paramName="damagePerSec">147</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="OTHER CHEMICAL">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Other</string>
+	  <int paramName="damagePerSec">29</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+    <DtRwHazardType paramName="UNKNOWN CHEMICAL">
+      <entityType paramName="hazardtype">18:1:0:61:3:0:-1</entityType>
+      <string paramName="description">Unknown</string>
+	  <int paramName="damagePerSec">29</int>
+	  <int paramName="minimumMOPP">4</int>
+    </DtRwHazardType>
+  </DtRwHazardTypes>
+  <strings paramName="terraintypes">
+    <string paramName="FLAT">Flat</string>
+    <string paramName="SANDY">Sandy</string>
+    <string paramName="HILLS">Hills</string>
+    <string paramName="MOUNTAIN">Mountain</string>
+    <string paramName="VALLEY">Valley</string>    
+    <string paramName="OTHER">Other</string>
+  </strings>
+  <strings paramName="topographytypes">
+    <string paramName="ARCTIC">Arctic</string>
+    <string paramName="DESERT">Desert</string>
+    <string paramName="RURAL">Rural</string>
+    <string paramName="URBAN">Urban</string>
+    <string paramName="WOODLAND">Woodland</string>
+    <string paramName="OTHER">Other</string>
+  </strings>
+  <strings paramName="vegetationtypes">
+    <string paramName="ARCTIC ALPINE TUNDRA">Arctic Alpine Tundra</string>
+    <string paramName="DESERT">Desert</string>
+    <string paramName="DESERT-LIKE SCRUB">Desert-Like Scrub</string>
+    <string paramName="ESTUARINE WETLANDS">Estuarine Wetlands</string>
+    <string paramName="FRESHWATER WETLANDS">Freshwater Wetlands</string>
+    <string paramName="HEATHLAND">Heathland</string>
+    <string paramName="MARINE WETLANDS">Marine Wetlands</string>
+    <string paramName="SAVANNA">Savanna</string>
+    <string paramName="STRAND">Strand</string>
+    <string paramName="SUBTROPICAL FORESTS">Subtropical Forests</string>
+    <string paramName="TAIGA">Taiga</string>
+    <string paramName="TEMPERATE FOREST">Temperate Forest</string>
+    <string paramName="TEMPERATE GRASSLANDS">Temperate Grasslands</string>
+    <string paramName="TROPICAL ALPINE">Tropical Alpine</string>
+    <string paramName="TROPICAL FOREST">Tropical Forest</string>
+    <string paramName="OTHER">Other</string>
+    <string paramName="UNKNOWN">Unknown</string>
+  </strings>
+</DtRwHazardAreaInformation>
+  </root>

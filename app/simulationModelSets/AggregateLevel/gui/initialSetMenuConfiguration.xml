@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="8">
+<DtMenuPathConfiguration class_id="0" tracking_level="0" version="0">
+	<count>65</count>
+	<item_version>0</item_version>
+  <item>:DtSetMenu/Action/DtVrfSetCollisionAvoidTypesAction</item>
+  <item>:DtSetMenu/Action/DtVrfSetMovementStrategyAction</item>
+   
+   <item>:DtSetMenu/Action/DtVrfSetOrderedSpeedAction</item>
+   <item>:DtSetMenu/Action/DtVrfSetStayInLaneAction</item>
+   <item>:DtSetMenu/Unit/DtVrfSetAggregateStateAction</item>
+   <item>:DtSetMenu/Unit/DtVrfSetFormationAction</item>
+   <item>:DtSetMenu/Unit/DtVrfSetReorganizeAction</item>
+   <item>:DtSetMenu/Appearance/DtVrfSetAppearanceAction</item>
+   <item>:DtSetMenu/Appearance/DtVrfSetDIGuyAppearanceAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetActivityAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetAmmunitionPropertyAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetAmmunitionPacingTrackingAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetCapabilitiesAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetConcealmentAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetContaminationPropertyAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetDestroyAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetEquipmentPacingTrackingAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetFoodWaterFuelOilLubricantPropertyAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetFoodWaterFuelOilLubricantPacingTrackingAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetForceAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetHealthPropertyAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetMoppLevelPropertyAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetMoraleLevelPropertyAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetPercentCompletePropertyAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetPosturePropertyAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetResourcesPropertyAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetResourcesPacingTrackingAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetRestoreAction</item>
+   <item>:DtSetMenu/Disposition/DtVrfSetSurrenderAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetWeaponsPacingTrackingAction</item>
+  <item>:DtSetMenu/Disposition/DtVrfSetWeaponStateAction</item>
+   <item>:DtSetMenu/Embarkation/DtVrfSetDisembarkedAction</item>
+   <item>:DtSetMenu/Embarkation/DtVrfSetEmbarkedAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetArmedAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetAutoLaunchEnabledAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetDetonationAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetEngagementAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetEngagementResultsAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetResponsibilityAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetTargetAction</item>
+   <item>:DtSetMenu/Engagement/DtVrfSetPreferredTargetsPropertyAction</item>
+   <item>:DtSetMenu/Laser Designator/DtVrfSetLaseAutonomousAction</item>
+   <item>:DtSetMenu/Laser Designator/DtVrfSetLaserCodeAction</item>
+   <item>:DtSetMenu/Laser Designator/DtVrfSetSyncLaserCodeAction</item>
+   <item>:DtSetMenu/Logistics/DtVrfSetSupplyingAction</item>
+   <item>:DtSetMenu/Logistics/DtVrfSetResupplyModeAction</item>
+   <item>:DtSetMenu/Other/DtVrfSetNotifyLevelAction</item>
+   <item>:DtSetMenu/Other/DtVrfSetSuperiorAction</item>
+   <item>:DtSetMenu/Other/DtVrfSetTaskedBySuperiorAction</item>
+   <item>:DtSetMenu/Position/DtVrfSetAltitudeAction</item>
+   <item>:DtSetMenu/Position/DtVrfSetCurrentSpeedAction</item>
+   <item>:DtSetMenu/Position/DtVrfSetHeadingAction</item>
+   <item>:DtSetMenu/Position/DtVrfSetLocationAction</item>
+   <item>:DtSetMenu/Reactive Tasks/DtVrfSetReactiveTaskDisabledAction</item>
+   <item>:DtSetMenu/Reactive Tasks/DtVrfSetReactiveTaskEnabledAction</item>
+   <item>:DtSetMenu/Reactive Tasks/DtVrfSetReactiveTaskStatusAction</item>
+   <item>:DtSetMenu/Reactive Tasks/DtVrfSetReactiveTaskPriorityAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetEmitterAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetIffAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetRadarModeAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetTrackTargetsAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetJamTargetsAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetSpotReportsAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetSonarDepthAction</item>
+   <item>:DtSetMenu/Sensors/DtVrfSetActiveSonarModeAction</item>
+</DtMenuPathConfiguration>
+</boost_serialization>
+

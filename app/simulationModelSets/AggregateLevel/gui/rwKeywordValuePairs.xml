@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <DtRwKeywordValuePairsReader paramName="DtRwKeywordValuePairsReader">
+    <DtRwKeyValueList paramName="Pacing-Tracking">
+      <string>None</string>
+      <string paramName="Pacing">Pacing</string>
+      <string paramName="Tracking">Tracking</string>
+    </DtRwKeyValueList>
+    <DtRwKeyValueList paramName="Type">
+      <string paramName="Anti-Air">Anti-Air</string>
+      <string paramName="Anti-Personnel">Anti-Personnel</string>
+      <string paramName="Anti-Ship">Anti-Ship</string>
+      <string paramName="Anti-Tank">Anti-Tank</string>
+      <string paramName="High-Explosive">High-Explosive</string>
+      <string paramName="Nuclear">Nuclear</string>
+      <string paramName="Biological">Biological</string>
+      <string paramName="Chemical">Chemical</string>
+      <string paramName="For Weapon System">For Weapon System</string>
+    </DtRwKeyValueList>
+     <DtRwKeyValueList paramName="Category">
+        <string paramName="Aircraft Category">Aircraft Category</string>
+        <string paramName="Ship Category">Ship Category</string>
+        <string paramName="Vehicle Category">Vehicle Category</string>
+        <string paramName="Weapon Category">Weapon Category</string>
+     </DtRwKeyValueList>
+     <DtRwKeyValueList paramName="Resources">
+        <string paramName="Food">Food (meals)</string>
+        <string paramName="Water">Water (liters)</string>
+        <string paramName="Motor-Gas">Motor Gas (liters)</string>
+        <string paramName="Aviation-Fuel">Aviation Fuel (liters)</string>
+        <string paramName="Diesel-Fuel">Diesel Fuel (liters)</string>
+        <string paramName="Oil">Oil (liters)</string>
+        <string paramName="Lubricant">Lubricant (liters)</string>
+     </DtRwKeyValueList>
+     <DtRwKeyValueList paramName="Jamming-Types">
+        <string paramName="comms">Communications</string>
+        <string paramName="radar">Radar</string>
+     </DtRwKeyValueList>
+     <DtRwKeyValueList paramName="Resupply-Modes">
+        <string paramName="None">None</string>
+        <string paramName="Auto-Continuous">Automatic Continuously</string>
+        <string paramName="Auto-Periodic">Automatic Periodically</string>
+        <string paramName="From-Supply">From Supply</string>
+        <string paramName="Mixed">Mixed</string>
+     </DtRwKeyValueList>
+     <DtRwKeyValueList paramName="Posture">
+      <string paramName="Deliberate-Attack">Deliberate Attack</string>
+      <string paramName="Deliberate-Defense">Deliberate Defense</string>
+      <string paramName="Hasty-Attack">Hasty Attack</string>
+      <string paramName="Hasty-Defense">Hasty Defense</string>
+      <string paramName="Mixed">Mixed</string>
+      <string paramName="Reconnaissance">Reconnaissance</string>
+      <string paramName="Rout">Rout</string>
+      <string paramName="Travel">Travel</string>
+    </DtRwKeyValueList>
+     <DtRwKeyValueList paramName="Resource-Item" userEditable="true">
+      <string paramName="Bridge Material">Bridge Material</string>
+      <string paramName="Concertina">Concertina</string>
+      <string paramName="Construction Material">Construction Material</string>
+      <string paramName="Explosives">Explosives</string>
+      <string paramName="Mine Canisters">Mine Canisters</string>
+    </DtRwKeyValueList>
+  </DtRwKeywordValuePairsReader>
+</root>

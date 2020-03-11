@@ -1,0 +1,107 @@
+(dynamic-terrain
+   (systems )
+   (sensors )
+   (controllers
+      (dynamic-terrain-generic
+         (component-descriptor-type "dynamic-terrain-controller-descriptor")
+         (component-type  "dynamic-terrain-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time  False)
+         (process-state-repository-name  "")
+         (process-state-repository-type  "")
+         (is-enabled  True)
+         (create-component  True)
+          ;; If true, only events occurring in the area to which this system is attached will be processed
+         (only-in-area  $only-in-area)
+         (changes-per-published-object 100)
+         (ignored-types
+            (dynamic-terrain-type  "damage")
+            (dynamic-terrain-type  "damage_structure")
+         )
+         (types-for-individual-switches
+            (dynamic-terrain-type  "door")
+            (dynamic-terrain-type  "window")
+         )
+      )
+      (dynamic-terrain-munition-damage
+         (component-descriptor-type "dynamic-terrain-munition-damage-controller-descriptor")
+         (component-type  "dynamic-terrain-munition-damage-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (tick-period-uses-real-time  False)
+         (process-state-repository-name  "dynamic-terrain-munition-damage-psr")
+         (process-state-repository-type  "")
+         (is-enabled  True)
+         (create-component  True)
+          ;; If true, only detonation events occurring in the area to which this system is attached will be processed
+         (only-in-area  $only-in-area)
+         (changes-per-published-object 100)
+         (standard-terrain-damage-type "damage")
+         (standard-power-type "explosive")
+         (standard-terrain-damage-table
+            (damage-by-power-entry
+               (power 15)  ;; explosive power is in kPa
+               (damage "slight")
+            )
+            (damage-by-power-entry
+               (power 40)
+               (damage "moderate")
+            )
+            (damage-by-power-entry
+               (power 75)
+               (damage "destroyed")
+            )
+         )
+         (high-fidelity-terrain-damage-table
+            (entry
+               (dynamic-terrain-type "damage_structure")
+               (power-type "explosive")
+               (damage-algorithm "range-based")
+               (delay 2.0)
+               (detonate-on-destroy True)
+               (detonation-munition 2 0 0 4 2 0 0)
+               (terrain-damage-table
+                  (damage-by-power-entry
+                     (power 15)   ;; explosive power is in kPa
+                     (damage "slight")
+                  )
+                  (damage-by-power-entry
+                     (power 40)
+                     (damage "moderate")
+                  )
+                  (damage-by-power-entry
+                     (power 70)
+                     (damage "destroyed")
+                  )
+               )
+               (additional-algorithm-config
+                  ;; Additional key/value pairs (string values) can be added here for custom algorithm configuration
+                  ;; For example:
+                  ;; (my-custom-algorithm-config "config value string")
+               )
+            )
+         )
+      )
+   )
+   (actuators )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "Dynamic Terrain Munition Damage Controller")
+      (system-description  "Dynamically changes terrain based on munition detonations.")
+      (allowed-state-repository-types "all")
+      (system-categories "other")
+      (parameter-data-list 
+         (bool-parameter-data 
+            (parameter-name  "only-in-area")
+            (variable-type  "DtRwBoolean")
+            (display-label  "Only In Area")
+            (display-units  "")
+            (source-units  "")
+            (default-value  True)
+         )
+      )
+      (meta-data-entry-list )
+   )
+)

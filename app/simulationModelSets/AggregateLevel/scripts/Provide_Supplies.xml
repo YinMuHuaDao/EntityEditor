@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<DtScriptedTaskMetaData class_id="0" tracking_level="0" version="6">
+	<myScriptId>Provide_Supplies</myScriptId>
+	<myMenuText>Provide Supplies</myMenuText>
+	<myToolTip></myToolTip>
+	<myMenuIcon></myMenuIcon>
+	<myVersion>1</myVersion>
+	<myScriptEngine>lua</myScriptEngine>
+	<myComments></myComments>
+	<myMenuLocations class_id="1" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item>$(menutext)</item>
+	</myMenuLocations>
+	<myIsSystemScript>1</myIsSystemScript>
+	<myDescription>Continually checks to see if conditions allow providing supplies (not in combat, not ordered to stop providing supplies).
+Checks to see what friendly units are in range, and sends each new unit an influence to let it know that this unit is available.
+When a unit goes out of range, or this unit is ordered to stop providing supplies, it sends a stop influence to that unit.</myDescription>
+	<myScriptLocation></myScriptLocation>
+	<myDirectoryPath>Units/Background Processes</myDirectoryPath>
+	<myEntityTypes>
+		<count>0</count>
+		<item_version>0</item_version>
+	</myEntityTypes>
+	<myVariables>
+		<count>0</count>
+		<item_version>0</item_version>
+	</myVariables>
+	<myScript></myScript>
+	<myActionCategories>Movement</myActionCategories>
+	<myShowInMenu>1</myShowInMenu>
+	<myEncrypted>0</myEncrypted>
+	<myScriptType>3</myScriptType>
+	<myDoctrines></myDoctrines>
+	<myFlags>1</myFlags>
+</DtScriptedTaskMetaData>
+</boost_serialization>
+

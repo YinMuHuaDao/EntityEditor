@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject objectType="1:1:3:163:7:2:1:0" matchType="1:1:3:163:7:2:1:-1" platform="@(platforms-dir)/Surface_Ship.ope">
+      <DtReaderWriters paramName="sensor-signatures"/>
+      <bodyPosition paramName="left-support" forward="18.25" right="-3.1" down="0"/>
+      <bodyPosition paramName="other-support" forward="-18.25" right="0" down="0"/>
+      <bodyPosition paramName="right-support" forward="18.25" right="3.1" down="0"/>
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">False</bool>
+      <bool paramName="can-be-embarked-upon">False</bool>
+      <bool paramName="can-embark">False</bool>
+      <bool paramName="can-move-onto-embarked">False</bool>
+      <bool paramName="di-guy-enabled">False</bool>
+      <bool paramName="flip-disembark-body-x">False</bool>
+      <bool paramName="flip-disembark-body-y">False</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <bool paramName="use-object-geometry">False</bool>
+      <bool paramName="use-random-appearance-upon-creation">False</bool>
+      <bool paramName="use-random-hand-item-upon-creation">False</bool>
+      <bool paramName="use-random-head-upon-creation">False</bool>
+      <boundingVolume paramName="bounding-volume" offsetType="ground-center">
+         <dimensions length="36.5" width="6.2" height="15"/>
+      </boundingVolume>
+      <componentSystem systemName="damage" platform="@(system-dir)\damage\surface-default.sysdef">
+         <int paramName="fire-power-kill">2</int>
+         <int paramName="full-health">5</int>
+         <int paramName="mobility-power-kill">1</int>
+      </componentSystem>
+      <componentSystem systemName="movement" platform="@(system-dir)\movement\small-boat.sysdef">
+         <real paramName="fuel-amount">1000</real>
+      </componentSystem>
+      <componentSystem systemName="other" platform="@(system-dir)\other\iff-transponder.sysdef"/>
+      <componentSystem systemName="other-10" platform="@(system-dir)\other\tdl-surface-message-generator.sysdef">
+         <bool paramName="contact-message-generator">False</bool>
+         <bool paramName="ppli-message-generator">True</bool>
+         <bool paramName="status-message-generator">True</bool>
+      </componentSystem>
+      <componentSystem systemName="other-2" platform="@(system-dir)\other\spot-report-generator.sysdef"/>
+      <componentSystem systemName="other-3" platform="@(system-dir)\other\spot-report-receiver.sysdef"/>
+      <componentSystem systemName="sensor" platform="@(system-dir)\sensors\active-radar-sensor.sysdef">
+         <bodyPosition paramName="sensor-position" forward="0" right="0" down="0"/>
+         <real paramName="max-range">10000</real>
+         <real paramName="sensor-sensitivity-start">1</real>
+      </componentSystem>
+      <componentSystem systemName="weapon" platform="@(system-dir)\weapons\Homing-torpedo-fwd-launcher.sysdef">
+         <bodyPosition paramName="attach-point" forward="0" right="0" down="0"/>
+         <int paramName="num-missiles">2</int>
+      </componentSystem>
+      <componentSystem systemName="weapon-2" platform="@(system-dir)\weapons\exocet-cruise-vertical-missile-launcher.sysdef">
+         <bodyPosition paramName="attach-point" forward="0" right="0" down="0"/>
+         <int paramName="num-missiles">90</int>
+      </componentSystem>
+      <componentSystem systemName="weapon-3" platform="@(system-dir)\weapons\MK45NavalGun.sysdef">
+         <bodyPosition paramName="attach-point" forward="0" right="0" down="0"/>
+         <bodyPosition paramName="gun-attach-point" forward="0" right="0" down="0"/>
+         <int paramName="elevating-turret-art-part-type">4416</int>
+         <int paramName="gun-art-part-type">8192</int>
+         <int paramName="num-rounds">600</int>
+         <int paramName="rot-turret-art-part-type">4096</int>
+         <real paramName="azimuth-neutral-offset">0</real>
+         <real paramName="nominal-azimuth">0</real>
+      </componentSystem>
+      <real paramName="disaggregation-range">28000</real>
+      <real paramName="mass">4100000</real>
+      <real paramName="max-acceleration">0.7</real>
+      <real paramName="max-deceleration">0.7</real>
+      <real paramName="max-lateral-acceleration">0.6</real>
+      <real paramName="max-reverse-speed">5.555555555556</real>
+      <real paramName="max-speed">16.66666666666</real>
+      <real paramName="normal-acceleration-fraction">0.5</real>
+      <real paramName="ordered-speed">8.333333333334</real>
+      <real paramName="turning-radius">153</real>
+      <sensorSignatures>
+         <real paramName="active-sonar-signature">3</real>
+         <real paramName="infrared-signature">25</real>
+         <real paramName="mad-signature">0</real>
+         <real paramName="passive-sonar-signature">2</real>
+         <real paramName="radar-signature">25</real>
+         <real paramName="visual-signature">10</real>
+      </sensorSignatures>
+      <string paramName="animation"/>
+      <string paramName="character-appearance"/>
+      <string paramName="character-type"/>
+      <string paramName="gui-categories">"Military" "Patrol Boat" "Surface" "Watercraft"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries">"Norway"</string>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Hauk-class Fast Attack</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id">ModelSet-133781065-Hauk-class Fast Attack</string>
+      <string paramName="hand-item"/>
+      <string paramName="head"/>
+      <string paramName="nav-data-path"/>
+      <string paramName="object-geometry-filename">@(DATA_DIR)\Vehicles\Surface\CoastGuarCutterMedium.medf</string>
+      <string paramName="short-name">PB</string>
+      <stringList paramName="appearances-for-random-selection"/>
+      <stringList paramName="hand-items-for-random-selection"/>
+      <stringList paramName="heads-for-random-selection"/>
+   </simObject>
+</simObjects>

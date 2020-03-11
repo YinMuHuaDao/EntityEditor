@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simObjects entityVersion="1.0">
+   <simObject name="simObjects" entityVersion="1.0" platform="@(platforms-dir)\Randomized_Simulation_Objects.ope" objectType="1:257:0:0:0:0:0:1" matchType="1:257:0:0:0:0:0:1">
+      <bool paramName="IncludeInBVSPCalcs">True</bool>
+      <bool paramName="IsRandomized">True</bool>
+      <bool paramName="gui-can-aggregate">False</bool>
+      <bool paramName="gui-can-create">True</bool>
+      <string paramName="gui-categories">"3D Model" "Civilian" "Ground Vehicle"</string>
+      <string paramName="gui-default-overlay-layer"/>
+      <string paramName="gui-deployable-countries"/>
+      <string paramName="gui-keywords"/>
+      <string paramName="gui-label">Civilian Vehicle</string>
+      <string paramName="gui-menu-icon"/>
+      <string paramName="gui-on-palettes">"EntityCreationPalette"</string>
+      <string paramName="gui-unique-id"/>
+      <subordinates paramName="subordinates">
+         <subordinate objectType="1:1:1:225:81:70:0:1" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:225:81:70:0:2" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:225:81:70:0:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:225:81:70:0:3" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:42:1:1" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:42:1:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:43:10:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:43:1:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:44:1:1" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:44:1:2" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:225:81:43:1:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:225:81:113:5:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:106:81:42:10:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:43:20:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:41:1:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:42:2:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:78:81:42:2:1" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:110:81:43:10:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:225:93:5:1:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:110:81:42:10:0" headingOffset="0" x="0" y="0" z="0"/>
+         <subordinate objectType="1:1:1:110:83:1:1:0" headingOffset="0" x="0" y="0" z="0"/>
+      </subordinates>
+   </simObject>
+</simObjects>

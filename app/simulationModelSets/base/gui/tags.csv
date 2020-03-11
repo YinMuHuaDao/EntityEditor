@@ -1,0 +1,15 @@
+category,rank,topLevelTag,iconFilename,visible
+Areal,20,0,,1
+Control Object,10,1,$(DATA_DIR)/Icons/ControlObject.svg,1
+Engineering,100,0,,1
+Extruded,100,0,,1
+Fire Support,100,0,,1
+Intel,100,0,,1
+Linear,20,0,,1
+Logistics,100,0,,1
+Maneuver,100,0,,1
+Overlay,11,1,$(DATA_DIR)/Icons/OverlayGraphics.svg,1
+Point,20,0,,1
+Simulation Effect Object,12,1,$(DATA_DIR)/Icons/SimulationEffectObject.svg,1
+Symbol,100,0,,1
+Weather,100,0,,1

@@ -1,0 +1,158 @@
+;;
+;; File - light-armor-explosive.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Light Armor ground vs. explosive detonations
+;; All power values are in kPa of incident pressure.
+;; (for example only!)
+;;
+(damage-table 
+   (front
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+               )
+               (power 20.0
+                  (catastrophic-kill  0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.85)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.99)
+               )
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+               )
+               (power 20.0
+                  (catastrophic-kill  0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.85)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.99)
+               )
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+               )
+               (power 20.0
+                  (catastrophic-kill  0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.85)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.99)
+               )
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+               )
+               (power 20.0
+                  (catastrophic-kill  0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.85)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.99)
+               )
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+               )
+               (power 20.0
+                  (catastrophic-kill  0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.85)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.99)
+               )
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (step-function (round-down 1)
+               (power 7.5
+                  (catastrophic-kill  0.1)
+               )
+               (power 12.5
+                  (catastrophic-kill  0.5)
+               )
+               (power 20.0
+                  (catastrophic-kill  0.65)
+               )
+               (power 45.0
+                  (catastrophic-kill  0.85)
+               )
+               (power 70.0
+                  (catastrophic-kill  0.99)
+               )
+            )
+         )
+      )
+   )
+)

@@ -1,0 +1,74 @@
+;;
+;; File - fixed-wing-explosive.dmg
+;;
+;;
+;; Copyright (c) 2016 MaK Technologies, Inc.
+;; All rights reserved.
+;;
+;;
+;; Damage Table for Fixed Wings vs. explosive detonations
+;; All power values are in kPa of incident pressure.
+;; (for example only!)
+;;
+(damage-table 
+   (front
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+            )
+         )
+      )
+   )
+   (left-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+            )
+         )
+      )
+   )   
+   (right-side 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+            )
+         )
+      )
+   )
+  (top
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+            )
+         )
+      )
+   )
+   (bottom
+      (angle-of-incidence 
+         (angle  1.570800)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+            )
+         )
+      )
+   )
+   (rear 
+      (angle-of-incidence 
+         (angle  1.5708)
+         (determinant 
+            (coefficients 
+               (catastrophic-kill 0.02 -0.4)
+            )
+         )
+      )
+   )
+)

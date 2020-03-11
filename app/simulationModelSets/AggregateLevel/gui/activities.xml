@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <DtRwActivities paramName="activities">
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="ATT" data="Attacking"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="BIV" data="Bivouacking"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="DEF" data="Defending"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="EMP" data="Emplacing Obstacle"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="IND" data="Indirect Fire"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="JAM" data="Jamming"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="OTHER" data="Other"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="PAT" data="Patrolling"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="PROB" data="Probing"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="RET" data="Retreating"/>
+    <DtRwStringAttribute paramName="11:1:-1:-1:-1:-1:-1" key="" data="Unknown"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA1" data="Air Activity 1"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA10" data="Air Activity 10"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA11" data="Air Activity 11"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA12" data="Air Activity 12"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA2" data="Air Activity 2"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA3" data="Air Activity 3"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA4" data="Air Activity 4"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA5" data="Air Activity 5"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA6" data="Air Activity 6"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA7" data="Air Activity 7"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA8" data="Air Activity 8"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AA9" data="Air Activity 9"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AAW" data="Anti-Air Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ACP" data="Airborne Command Post"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AEW" data="Airborn Early Warning"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AIRASSAULT" data="Air Assault"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="AIRLIFT" data="Airlift (Transport)"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ASUBW" data="Anti-Submarine Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ASW" data="Anti-Surface Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ATOA" data="Air-To-Air"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ATOG" data="Air-To-Ground"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CAC" data="Command And Control"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CAP" data="Combat Air Patrol"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CAS" data="Close Air Support"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CAW" data="Counter Air Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CHAFF" data="Chaff Laying"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CLTD" data="Cleared To Drop"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="COMREL" data="Communications Relay"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="CONVATT" data="Conventional Attack"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="COVERING" data="Covering"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="DIPPING" data="Dipping"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="DIVR" data="Diverting"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ELECATT" data="Electronic Attack"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ENGAGING" data="Engaging"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ENGPRI" data="Engaging (Priority Kill)"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ESC" data="Escorting"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="EW" data="Electronic Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="EWS" data="Electronic Warfare Support"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="FAC" data="Forward Air Controller"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="GAT" data="Ground Attack Tactics"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="HEL" data="High Energ Lasing"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="HIJACK" data="Hijack"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="INT" data="Interception"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="INTERDICTION" data="Interdiction"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="INTR" data="Intruding"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="INTVER" data="Intervening"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="INVES" data="Investigating"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="JAMMER" data="Jammer"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="LASDEG" data="Laser Designation"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="LOGSUP" data="Logistics Support"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="MEDEVAC" data="Medical Evacuation"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="MINE" data="Mine Laying"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="MINECOUNT" data="Mine Countermeasures"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="MINEWAR" data="Mine Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="NONCOMOP" data="Non-Combatant Operations"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="NOS" data="No Statement"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="ORBITING" data="Oribiting"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="OTHT" data="Over The Horizon Targetting"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="PATROL" data="Patrol (Ocean Surveillance)"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="POLICING" data="Policing"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="PRECBOMB" data="Precision Bombing"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="RECON" data="Reconnaissance"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="REFATT" data="Refueling/Attacking"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="RESCAP" data="Rescue Combat Air Patrol"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="RESCHELO" data="Rescue Helo"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="RTB" data="Return To Base"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SAR" data="Search And Rescue"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SEARCH" data="Search"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SHADOW" data="Shadowing/Intervenening"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SHADOWING" data="Shadowing"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SPECIAL" data="Special"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SPOTTING" data="Spotting"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="STRWAR" data="Strike Warfare"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SUCAP" data="Surface Combat Air Patrol"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SURV" data="Surveillance"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="SWA" data="Special Weapons Attack"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="TANKING" data="Tanking"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="TOWING" data="Towing"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="TRAINING" data="Training"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="TRANS" data="Transiting"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="TROOPLIFT" data="Trooplift"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="UNDREC" data="Under Recall"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="VDL" data="Video Data Linking"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="VIPFL" data="Very Important Person Flight"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="VISIDENT" data="Visual Identification"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="XRAY" data="X-Ray"/>
+    <DtRwStringAttribute paramName="11:2:-1:-1:-1:-1:-1" key="" data="Unknown"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="AAWAR" data="Anti-Air Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="AMPHWAR" data="Amphibious Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="ASUBW" data="Anti-Submarine Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="ASW" data="Anti-Surface Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="AWS" data="Air Warfare Support"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="ELECTATT" data="Electronic Attack"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="ESC" data="Escorting"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="EW" data="Electronic Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="EWS" data="Electronic Warfare Support"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="FISHING" data="Fishing"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="FISHPROT" data="Fishery Protection"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="FLIGHTOP" data="Flight Operations"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="INTEL" data="Intelligence Collecting"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="INTR" data="Intruding"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="LOGSUP" data="Logistics Support"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="MARKING" data="Marking"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="MINE" data="Mine Laying"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="MINECOUNT" data="Mine Countermeasures"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="MINEWAR" data="Mine Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="NGS" data="Naval Gunfire Support"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="NONCOMOP" data="Non-Combatant Operations"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="NOS" data="No Statement"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="OTHT" data="Over The Horizon Targetting"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="PATROL" data="Patrol"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="PICKET" data="Picketing"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="PLANEGUARD" data="Plane Guard"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="RESSHIP" data="Rescue Ship/Lifeguard"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="RTB" data="Return To Base"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA1" data="Surface Activity 1"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA2" data="Surface Activity 2"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA3" data="Surface Activity 3"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA4" data="Surface Activity 4"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA5" data="Surface Activity 5"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA6" data="Surface Activity 6"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA7" data="Surface Activity 7"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA8" data="Surface Activity 8"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA9" data="Surface Activity 9"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA10" data="Surface Activity 10"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA11" data="Surface Activity 11"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SA12" data="Surface Activity 12"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SAR" data="Search And Rescue"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SHADOW" data="Shadowing/Intervening"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SPECWAR" data="Special Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="STRIKEWAR" data="Strike Warfare"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="SURVEYING" data="Surveying"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="TOWING" data="Towing"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="TRAINING" data="Training"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="TRANSIT" data="Transiting"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="TRANSPORT" data="Transport"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="UNDERREP" data="Underway Replenishment"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="VDL" data="Video Data Linking (Targeting)"/>
+    <DtRwStringAttribute paramName="11:3:-1:-1:-1:-1:-1" key="" data="Unknown"/>
+  </DtRwActivities>
+</root>

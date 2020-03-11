@@ -1,0 +1,26 @@
+(mopp-gear 
+   (systems )
+   (sensors )
+   (controllers 
+      (mopp-gear-controller 
+         (component-descriptor-type "script-enable-controller-descriptor")
+         (component-type  "mopp-enable-controller")
+         (min-tick-period  -1.000000)
+         (min-tick-period-variance  -1.000000)
+         (is-enabled True)
+		   (script-ids "Change_MOPP_Level")
+      )
+   )
+   (actuators )
+   (connections )
+   (resources )
+   (meta-data 
+      (system-name  "MOPP Gear")
+      (system-description  "Equips the unit with MOPP gear which allows MOPP level transitions.")
+      (allowed-state-repository-types "aggregate-object-param" "assemblies")
+      (system-categories "other")
+      (parameter-data-list )
+      (meta-data-entry-list )
+   )
+   (part-of-roll-up $part-of-roll-up)
+)
